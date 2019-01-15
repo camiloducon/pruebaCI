@@ -1,14 +1,10 @@
 package com.metrocuadrado.pages;
 
+import static org.junit.Assert.assertEquals;
+import java.io.IOException;
 
-
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
-
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.server.handler.SendKeys;
-
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -111,8 +107,10 @@ public class CreatePublicationPage extends PageObject {
 	WebElement btntipoParqueaderoIndependiente;
 	@FindBy(xpath = "//*[@id=\"select-id-caracteristicasParqueadero\"]")
 	WebElementFacade cmbCaracteristicaParqueadero;
-	@FindBy (xpath = "//*[@id=\"collapsibleMultimediaBody\"]/div/div[1]/div[1]/div[2]/button")
+	@FindBy(xpath = "//*[@id=\"collapsibleMultimediaBody\"]/div/div[1]/div[1]/div[2]/button")
 	WebElement btnAgregarFoto;
+	@FindBy(xpath = "//div[contains(@class, 'image imagenprincipal')]/div[contains(@class, 'main')]")
+	WebElement lblConfirmarCargaFoto;
 
 	// caracteristicas inmueble
 	@FindBy(xpath = "//*[@id=\"collapsibleMultimediaBody\"]/div/div[1]/div[4]/div/div/div/div[1]/input")
@@ -121,23 +119,19 @@ public class CreatePublicationPage extends PageObject {
 	WebElement txtComentariosInmueble;
 	@FindBy(xpath = "//*[@id=\"textadvice\"]")
 	WebElement txtAvisoImpreso;
-	@FindBy(xpath = "//*[@id=\"btnpublishcreateproperty\"]")
+	@FindBy(xpath = "//button[@id='btnpublishcreateproperty']/span")
 	WebElement btnContinuarPublicacion;
+	@FindBy(xpath = "//*[@id='grouppaymentmethod']/div/ul/li[3]/a")
+	WebElement btnPagoConsignacion;
+	@FindBy(xpath = "//*[@id='completePublicationButton']")
+	WebElement btnFinalizarPublicacion;
 
-	/*
-	 * @FindBy() WebElement;
-	 * 
-	 * @FindBy() WebElement;
-	 * 
-	 * @FindBy() WebElement;
-	 * 
-	 * @FindBy() WebElement;
-	 */
 	public void informacionInmueble(String tipooferta, String tipoinmueble, String valorventa, String valorarriendo,
-			String ubicacioninmueble, String direccioninmueble, String barrioinmueble, String barrioinmuebleexacto,
-			String estrato, String areaprivada, String areaconstruida, String numeropisos, String tiempoconstruido,
-			String habitaciones, String banos, String parqueaderos, String tipoparqueadero,
-			String caracteristicaparqueadero, String videoinmueble, String comentariosadicionales, String avisoimpreso)  {
+			String incluyeadministracion, String valoradministracion, String ubicacioninmueble,
+			String direccioninmueble, String barrioinmueble, String barrioinmuebleexacto, String estrato,
+			String areaprivada, String areaconstruida, String numeropisos, String tiempoconstruido, String habitaciones,
+			String banos, String parqueaderos, String tipoparqueadero, String caracteristicaparqueadero,
+			String videoinmueble, String comentariosadicionales, String avisoimpreso) throws IOException {
 		switch (tipooferta) {
 		case "Vender":
 			btnVenderInmueble.click();
@@ -184,6 +178,11 @@ public class CreatePublicationPage extends PageObject {
 			txtValorVenta.sendKeys(valorventa);
 		} else {
 			txtValorArriendo.sendKeys(valorarriendo);
+			if (incluyeadministracion.equals("Si")) {
+				chkIncluyeAdministacion.click();
+			} else {
+				txtValorAdministracion.sendKeys(valoradministracion);
+			}
 		}
 		cmbUbicacionInmueble.click();
 		txtUbicacionInmueble.sendKeys(ubicacioninmueble);
@@ -276,13 +275,15 @@ public class CreatePublicationPage extends PageObject {
 		}
 		cmbCaracteristicaParqueadero.selectByValue(caracteristicaparqueadero);
 		btnAgregarFoto.click();
-		//String ruta = "C:\\Users\\camduc\\Pictures";
-		//Robot robot = new Robot();
+		Runtime.getRuntime().exec("C:\\Users\\camduc\\Documents\\Carguefotos.exe");
+		String texto = lblConfirmarCargaFoto.getText();
+		Assert.assertEquals("Imagen principal", texto);
 		txtVideoInmueble.sendKeys(videoinmueble);
 		txtComentariosInmueble.sendKeys(comentariosadicionales);
 		txtAvisoImpreso.sendKeys(avisoimpreso);
 		btnContinuarPublicacion.click();
-		
-		
+		btnPagoConsignacion.click();
+		btnFinalizarPublicacion.click();
+
 	}
 }

@@ -39,6 +39,7 @@ public class PublishPropertyStepDefinitions {
 		List<Map<String, String>> datos = arg1.asMaps(String.class, String.class);
 		publishPropertyStep.informacionInmueble(datos.get(0).get("tipooferta"), datos.get(0).get("tipoinmueble"),
 				datos.get(0).get("valorventa"), datos.get(0).get("valorarriendo"),
+				datos.get(0).get("incluyeadministracion"), datos.get(0).get("valoradministracion"),
 				datos.get(0).get("ubicacioninmueble"), datos.get(0).get("direccioninmueble"),
 				datos.get(0).get("barrioinmueble"), datos.get(0).get("barrioinmuebleexacto"),
 				datos.get(0).get("estrato"), datos.get(0).get("areaprivada"), datos.get(0).get("areaconstruida"),

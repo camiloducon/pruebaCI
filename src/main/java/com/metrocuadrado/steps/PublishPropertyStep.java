@@ -1,5 +1,7 @@
 package com.metrocuadrado.steps;
 
+import java.io.IOException;
+
 import com.metrocuadrado.pages.CreatePublicationPage;
 import com.metrocuadrado.pages.HomeMetroPage;
 import com.metrocuadrado.pages.LoginMetroPage;
@@ -32,14 +34,16 @@ public class PublishPropertyStep {
 
 	@Step
 	public void informacionInmueble(String tipooferta, String tipoinmueble, String valorventa, String valorarriendo,
-			String ubicacioninmueble, String direccioninmueble, String barrioinmueble, String barrioinmuebleexacto,
-			String estrato, String areaprivada, String areaconstruida, String numeropisos, String tiempoconstruido,
-			String habitaciones, String banos, String parqueaderos, String tipoparqueadero,
-			String caracteristicaparqueadero, String videoinmueble, String comentariosadicionales, String avisoimpreso) {
+			String incluyeadministracion, String valoradministracion, String ubicacioninmueble,
+			String direccioninmueble, String barrioinmueble, String barrioinmuebleexacto, String estrato,
+			String areaprivada, String areaconstruida, String numeropisos, String tiempoconstruido, String habitaciones,
+			String banos, String parqueaderos, String tipoparqueadero, String caracteristicaparqueadero,
+			String videoinmueble, String comentariosadicionales, String avisoimpreso) throws IOException {
 		createPublicationPage.informacionInmueble(tipooferta, tipoinmueble, valorventa, valorarriendo,
-				ubicacioninmueble, direccioninmueble, barrioinmueble, barrioinmuebleexacto, estrato, areaprivada,
-				areaconstruida, numeropisos, tiempoconstruido, habitaciones, banos, parqueaderos, tipoparqueadero,
-				caracteristicaparqueadero, videoinmueble, comentariosadicionales, avisoimpreso);
+				incluyeadministracion, valoradministracion, ubicacioninmueble, direccioninmueble, barrioinmueble,
+				barrioinmuebleexacto, estrato, areaprivada, areaconstruida, numeropisos, tiempoconstruido, habitaciones,
+				banos, parqueaderos, tipoparqueadero, caracteristicaparqueadero, videoinmueble, comentariosadicionales,
+				avisoimpreso);
 	}
 
 }
