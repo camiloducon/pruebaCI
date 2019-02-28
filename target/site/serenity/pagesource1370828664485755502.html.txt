@@ -1,0 +1,3057 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" class=" js svg" lang="en"><head>
+<meta charset="utf-8" />
+
+
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="description" content="Encuentre casas, apartamentos, oficinas, bodegas, fincas y más inmuebles en venta y arriendo. Metrocuadrado.com el sitio web para vender y arrendar su inmueble" />
+<link rel="canonical" href="https://www.metrocuadrado.com" />
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>Apartamentos y casas en venta o arriendo en Colombia - Metrocuadrado</title>
+<link rel="shortcut icon" href="/estatico/favicon.ico" />
+<!-- google login  -->
+<meta name="google-signin-scope" content="profile email" />
+<meta name="google-signin-client_id" content="325216096296-b05qlj40dlh670hen61ti5vgh5dpercm.apps.googleusercontent.com" />
+
+<!-- Google Tag Manager -->
+<script async="" src="https://tags.bkrtx.com/js/bk-coretag.js"></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.es.V_Yv4wgHxdw.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=wQ/rs=AGLTcCP3eLfkQeFZI5TxyoapulEyE9LVLA/cb=gapi.loaded_0" async=""></script><script async="" src="https://tags.bkrtx.com/js/bk-coretag.js"></script><script src="https://s.yimg.com/wi/ytc.js" async=""></script><script src="https://connect.facebook.net/signals/config/1619515914954946?v=2.8.42&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/377932179323948?v=2.8.42&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://script.crazyegg.com/pages/scripts/0017/1361.js" async="" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WTMXDZ"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WTMXDZ');</script>
+<!-- End Google Tag Manager -->
+<!-- Tag CrazyEgg -->
+<script type="text/javascript">
+        setTimeout(function() {            
+            var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol
+					+"//script.crazyegg.com/pages/scripts/0017/1361.js";
+            a.async = true;
+            a.type = "text/javascript";
+            b.parentNode.insertBefore(a, b)
+        }, 1);
+    </script>
+<!-- End Tag CrazyEgg -->
+
+<!-- begin Convert Experiences code-->
+<script type="text/javascript">
+	var conv_category_name = 'main-home';	
+</script><script type="text/javascript" src="https://cdn-3.convertexperiments.com/js/10022306-10021159.js"></script>
+<!-- end Convert Experiences code -->
+
+<!-- Script Pauta -->
+<script type="application/javascript" src="https://ced.sascdn.com/tag/484/smart.js" async="async"></script>
+<script type="application/javascript">
+    var sas = sas || {};
+    sas.cmd = sas.cmd || [];
+    sas.cmd.push(function() {
+        sas.setup({ networkid: 484, domain: "https://ads.eltiempo.co", async: true });
+    });
+</script>
+	<!-- end Script Pauta -->
+
+<script src="https://apis.google.com/js/platform.js" async="async" defer="defer" gapi_processed="true"></script>
+<!--[if lt IE 9]>
+    <script th:src="|${@properties.getProperty('static.resources.baseurl')}/js/html5shiv.js|" type="text/javascript"></script>
+    <![endif]-->
+
+<!--[if lte IE 9]>
+    <link th:href="|${@properties.getProperty('static.resources.baseurl')}/css/stylesheets.ie.css|" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+<link rel="stylesheet" type="text/css" href="/estatico/metrocuadrado-header-resources/css/stylesheets.css" />
+<link rel="stylesheet" type="text/css" href="/estatico/metrocuadrado-header-resources/css/home.css" />
+
+<!-- Google FONTS -->
+
+<link rel="stylesheet" type="text/css" href="/estatico/metrocuadrado-header-resources/fonts/font.css" />
+<style type="text/css">
+body, td, th {
+	font-family: Raleway;
+}
+</style>
+
+<script type="application/ld+json">
+			{
+  				"@context": "http://schema.org",
+  				"@type": "WebSite",
+  				"url": "https://staging.metrocuadrado.com/",
+  				"potentialAction": {
+    				"@type": "SearchAction",
+    				"target": "https://staging.metrocuadrado.com/inmuebles/{search_term_string}",
+    				"query-input": "required name=search_term_string"
+  				}
+			}
+</script>
+
+<script type="text/javascript">
+	var s_account='eltiempometrocuadradodev';
+</script>
+
+<script type="text/javascript" src="/estatico/metrocuadrado-header-resources/js/s_code.js"></script>
+<script type="text/javascript">
+s.pageName = "metrocuadrado: home"; 
+s.channel =  "metrocuadrado: home";
+</script>
+
+
+
+
+<script>
+	var locationAutocompleteContentUrl = '/estatico/locations.js'
+	var metrocuadradoResultsUrlContext = '/metrocuadrado-results/';
+	var detailImageAzureServer='https://metrocuadrado.blob.core.windows.net/inmuebles';
+	var detailImageAmazonServer='https://e.metrocuadrado.com.s3.amazonaws.com/inmuebles';
+	var unAvailableDetailNImageUrl='/estatico/metrocuadrado-header-resources/images/foto_no_disponible_n.jpg';
+	var unAvailableDetailPImageUrl='/estatico/metrocuadrado-header-resources/images/foto_no_disponible_p.jpg';
+	var metrocuadradoHomeUrlContext = '/metrocuadrado-home/';
+</script>
+
+<script type="text/javascript" src="/estatico/metrocuadrado-header-resources/js/jsFileshome.min.js"></script>
+
+<script src="//assets.adobedtm.com/41d3b477534338831f14b02d7af1cd359b73904f/satelliteLib-8aeb63a9ee18c0379a15a0fcb080dcbc94c88dd8-staging.js"></script>
+
+
+<link href="/estatico/metrocuadrado-results/css/locations-autocomplete.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+	$(document).ready(function () {
+  		$("#btn_submit_search_home").css("display", "block");
+	});
+</script>
+<script async="" src="https://static.hotjar.com/c/hotjar-966913.js?sv=6"></script><script async="" src="https://static.hotjar.com/c/hotjar-966913.js?sv=6"></script><script async="" src="https://script.hotjar.com/modules-42fc1c61396d5af5bbfea65c1daa92cf.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/958623456/?random=1551123056072&amp;cv=9&amp;fst=1551123056072&amp;num=1&amp;label=No6lCJfox3IQ4N2NyQM&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=1&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg241&amp;sendb=1&amp;frm=0&amp;url=https%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-home%2F&amp;ref=https%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-results%2Fsearch%2Flist%2Fnon-ajax%2F%3F%26mnrogarajes%3D3%26mnrobanos%3D4%26mnrocuartos%3D4%26mtiempoconstruido%3Dsobre-plano%26marea%3D61-100%26mvalorarriendo%3D%26mvalorventa%3D200000001-250000000%26mciudad%3D%26mubicacion%3D%26mtiponegocio%3Dventa-nuevo-nuevo%26mtipoinmueble%3Dcasa%26mzona%3D%26msector%3D%26mbarrio%3D%26selectedLocationCategory%3D%26selectedLocationFilter%3D%26mestadoinmueble%3DNuevo%26madicionales%3D%26orderBy%3D%26sortType%3D%26companyType%3D%26companyName%3D%26midempresa%3D%26mgrupo%3D%26mgrupoid%3D%26mbasico%3D%26currentPage%3D1%26totalPropertiesCount%3D0&amp;tiba=Apartamentos%20y%20casas%20en%20venta%20o%20arriendo%20en%20Colombia%20-%20Metrocuadrado&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script id="script-142259-1" type="text/javascript" src="https://ced-ns.sascdn.com/diff/templates/js/sas/sas-cookie.js" async="true"></script><script id="script-142259-2" type="text/javascript" src="https://ced-ns.sascdn.com/diff/templates/js/expand-two-creatives/sas-expand-1.14.js" async="true"></script><style type="text/css">#sas_21675{position:relative;-moz-transition: height 0.5s ease;-webkit-transition: height 0.5s ease;-ms-transition: height 0.5s ease;-o-transition: height 0.5s ease;transition: height 0.5s ease;width:970px;height:90px;z-index:200;margin:0px auto;padding:0;text-align:center;}
+#sas-banner1_8528715{position:absolute;top:0;left:0;width:970px;height:90px;visibility:visible;z-index:200;}
+#sas-banner1Mask_8528715{position:absolute;top:0;left:0;width:970px;height:90px;visibility:visible;z-index:201;cursor:pointer;background-color:white;opacity:0;filter:alpha(opacity=0);}
+#sas-banner2_8528715{position:absolute;top:0px;left:50%;margin-left:-485px;width:970px;height:0px;visibility:hidden;z-index:200;}
+#sas-banner2content_8528715{-moz-transition: height 0.5s ease;-webkit-transition: height 0.5s ease;-ms-transition: height 0.5s ease;-o-transition: height 0.5s ease;transition: height 0.5s ease;position:relative;overflow: hidden;}
+#sas-closeButton_8528715{position:absolute;z-index:202;color:#000000;font-family:Arial,sans-serif;font-size:14px;cursor:pointer;display:block;}
+#sas-defaultCloseButton_8528715{z-index:202;display:inline-block;width:27px;height:27px;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select:none;cursor:pointer;margin-left:10px;}
+#sas-relDiv_8528715{margin:0 auto;display:block;position:relative;width:970px;height:0px;z-index:200;-moz-transition: height 0.5s ease;-webkit-transition: height 0.5s ease;-ms-transition: height 0.5s ease;-o-transition: height 0.5s ease;transition: height 0.5s ease;}
+#sas-expandButton_8528715{position:absolute;z-index:202;color:#000000;font-family:Arial,sans-serif;font-size:14px;cursor:pointer;display:block;}
+#sas-defaultExpandButton_8528715{z-index:202;display:inline-block;width:27px;height:27px;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select:none;cursor:pointer;margin-left:10px;}
+#sas-closeButton_8528715.sas-closeButton_top-left.sas-closeButton_inner-creative, #sas-expandButton_8528715.sas-expandButton_top-left.sas-expandButton_inner-creative{top:5px;left:5px;padding:10px;margin-top:-12px;margin-left:-12px;}
+#sas-closeButton_8528715.sas-closeButton_top-right.sas-closeButton_inner-creative, #sas-expandButton_8528715.sas-expandButton_top-right.sas-expandButton_inner-creative{top:5px;right:5px;padding:10px;margin-top:-12px;margin-right:-12px;}
+#sas-closeButton_8528715.sas-closeButton_bottom-left.sas-closeButton_inner-creative, #sas-expandButton_8528715.sas-expandButton_bottom-left.sas-expandButton_inner-creative{bottom:5px;left:5px;padding:10px;margin-bottom:-10px;margin-left:-12px;}
+#sas-closeButton_8528715.sas-closeButton_bottom-right.sas-closeButton_inner-creative, #sas-expandButton_8528715.sas-expandButton_bottom-right.sas-expandButton_inner-creative{bottom:5px;right:5px;padding:10px;margin-bottom:-10px;margin-right:-12px;}
+#sas-closeButton_8528715.sas-closeButton_top-left.sas-closeButton_outer-creative{bottom:420px;left:5px;padding:10px;margin-bottom:-10px;margin-left:-14px;}
+#sas-closeButton_8528715.sas-closeButton_top-right.sas-closeButton_outer-creative{bottom:420px;right:5px;padding:10px;margin-bottom:-10px;margin-right:-14px;}
+#sas-closeButton_8528715.sas-closeButton_bottom-left.sas-closeButton_outer-creative{top:420px;left:5px;padding:10px;margin-top:-12px;margin-left:-14px;}
+#sas-closeButton_8528715.sas-closeButton_bottom-right.sas-closeButton_outer-creative{top:420px;right:5px;padding:10px;margin-top:-12px;margin-right:-14px;}
+#sas-expandButton_8528715.sas-expandButton_top-left.sas-expandButton_outer-creative{bottom:95px;left:5px;padding:10px;margin-bottom:-10px;margin-left:-14px;}
+#sas-expandButton_8528715.sas-expandButton_top-right.sas-expandButton_outer-creative{bottom:95px;right:5px;padding:10px;margin-bottom:-10px;margin-right:-14px;}
+#sas-expandButton_8528715.sas-expandButton_bottom-left.sas-expandButton_outer-creative{top:95px;left:5px;padding:10px;margin-top:-12px;margin-left:-14px;}
+#sas-expandButton_8528715.sas-expandButton_bottom-right.sas-expandButton_outer-creative{top:95px;right:5px;padding:10px;margin-top:-12px;margin-right:-14px;}
+#sas-closeButton_8528715.sas-closeButton_top-left.sas-closeButton_on-the-corner, #sas-expandButton_8528715.sas-expandButton_top-left.sas-expandButton_on-the-corner{top:-13px;left:-13px;}
+#sas-closeButton_8528715.sas-closeButton_top-right.sas-closeButton_on-the-corner, #sas-expandButton_8528715.sas-expandButton_top-right.sas-expandButton_on-the-corner{top:-13px;right:-13px;}
+#sas-closeButton_8528715.sas-closeButton_bottom-left.sas-closeButton_on-the-corner, #sas-expandButton_8528715.sas-expandButton_bottom-left.sas-expandButton_on-the-corner{bottom:-13px;left:-13px;}
+#sas-closeButton_8528715.sas-closeButton_bottom-right.sas-closeButton_on-the-corner, #sas-expandButton_8528715.sas-expandButton_bottom-right.sas-expandButton_on-the-corner{bottom:-13px;right:-13px;}</style><script id="script-142259-3" type="text/javascript" src="https://ced-ns.sascdn.com/diff/templates/ts/dist/viewability/sas-viewability-1.0.js" async="true"></script></head>
+<body data-sticky_parent="">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTMXDZ" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+	<!-- RBT iframe RTB House tracking codes for www.metrocuadrado.com -->
+	<iframe src="//us.creativecdn.com/tags?id=pr_Zm8TDdsACFcLmvtdWjN5_home" width="1" height="1" scrolling="no" frameborder="0" style="display: none;">
+	</iframe>
+	<!-- End Google Tag Manager (noscript) -->
+	<div id="page" class="m2_home">
+		<div class="pauta_banner_gigante">
+			<div id="sas_21675" style="height: 90px;"><script id="sas_script1" type="text/javascript" src="https://ads.eltiempo.co/ac?nwid=484&amp;siteid=25081&amp;pgid=168853&amp;fmtid=21675&amp;async=1&amp;visit=m&amp;tmstp=9075032822&amp;tag=sas_21675&amp;sh=768&amp;sw=1366&amp;pgDomain=https%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-home%2F&amp;noadcbk=sas.noad" async=""></script>
+				<noscript>
+					&lt;a href="https://ads.eltiempo.co/call/pubjumpi/25081/168853/21675/S/[timestamp]/?" target="_blank"&gt; &lt;img src="https://ads.eltiempo.co/call/pubi/25081/168853/21675/S/[timestamp]/?" border="0" alt="" /&gt;&lt;/a&gt;
+				</noscript>
+			<div style="display: none;"></div><div id="sas-banner1_8528715"><a href="https://ads.eltiempo.co/click?imgid=23407769&amp;insid=8528715&amp;pgid=168853&amp;ckid=1889395366138594567&amp;uii=367707973984654711&amp;acd=1551123055445&amp;pubid=7&amp;tmstp=9075032822&amp;tgt=%24dt%3d1t%3b%24hc&amp;systgt=%24qc%3d1312682245%3b%24ql%3dHigh%3b%24qpc%3d%3b%24qt%3d13_112_38692t%3b%24dma%3d0%3b%24b%3d16720%3b%24o%3d11061%3b%24sw%3d1280%3b%24sh%3d768%3b%24wpc%3d22%3b%24wpc%3d70&amp;pgDomain=https%3a%2f%2fstaging.metrocuadrado.com%2fmetrocuadrado-home%2f&amp;go=https%3a%2f%2fwww.metrocuadrado.com%2festatico%2flanding%2fcusezar-picabia%2findex.html" target="_blank"><img id="img_6723" src="https://creatives.sascdn.com/diff/484/8528715/cerrado.jpg" width="970" border="0" height="90" alt="" /></a><div id="sas-expandButton_8528715" class="sas-expandButton_top-right sas-expandButton_inner-creative"><span id="sas_labelExpand_8528715"><img src="https://d1e3jfxv3x2zb1.cloudfront.net/javcor/botones/botones_pd/btn_abrir.png" />
+</span></div></div><div id="sas-relDiv_8528715" style="height: 0px;"><div id="sas-banner2_8528715" style="visibility: hidden;"><div id="sas-banner2content_8528715" style="height: 0px;"><a href="https://ads.eltiempo.co/click?imgid=23407764&amp;insid=8528715&amp;pgid=168853&amp;ckid=1889395366138594567&amp;uii=367707973984654711&amp;acd=1551123055445&amp;pubid=7&amp;tmstp=9075032822&amp;tgt=%24dt%3d1t%3b%24hc&amp;systgt=%24qc%3d1312682245%3b%24ql%3dHigh%3b%24qpc%3d%3b%24qt%3d13_112_38692t%3b%24dma%3d0%3b%24b%3d16720%3b%24o%3d11061%3b%24sw%3d1280%3b%24sh%3d768%3b%24wpc%3d22%3b%24wpc%3d70&amp;pgDomain=https%3a%2f%2fstaging.metrocuadrado.com%2fmetrocuadrado-home%2f&amp;go=https%3a%2f%2fwww.metrocuadrado.com%2festatico%2flanding%2fcusezar-picabia%2findex.html" target="_blank"><img id="img_8298" src="https://creatives.sascdn.com/diff/484/8528715/970x415_2.jpg" width="970" border="0" height="415" alt="" /></a></div><div id="sas-closeButton_8528715" class="sas-closeButton_top-right sas-closeButton_inner-creative" style="display: none;"><span id="sas_labelClose_8528715"><img src="https://d1e3jfxv3x2zb1.cloudfront.net/javcor/botones/botones_pd/btn_cerrar.png" /></span></div></div></div><div id="sas-banner1Mask_8528715" style="visibility: visible;"></div></div>
+		</div>
+		
+		<div>
+
+
+
+    <link rel="shortcut icon" href="/estatico/favicon.ico" />
+    <!--[if lt IE 9]>
+    <script th:src="|${@properties.getProperty('static.resources.baseurl')}/js/html5shiv.js|"
+            type="text/javascript"></script>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+    <link th:href="|${@properties.getProperty('static.resources.baseurl')}/css/stylesheets.ie.css|" rel="stylesheet"
+          type="text/css"/>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/estatico/metrocuadrado-header-resources/dist/header.icons.min.css" />
+
+    <style>
+        .usuario_opciones ul li a {
+            padding: 15px 0px 15px 40px;
+        }
+
+        .usuario_opciones ul li {
+            padding: 10px 0;
+        }
+
+        .usuario_opciones .m_header_combo {
+            padding: 0px 0px;
+        }
+    </style>
+
+
+
+
+<input type="hidden" id="urlcas" value="https://staging.metrocuadrado.com/cas" />
+<input type="hidden" id="facebookApplicationId" value="163952777486318" />
+
+
+<div class="m_header_alt">
+		
+		<div class="bg_sup_alt">
+			
+		</div>
+		
+		<div class="bg_main_alt">
+			<div class="m_header_main_alt">
+				<div class="m_header_main_wrap_alt">
+					<div id="logo_alt">
+						<a href="https://staging.metrocuadrado.com/metrocuadrado-home/"> <img alt="Metrocuadrado" src="/estatico/metrocuadrado-header-resources/images/logo_metrocuadrado@2x.png" />
+						</a>
+					</div>
+					<ul id="menu_level_0_alt">
+						<li class="item_alt hide_for_mobile_alt btn_menusearch"><span class="active">Buscar inmuebles
+							<div class="icon_desplegar"><img src="/estatico/metrocuadrado-header-resources/images/icons/png/select_arrow.png" /></div>
+							</span></li>
+						<li class="item_alt has_sublevel_al noticias">
+						<span><span onmouseover="sendOmnitureEventMegaMenu('Noticias y Tendencias')">Noticias	y Tendencias</span>
+								<div class="icon_desplegar"><img src="/estatico/metrocuadrado-header-resources/images/icons/png/select_arrow.png" /></div>
+								</span>
+							<div class="level_1_alt menu_noticias">
+
+								<div class="m_header_combo_alt">
+									<em class="close_alt"> Cerrar <span></span></em>
+
+									<div class="m_header_combo_wrap_alt">
+										<div class="col_1_alt">
+											<div class="title_alt">Noticias y Tendencias</div>
+											<ul class="m_list_alt dark_alt">
+												<li><a href="https://staging.metrocuadrado.com/noticias/">Noticias</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/economia/">Economía</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/decoracion/">Decoración</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/arquitectura/">Arquitectura</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/entretenimiento/">Entretenimiento</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/actualidad/">Actualidad</a></li>
+												<li><a href="https://www.metrocuadrado.com/noticias/noticias-y-tendencias/oikos-construyendo-futuro/">Oikos construyendo futuro</a></li>
+											</ul>
+										</div>
+										<div class="col_3_alt">
+											<div class="title_alt">Lo último en Metrocuadrado</div>
+											<ul>
+												<li><a class="m_image_link_small_alt" href="https://www.metrocuadrado.com/noticias-staging/actualidad/cuidado-si-recibes-esta-carta-en-tu-casa-3438">
+														<img class="lazy" alt="" data-original="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/45058557_m.jpg?itok=Y6p197ts" src="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/45058557_m.jpg?itok=Y6p197ts" style="display: block;" /> <span>Cuidado si recibes esta carta en tu casa</span>
+												</a></li>
+												<li><a class="m_image_link_small_alt" href="https://www.metrocuadrado.com/noticias-staging/actualidad/el-barrio-polo-club-sera-renovado-3557">
+														<img class="lazy" alt="" data-original="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/edificios_polo-1_opt.jpg?itok=MO4VLqmQ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" /> <span>El barrio Polo Club será renovado</span>
+												</a></li>
+												<li><a class="m_image_link_small_alt" href="https://www.metrocuadrado.com/noticias-staging/decoracion/ideas-y-estilos-para-decorar-tu-boda-3553">
+														<img class="lazy" alt="" data-original="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/47092265_m.jpg?itok=T_QknoFR" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" /> <span>Ideas y estilos para decorar tu boda</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="col_inf_alt">
+
+										<a href="https://staging.metrocuadrado.com/noticias/tendencias/" class="m_btn_alt inline_alt inverted_alt"> Sobre noticias
+											y tendencias </a>
+
+
+									</div>
+								</div>
+							</div></li>
+						<li class="item_alt has_sublevel_alt herramientas"><span><span onmouseover="sendOmnitureEventMegaMenu('Herramientas')">Herramientas</span>
+							<div class="icon_desplegar"><img src="/estatico/metrocuadrado-header-resources/images/icons/png/select_arrow.png" /></div>
+							</span>
+							<div class="level_1_alt menu_herramientas">
+
+								<div class="m_header_combo_alt hide_for_mobile_alt hide_for_tablet_alt">
+									<em class="close_alt"> Cerrar <span></span></em>
+
+									<div class="m_header_combo_wrap_alt">
+										<div class="col_1_alt">
+										<div class="fondo_grs">
+											<div class="title_alt">Calculadoras</div>
+											<ul class="m_list_alt dark_alt">
+
+												<li><a href="https://staging.metrocuadrado.com/calculadora-credito-hipotecario-vivienda/">Calculadora
+														de crédito </a></li>
+												<li><a href="https://staging.metrocuadrado.com/calculadora-poliza-seguro-arrendamiento/">Calculadora de
+														seguros </a></li>
+												
+
+												
+
+												
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/precios-m2">Precios
+														m2</a></li>
+
+											</ul>
+											</div>
+											<div class="tu_inmueble">
+												<div class="title_alt second">Tu Inmueble</div>
+										      <ul class="m_list_alt dark_alt">
+										        <li><a href="https://staging.metrocuadrado.com/publicar-inmuebles/solicitud-inmuebles/">Solicita tu inmueble</a></li>
+										        <li><a href="https://staging.metrocuadrado.com/publicar-inmuebles/consignment/firststep">Consigna tu inmueble</a></li>
+									      </ul>
+									      </div>
+										</div>
+										<div class="col_2_alt">
+											<div class="title_alt">Guías</div>
+											<ul class="m_list_alt dark_alt">
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-arriendo">Guía
+														de arriendo</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-propiedad-horizontal">Guía
+														de propiedad horizontal</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-venta">Guía
+														de compra y venta</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-credito">Guía
+														de crédito</a></li>
+<!-- 												<li><a href="http://www.metrocuadrado.com/noticias/asesor-metrocuadrado">Asesor</a> -->
+<!-- 												</li> -->
+												<li><a href="https://staging.metrocuadrado.com/directorio-inmobiliarias/">Directorio</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col_3_alt">
+											<div class="title_alt">Guías stg</div>
+											<ul>
+												<li><a class="m_image_link_small_alt" href="https://www.metrocuadrado.com/noticias-staging/actualidad/asi-se-ha-valorizado-cedritos-en-este-2018-3534">
+														<img class="lazy" alt="" data-original="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/cedritos.jpg?itok=KlfN8sgB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" /> <span>Así se ha valorizado Cedritos en este 2018 stg</span>
+												</a></li>
+												<li><a class="m_image_link_small_alt" href="https://www.metrocuadrado.com/noticias-staging/guia-de-compra-y-venta/ahora-puedes-comprar-inmuebles-hasta-con-un-60-de-descuento-3538">
+														<img class="lazy" alt="" data-original="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/42497645_m.jpg?itok=YMbgxJbD" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" /> <span>Subasta de inmuebles hasta con un 60% de descuento stg</span>
+												</a></li>
+												<li><a class="m_image_link_small_alt" href="https://www.metrocuadrado.com/noticias-staging/guia-de-compra-y-venta/no-es-lo-que-vendes-es-como-lo-vendes-3519">
+														<img class="lazy" alt="" data-original="https://www.metrocuadrado.com/noticias-staging/sites/default/files/styles/300x140/public/field/image/42189930_m.jpg?itok=exHFkot9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" /> <span>‘No es lo que vendes, es cómo lo vendes’  stg</span>
+												</a></li>
+											</ul>
+										</div>
+										
+									</div>
+
+									<div class="col_inf_alt">
+
+										<a href="http://www.metrocuadrado.com/noticias/herramientas" class="m_btn_alt inline_alt inverted_alt "> Sobre
+											herramientas </a>
+
+
+									</div>
+								</div>
+							</div></li>
+					<!-- <li class="loginBody"></li>			 -->
+					
+	
+		
+			<input type="hidden" id="loggedUserType" value="" />
+			<li class="item_alt has_sublevel_alt usuario_opciones_alt loginBody">
+					<a rel="nofollow" href="/metrocuadrado-personal-account/" class="link ir_login_superior"> Ingresar </a>
+			</li>
+		
+		
+		
+
+					</ul>
+					<div id="menu_side_alt">
+						<a id="publishAPropertyLiHref" rel="nofollow" class="m_btn_alt inline_alt publishAPropertyLink" onclick="sendOmnitureEventPublishProperty();" href="https://staging.metrocuadrado.com/publicar-inmuebles/"> Publica tu inmueble </a>
+						<input type="hidden" id="urlconstructores" value="https://staging.metrocuadrado.com/constructores/" />
+						<input type="hidden" id="urlinmobiliarias" value="https://staging.metrocuadrado.com/inmobiliarias/" />	
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Inicio Buscador -->
+		<div class="contentDesktopSearch">
+			
+			<div class="bg_inf_alt  bg_inf_search absoluteSearch" style="display: none">
+				<div class="m_header_content_alt">
+		<div class="m_header_search_alt">
+			<div class="busqueda_avanzada_alt" style="display: block;">
+				<form action="https://staging.metrocuadrado.com/metrocuadrado-results/search/non-ajax" id="form-search-header" method="post">
+					<div class="m_header_search_content_alt">
+						<div class="col_1_alt">
+							<div class="form_select"> 
+								<span class="select webkit webkit72 not_msie custom-form_mobile-mtiponegocio responsive_select"><span class="select_content"><span class="select_button"><span class="select_button_icon"></span></span><span class="select_label"><span>Compra Nuevo</span></span></span><select id="mobile-mtiponegocio" data-hidden-field-id="mtiponegocio">
+										<option value="venta-nuevo">Compra Nuevo</option>
+										<option value="venta-usado">Compra Usado</option>
+										<option value="venta">Compra Nuevo y Usado</option>
+										<option value="arriendo">Arriendo</option>
+								</select></span>
+							</div>
+						</div>
+						<div class="col_2_alt">
+
+							<div id="fondo-selector-multiple-mobile" class="fondo-selector-multiple-mobile"></div>
+
+
+							<div class="campo-selector-multiple">
+								<div class="campo-selector-multiple-seleccionados">Casas</div>
+
+								<div id="btn-selector-multiple" class="btn-selector-multiple" align="center">
+									<img src="/estatico/metrocuadrado-header-resources/images/icons/svg/fake_select.svg" />
+								</div>
+
+								<div id="selector-multiple" class="selector-multiple" style="display: none;">
+
+									<img id="btn-selector-multiple-cerrar" class="btn-selector-multiple-cerrar" src="/estatico/metrocuadrado-header-resources/images/icons/svg/close.svg" />
+
+									<div class="inmueble-check">
+										<input id="check_01" class="property-type-list" propertytype="casa" name="check_01" value="casas" type="checkbox" checked="checked" /> <label for="check_01" class="form_label form_label_inline">Casas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_02" class="property-type-list" propertytype="apartamento" name="check_02" value="apartamentos" type="checkbox" /> <label for="check_02" class="form_label form_label_inline">Apartamentos</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_03" class="property-type-list" propertytype="oficina" name="check_03" value="oficinas" type="checkbox" /> <label for="check_03" class="form_label form_label_inline">Oficinas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_04" class="property-type-list" propertytype="bodega" name="check_04" value="bodegas" type="checkbox" /> <label for="check_04" class="form_label form_label_inline">Bodegas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_05" class="property-type-list" propertytype="consultorio" name="check_05" value="consultorios" type="checkbox" /> <label for="check_05" class="form_label form_label_inline">Consultorios</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_06" class="property-type-list" propertytype="local" name="check_06" value="locales" type="checkbox" /> <label for="check_06" class="form_label form_label_inline">Locales</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_07" class="property-type-list" propertytype="lote" name="check_07" value="lotes" type="checkbox" /> <label for="check_07" class="form_label form_label_inline">Lotes</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_08" class="property-type-list" propertytype="finca" name="check_08" value="fincas" type="checkbox" /> <label for="check_08" class="form_label form_label_inline">Fincas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_09" class="property-type-list" propertytype="edificio-de-oficinas" name="check_09" value="edificios-oficinas" type="checkbox" />
+										<label for="check_09" class="form_label form_label_inline">Edificio
+											de oficinas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_10" class="property-type-list" propertytype="edificio-de-apartamentos" name="check_10" value="edificios-apartamentos" type="checkbox" /> <label for="check_10" class="form_label form_label_inline">Edificio de
+											apartamentos</label>
+									</div>
+									<a id="btn-selector-multiple-mobile-aceptar" class="m_btn btn-selector-multiple-mobile-aceptar">Aceptar</a>
+
+								</div>
+							</div>
+						</div>
+						<div class="col_3_alt">
+							<input type="text" name="city" id="mobile-location" class="search-by-location ui-autocomplete-input" placeholder="Ciudad, Zona o Barrio" autocomplete="off" />
+						</div>
+						<div class="col_4_alt">
+
+							<button id="btn_submit_search_header" class="search-button m_btn_alt big_alt header-structured-search">Buscar</button>
+
+							<script type="text/javascript">
+				
+
+							</script>
+						</div>
+						<div class="enlace_alt">
+							<a>Buscar código »</a>
+						</div>
+					</div>
+					<input type="hidden" name="sfh" id="sfh" value="1" />
+				</form>
+			</div>
+
+			<!-- Inicio búsqueda código -->
+			<div class="busqueda_codigo_alt" style="display: none;">
+				<form method="post" id="form-search-header-by-code" action="https://staging.metrocuadrado.com/metrocuadrado-results/search/code">
+					<div class="m_header_search_content_alt">
+						<div class="col_1_alt">
+							<input type="text" name="propertyId" id="propertyId" placeholder="Buscar por código" required="required" />
+						</div>
+						<div class="col_4_alt">
+							<button if="btn_submit_search_header_by_code" class="m_btn_alt big_alt">Buscar</button>
+							<script type="text/javascript">
+								$('#btn_submit_search_header_by_code').click(function(e){						
+									e.preventDefault();
+									
+									sendOmnitureEventSearch($('#search-origin').val(),"","Search-by-code","","");
+									
+									setTimeout(function(){ 
+										$('#form-search-header-by-code').submit();
+									}, 500);
+								});
+								
+							    (function(h,o,t,j,a,r){
+							        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+							        h._hjSettings={hjid:966913,hjsv:6};
+							        a=o.getElementsByTagName('head')[0];
+							        r=o.createElement('script');r.async=1;
+							        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+							        a.appendChild(r);
+							    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+							</script>
+						</div>
+						<div class="enlace_alt">
+							<a>Búsqueda avanzada »</a>
+						</div>
+					</div>
+				<input type="hidden" name="_csrf" value="fe44aeb8-a13f-4913-b749-43d411c2063d" /></form>
+			</div>
+			<!-- Fin búsqueda código -->
+		</div>
+	</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="/estatico/metrocuadrado-header-resources/js/libs/jquery.lazyload.min.js"></script>
+		
+	</div>
+<div id="mobile_header_alt">
+		<div class="m_header_mobile_alt">
+			<div class="m_header_mobile_bar_alt">
+				<div class="m_header_mobile_bar_logo_alt">
+					<a href="https://staging.metrocuadrado.com/metrocuadrado-home/"> <img alt="Metrocuadrado" src="/estatico/metrocuadrado-header-resources/images/logo_metrocuadrado@2x.png" />
+					</a>
+				</div>
+				<div class="m_header_mobile_bar_search_alt" style="display: none;">Buscar</div>				
+				<div class="m_header_mobile_bar_menu_alt open"></div>
+			</div>
+
+			<div class="m_header_mobile_menu_alt menu_moviles" style="display: none;">
+				<div id="menu_side_alt">
+					<a id="publishAPropertyLiHref" rel="nofollow" class="m_btn_alt inline_alt publishAPropertyLink" href="https://staging.metrocuadrado.com/publicar-inmuebles/"> Publica tu inmueble </a>
+					<input type="hidden" id="urlconstructores" value="https://staging.metrocuadrado.com/constructores/" />
+					<input type="hidden" id="urlinmobiliarias" value="https://staging.metrocuadrado.com/inmobiliarias/" />
+				</div>
+
+				<ul id="menu_level_0_alt">
+
+					<li class="item_alt has_sublevel_alt"><span onmouseover="sendOmnitureEventMegaMenu('Noticias y Tendencias')">Noticias
+							y Tendencias</span>
+						<div class="level_1_alt menu_noticias">
+
+							<div class="m_header_combo_mobile_alt show_on_mobile show_on_tablet">
+								<ul>
+									<li><a href="https://staging.metrocuadrado.com/noticias/">Noticias</a></li>
+									<li><a href="https://staging.metrocuadrado.com/noticias/economia/">Economía</a></li>
+									<li><a href="https://staging.metrocuadrado.com/noticias/decoracion/">Decoración</a></li>
+									<li><a href="https://staging.metrocuadrado.com/noticias/arquitectura/">Arquitectura</a></li>
+									<li><a href="https://staging.metrocuadrado.com/noticias/entretenimiento/">Entretenimiento</a></li>
+									<li><a href="https://staging.metrocuadrado.com/noticias/actualidad/">Actualidad</a></li>
+									<li><a href="https://www.metrocuadrado.com/noticias/noticias-y-tendencias/oikos-construyendo-futuro/">Oikos construyendo futuro</a></li>
+								</ul>
+							</div>
+
+						</div></li>
+					<li class="item_alt has_sublevel_alt herramientas"><span onmouseover="sendOmnitureEventMegaMenu('Herramientas')">Herramientas</span>
+						<div class="level_1_alt menu_herramientas">
+
+							<div class="m_header_combo_mobile_alt show_on_mobile show_on_tablet">
+								<ul>
+									<li class="has_sublevel_2_alt"><span>Calculadoras</span>
+										<div class="level_2_alt">
+											<p class="level_2_alt_link">Calculadoras</p>
+											<ul>
+												<li><a href="https://staging.metrocuadrado.com/calculadora-credito-hipotecario-vivienda/">Calculadora
+														de crédito </a></li>
+												<li><a href="https://staging.metrocuadrado.com/calculadora-poliza-seguro-arrendamiento/">Calculadora de
+														seguros </a></li>
+												
+
+												
+
+												
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/precios-m2">Precios
+														m2</a></li>
+
+											</ul>
+										</div></li>
+										<li class="has_sublevel_2_alt">
+								          <span>Tu inmueble</span>
+								          <div class="level_2_alt">
+								            <p class="level_2_alt_link">Tu inmueble</p>
+								            <ul>
+								              <li>
+								              	<a href="https://staging.metrocuadrado.com/publicar-inmuebles/solicitud-inmuebles/">Solicita tu inmueble</a>
+								              </li>
+								              <li>
+								              	<a href="https://staging.metrocuadrado.com/publicar-inmuebles/consignment/firststep">Consigna tu inmueble</a>
+								              </li>
+								            </ul>
+								          </div>
+								        </li>
+									<li class="has_sublevel_2_alt dos"><span>Guías</span>
+										<div class="level_2_alt dos">
+											<p class="level_2_alt_link">Guías</p>
+											<ul>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-arriendo">Guía
+														de arriendo</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-propiedad-horizontal">Guía
+														de propiedad horizontal</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-venta">Guía
+														de compra y venta</a></li>
+												<li><a href="https://staging.metrocuadrado.com/noticias/herramientas/guia-de-credito">Guía
+														de crédito</a></li>
+<!-- 												<li><a href="http://www.metrocuadrado.com/noticias/asesor-metrocuadrado">Asesor</a> -->
+<!-- 												</li> -->
+												<li><a href="https://staging.metrocuadrado.com/directorio-inmobiliarias/">Directorio</a>
+												</li>
+											</ul>
+										</div></li>
+
+								</ul>
+							</div>
+
+
+						</div></li>
+						
+	
+		
+			<input type="hidden" id="loggedUserType" value="" />
+			<li class="item_alt has_sublevel_alt usuario_opciones_alt loginBody">
+					<a rel="nofollow" href="/metrocuadrado-personal-account/" class="link ir_login_superior"> Ingresar </a>
+			</li>
+		
+		
+		
+
+				</ul>
+
+				<div class="m_header_sup_alt">
+					<ul>
+						<li><a href="/metrocuadrado-header/contactenos">Contáctenos </a></li>
+						<li style="display: none"><a href="/metrocuadrado-header/ayuda">¿Necesitas
+								ayuda? </a></li>
+						<li class="phone" style="display: none"><a href="tel:01 80000 115 252">01 80000 115 252</a></li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<div class="m_header_mobile_menu" data-mobile-menu-placeholder=""></div>
+		</div>
+	</div>
+<div class="mobile_header_search_alt" style="display: none">
+		<div class="mobile_header_search_head_alt">
+			<div class="mobile_header_search_logo_alt">
+				<img src="/estatico/metrocuadrado-header-resources/images/logo_metrocuadrado@2x.png" />
+			</div>
+			<div class="mobile_header_search_close_alt"></div>
+		</div>
+		<div class="mobile_header_search_title_alt">Encuentra casa y
+			apartamentos en venta o arriendo:</div>
+		<div class="">
+			<div class="m_header_content_alt">
+		<div class="m_header_search_alt">
+			<div class="busqueda_avanzada_alt" style="display: block;">
+				<form action="https://staging.metrocuadrado.com/metrocuadrado-results/search/non-ajax" id="form-search-header" method="post">
+					<div class="m_header_search_content_alt">
+						<div class="col_1_alt">
+							<div class="form_select"> 
+								<span class="select webkit webkit72 not_msie custom-form_mobile-mtiponegocio responsive_select"><span class="select_content"><span class="select_button"><span class="select_button_icon"></span></span><span class="select_label"><span>Compra Nuevo</span></span></span><select id="mobile-mtiponegocio" data-hidden-field-id="mtiponegocio">
+										<option value="venta-nuevo">Compra Nuevo</option>
+										<option value="venta-usado">Compra Usado</option>
+										<option value="venta">Compra Nuevo y Usado</option>
+										<option value="arriendo">Arriendo</option>
+								</select></span>
+							</div>
+						</div>
+						<div class="col_2_alt">
+
+							<div id="fondo-selector-multiple-mobile" class="fondo-selector-multiple-mobile"></div>
+
+
+							<div class="campo-selector-multiple">
+								<div class="campo-selector-multiple-seleccionados">Casas</div>
+
+								<div id="btn-selector-multiple" class="btn-selector-multiple" align="center">
+									<img src="/estatico/metrocuadrado-header-resources/images/icons/svg/fake_select.svg" />
+								</div>
+
+								<div id="selector-multiple" class="selector-multiple" style="display: none;">
+
+									<img id="btn-selector-multiple-cerrar" class="btn-selector-multiple-cerrar" src="/estatico/metrocuadrado-header-resources/images/icons/svg/close.svg" />
+
+									<div class="inmueble-check">
+										<input id="check_01" class="property-type-list" propertytype="casa" name="check_01" value="casas" type="checkbox" checked="checked" /> <label for="check_01" class="form_label form_label_inline">Casas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_02" class="property-type-list" propertytype="apartamento" name="check_02" value="apartamentos" type="checkbox" /> <label for="check_02" class="form_label form_label_inline">Apartamentos</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_03" class="property-type-list" propertytype="oficina" name="check_03" value="oficinas" type="checkbox" /> <label for="check_03" class="form_label form_label_inline">Oficinas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_04" class="property-type-list" propertytype="bodega" name="check_04" value="bodegas" type="checkbox" /> <label for="check_04" class="form_label form_label_inline">Bodegas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_05" class="property-type-list" propertytype="consultorio" name="check_05" value="consultorios" type="checkbox" /> <label for="check_05" class="form_label form_label_inline">Consultorios</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_06" class="property-type-list" propertytype="local" name="check_06" value="locales" type="checkbox" /> <label for="check_06" class="form_label form_label_inline">Locales</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_07" class="property-type-list" propertytype="lote" name="check_07" value="lotes" type="checkbox" /> <label for="check_07" class="form_label form_label_inline">Lotes</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_08" class="property-type-list" propertytype="finca" name="check_08" value="fincas" type="checkbox" /> <label for="check_08" class="form_label form_label_inline">Fincas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_09" class="property-type-list" propertytype="edificio-de-oficinas" name="check_09" value="edificios-oficinas" type="checkbox" />
+										<label for="check_09" class="form_label form_label_inline">Edificio
+											de oficinas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="check_10" class="property-type-list" propertytype="edificio-de-apartamentos" name="check_10" value="edificios-apartamentos" type="checkbox" /> <label for="check_10" class="form_label form_label_inline">Edificio de
+											apartamentos</label>
+									</div>
+									<a id="btn-selector-multiple-mobile-aceptar" class="m_btn btn-selector-multiple-mobile-aceptar">Aceptar</a>
+
+								</div>
+							</div>
+						</div>
+						<div class="col_3_alt">
+							<input type="text" name="city" id="mobile-location" class="search-by-location ui-autocomplete-input" placeholder="Ciudad, Zona o Barrio" autocomplete="off" />
+						</div>
+						<div class="col_4_alt">
+
+							<button id="btn_submit_search_header" class="search-button m_btn_alt big_alt header-structured-search">Buscar</button>
+
+							<script type="text/javascript">
+				
+
+							</script>
+						</div>
+						<div class="enlace_alt">
+							<a>Buscar código »</a>
+						</div>
+					</div>
+					<input type="hidden" name="sfh" id="sfh" value="1" />
+				</form>
+			</div>
+
+			<!-- Inicio búsqueda código -->
+			<div class="busqueda_codigo_alt" style="display: none;">
+				<form method="post" id="form-search-header-by-code" action="https://staging.metrocuadrado.com/metrocuadrado-results/search/code">
+					<div class="m_header_search_content_alt">
+						<div class="col_1_alt">
+							<input type="text" name="propertyId" id="propertyId" placeholder="Buscar por código" required="required" />
+						</div>
+						<div class="col_4_alt">
+							<button if="btn_submit_search_header_by_code" class="m_btn_alt big_alt">Buscar</button>
+							<script type="text/javascript">
+								$('#btn_submit_search_header_by_code').click(function(e){						
+									e.preventDefault();
+									
+									sendOmnitureEventSearch($('#search-origin').val(),"","Search-by-code","","");
+									
+									setTimeout(function(){ 
+										$('#form-search-header-by-code').submit();
+									}, 500);
+								});
+								
+							    (function(h,o,t,j,a,r){
+							        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+							        h._hjSettings={hjid:966913,hjsv:6};
+							        a=o.getElementsByTagName('head')[0];
+							        r=o.createElement('script');r.async=1;
+							        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+							        a.appendChild(r);
+							    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+							</script>
+						</div>
+						<div class="enlace_alt">
+							<a>Búsqueda avanzada »</a>
+						</div>
+					</div>
+				<input type="hidden" name="_csrf" value="fe44aeb8-a13f-4913-b749-43d411c2063d" /></form>
+			</div>
+			<!-- Fin búsqueda código -->
+		</div>
+	</div>
+		</div>
+	</div>
+<div id="login" class="mfp-hide">
+    <div class="m_login">
+        <div class="m_login_bg"></div>
+        <div class="m_login_close" data-login-toggle=""></div>
+
+        <!-- Inicio Login -->
+        <div class="m_login_content login">
+            <div class="m_login_content_title">Ingresa a MetroCuadrado, el mejor portal inmobiliario de Colombia</div>
+            <div class="m_login_content_error" style="display: none;">Se ha producido un error en el servidor, inténtelo
+                más tarde
+            </div>
+            <form action="/cas/login?service=https://localhost:38080/metrocuadrado-home/login/cas" data-form-validate="" method="post" novalidate="novalidate">
+                <div class="input_box">
+                    <label for="j_username">Usuario</label>
+                    <input type="text" id="j_username" name="j_username" placeholder="Usuario" required="required" aria-required="true" />
+                </div>
+                <div class="input_box">
+                    <label for="j_password">Ingresar contraseña</label>
+                    <input type="password" id="j_password" name="j_password" placeholder="Clave" required="required" aria-required="true" />
+                </div>
+
+                <input type="submit" value="Ingresar" class="m_btn big" />
+
+                <div class="m_login_social" style="display: none;">
+                    <div class="col_social">
+                        <a href="#" class="m_btn fb">Ingresar con Facebook</a>
+                    </div>
+                    <div class="col_social">
+                        <a href="#" class="m_btn gp">Ingresar con Google</a>
+                    </div>
+                </div>
+
+                <div class="m_login_links">
+                    <div class="col_link">
+                        <a href="/metrocuadrado-header/restablecerContrasena">¿Olvidaste su contraseña?</a>
+                    </div>
+                    <div class="col_link">
+                        <a class="ir_registro" href="#">Regístrate</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <!-- Fin Login -->
+
+        <!-- Inicio Registro -->
+        <div class="m_login_content registro">
+            <div class="m_login_content_title">Ingresa a MetroCuadrado, el mejor portal inmobiliario de Colombia</div>
+            <div class="m_login_content_error" style="display: none;">Se ha producido un error en el servidor, inténtelo
+                más tarde
+            </div>
+            <p>Regístrate con una cuenta de correo</p>
+            <form action="#" data-form-validate="" novalidate="novalidate">
+                <div class="input_box">
+                    <label for="login_user">Ingrese un correo electrónico</label>
+                    <input type="email" id="login_user" for="login_user" placeholder="correo@mail.com" required="required" aria-required="true" />
+                </div>
+                <input type="submit" value="Crear cuenta" class="m_btn big" />
+                <p>O ingrese con</p>
+                <div class="m_login_social" style="display: none;">
+                    <div class="col_social">
+                        <a href="#" class="m_btn fb">Facebook</a>
+                    </div>
+                    <div class="col_social">
+                        <a href="#" class="m_btn gp">Google</a>
+                    </div>
+                </div>
+
+                <div class="m_login_links">
+                    <a class="ir_login" href="#">Ya estoy registrado</a>
+                </div>
+
+            </form>
+        </div>
+        <!-- Fin Registro -->
+    </div>
+</div>
+
+<script type="text/javascript" src="/estatico/metrocuadrado-header-resources/dist/jsFilesHeaderInclude.min.js"></script>
+
+
+
+</div>
+		<!-- header th:replace="fragments/header :: header(false)">&nbsp;</header -->
+		<div class="m_home_splash_container">
+			<div class="m_home_splash">
+		<div class="m_home_splash_filter_image"></div>
+		<div class="m_home_splash_box" data-background-image="" onclick="sendOmnitureEventImagenFondo(181)" style="background-image: url(&quot;https://staging.metrocuadrado.com/estatico/backendbusiness/imageBank/image181.jpg?1551123055208&quot;);">
+			<img data-background-image-img-tablet="https://staging.metrocuadrado.com/estatico/backendbusiness/imageBank/imageTablet181.jpg?1551123055208" data-background-image-img-mobile="https://staging.metrocuadrado.com/estatico/backendbusiness/imageBank/imagePhone181.jpg?1551123055208" data-background-image-img="https://staging.metrocuadrado.com/estatico/backendbusiness/imageBank/image181.jpg?1551123055208" src="https://staging.metrocuadrado.com/estatico/backendbusiness/imageBank/image181.jpg?1551123055208" style="display: none;" />
+		</div>
+	</div>
+			<div class="m_home_splash_search" data-search-anchor="">
+		<h1>Encuentra inmuebles en venta y arriendo:</h1>
+		<div class="wrapper search_advanced">
+			<div class="m_header_search">
+				<form data-form-validate="" id="form-search-home" method="post" action="/metrocuadrado-home/" novalidate="novalidate">
+					<div class="m_header_search_content">
+						<div class="col_1">
+							<div class="form_select" id="busquedaTipoNegocio">
+								<span class="select webkit webkit72 not_msie custom-form_home-desktop-mtiponegocio responsive_select"><span class="select_content"><span class="select_button"><span class="select_button_icon"></span></span><span class="select_label"><span>Compra
+										Nuevo</span></span></span><select data-hidden-field-id="mtiponegocio" id="home-desktop-mtiponegocio">
+									<option value="venta-nuevo" selected="selected">Compra
+										Nuevo</option>
+									<option value="venta-usado">Compra Usado</option>
+									<option value="venta">Compra Nuevo y Usado</option>
+									<option value="arriendo">Arriendo</option>
+								</select></span>
+							</div>
+						</div>
+						<div class="col_2">
+							<div id="campo-selector-multiple" class="campo-selector-multiple">
+								<div class="campo-selector-multiple-seleccionados">Casas</div>
+								<div class="campo-selector-multiple-seleccionados" id="btn-selector-multiple-mobile">Casas</div>
+								<div id="btn-selector-multiple" class="btn-selector-multiple" align="center">
+									<img src="/estatico/metrocuadrado-header-resources/images/icons/svg/fake_select.svg" />
+								</div>
+								<div id="btn-selector-multiple-mobile" class="btn-selector-multiple" align="center">
+									<img src="/estatico/metrocuadrado-header-resources/images/icons/svg/fake_select.svg" />
+								</div>
+								<div class="fondo-selector-multiple-mobile"></div>
+								<div id="selector-multiple" class="selector-multiple" style="display: none;">
+									<img class="btn-selector-multiple-mobile-aceptar" id="btn-selector-multiple-cerrar" src="/estatico/metrocuadrado-header-resources/images/icons/svg/close.svg" />
+								
+									<div class="inmueble-check">
+										<input id="checkh_01" class="property-type-list-home" propertytype="casa" name="checkh_01" value="casas" type="checkbox" checked="checked" /> <label for="checkh_01" class="form_label form_label_inline">Casas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_02" class="property-type-list-home" propertytype="apartamento" name="checkh_02" value="apartamentos" type="checkbox" /> <label for="checkh_02" class="form_label form_label_inline">Apartamentos</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_03" class="property-type-list-home" propertytype="oficina" name="checkh_03" value="oficinas" type="checkbox" /> <label for="checkh_03" class="form_label form_label_inline">Oficinas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_04" class="property-type-list-home" propertytype="bodega" name="checkh_04" value="bodegas" type="checkbox" /> <label for="checkh_04" class="form_label form_label_inline">Bodegas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_05" class="property-type-list-home" propertytype="consultorio" name="checkh_05" value="consultorios" type="checkbox" /> <label for="checkh_05" class="form_label form_label_inline">Consultorios</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_06" class="property-type-list-home" propertytype="local" name="checkh_06" value="locales" type="checkbox" /> <label for="checkh_06" class="form_label form_label_inline">Locales</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_07" class="property-type-list-home" propertytype="lote" name="checkh_07" value="lotes" type="checkbox" /> <label for="checkh_07" class="form_label form_label_inline">Lotes</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_08" class="property-type-list-home" propertytype="finca" name="checkh_08" value="fincas" type="checkbox" /> <label for="checkh_08" class="form_label form_label_inline">Fincas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_09" class="property-type-list-home" propertytype="edificio-de-oficinas" name="checkh_09" value="edificios-oficinas" type="checkbox" />
+										<label for="checkh_09" class="form_label form_label_inline">Edificio
+											de oficinas</label>
+									</div>
+									<div class="inmueble-check">
+										<input id="checkh_10" class="property-type-list-home" propertytype="edificio-de-apartamentos" name="checkh_10" value="edificios-apartamentos" type="checkbox" /> <label for="checkh_10" class="form_label form_label_inline">Edificio de
+											apartamentos</label>
+									</div>
+									<input type="hidden" id="searchFrom" value="home" /> <a class="m_btn btn-selector-multiple-mobile-aceptar">Aceptar</a>
+								</div>
+							</div>
+						</div>
+						<div class="col_3">
+							<input type="text" name="city" id="home-desktop-location" class="search-by-location  home-advanced-search ui-autocomplete-input" placeholder="Ciudad. Zona o Barrio" autocomplete="off" />
+<!-- 								<div class="geo"> -->
+<!--          							 <a href="#" onclick="initLocation()" id="nearLocation"><img src="/estatico/metrocuadrado-header-resources/images/icons/png/geo.png" alt=""/></a> -->
+<!--        							</div>  -->
+						</div>
+						<div class="col_4">
+							<button id="btn_submit_search_home" class="m_btn big search-button" style="display: block;">Buscar</button>
+						</div>
+						<div class="m_home_splash_search_type button_word_code">Búsqueda
+							por código&gt;&gt;</div>
+					</div>
+					<input type="hidden" name="sfh" id="sfh" value="1" />
+				<input type="hidden" name="_csrf" value="4603ab90-5be3-4839-a300-81882dbcb420" /></form>
+			</div>
+		</div>
+		<div class="wrapper search_word_code" style="display: none;">
+			<div class="m_header_search">
+				<form data-form-validate="" method="post" id="form-search-home-by-code" action="https://staging.metrocuadrado.com/metrocuadrado-results/search/code" novalidate="novalidate">
+					<div class="m_header_search_content">
+						<div class="text_box">
+							<input type="text" name="propertyId" id="propertyId" placeholder="Buscar por código" />
+						</div>
+						<div class="button">
+							<button class="m_btn big" id="btn_submit_search_code_home">Buscar</button>
+						</div>
+						<div class="m_home_splash_search_type button_advanced">Búsqueda
+							avanzada&gt;&gt;</div>
+					</div>
+				<input type="hidden" name="_csrf" value="4603ab90-5be3-4839-a300-81882dbcb420" /></form>
+			</div>
+		</div>
+	</div>
+			<div>
+		
+		<!-- --> 
+		
+	</div>
+		</div>			
+		<div class="go_posting_mobile">
+  			<a href="http://www.metrocuadrado.com/publicar-inmuebles/">PUBLICA TU INMUEBLE</a>
+		</div>
+<!-- PANEL RELACIONADOS -->
+ 		<div class="panelRelacionados">
+		<div id="destacadosPanel" class="wrapper wrapper_space featured_project_active">
+			<!-- Inicio Destacado -->
+			<div class="m_home_featured_project active dos_destacados tamaño_dos_destacados">
+				<h2>Inmuebles Destacados</h2>
+				<div class="destacado_home destacados_dos">
+					<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/smarthome-146/5503-C00001?icid=home_bus_prodesta_AP CONSTRUCCIONES SA_SMARTHOME 146">
+					<img src="https://metrocuadrado.blob.core.windows.net/inmueblespru/5503-C00001-03/5503-C00001-03_4_x.jpg" />
+					</a>
+					<div class="description">
+						<div>
+							<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/smarthome-146/5503-C00001?icid=home_bus_prodesta_AP CONSTRUCCIONES SA_SMARTHOME 146">						
+								<h3>SMARTHOME 146</h3>
+							</a>
+						</div>
+						
+						<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/smarthome-146/5503-C00001?icid=home_bus_prodesta_AP CONSTRUCCIONES SA_SMARTHOME 146">												
+							<p>Apartamento en Venta CEDRITOS Bogotá D.C.</p>
+						</a>
+						<span class="price">$287.000.000</span><br /> <br />
+						<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/smarthome-146/5503-C00001?icid=home_bus_prodesta_AP CONSTRUCCIONES SA_SMARTHOME 146">Ver más</a>
+					</div>
+				</div>
+				<div class="destacado_home destacados_dos">
+					<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/gallery-loft-52/2032-C0003?icid=home_bus_prodesta_CONSTRUCTORA GALLERY SAS_GALLERY LOFT 52">
+					<img src="https://metrocuadrado.blob.core.windows.net/inmueblespru/2032-C0003-18/2032-C0003-18_7_x.jpg" />
+					</a>
+					<div class="description">
+						<div>
+							<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/gallery-loft-52/2032-C0003?icid=home_bus_prodesta_CONSTRUCTORA GALLERY SAS_GALLERY LOFT 52">						
+								<h3>GALLERY LOFT 52</h3>
+							</a>
+						</div>
+						
+						<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/gallery-loft-52/2032-C0003?icid=home_bus_prodesta_CONSTRUCTORA GALLERY SAS_GALLERY LOFT 52">												
+							<p>Apartamento en Venta CHAPINERO OCCIDENTAL Bogotá D.C.</p>
+						</a>
+						<span class="price">$218.034.028</span><br /> <br />
+						<a target="_blank" href="https://staging.metrocuadrado.com/proyecto/gallery-loft-52/2032-C0003?icid=home_bus_prodesta_CONSTRUCTORA GALLERY SAS_GALLERY LOFT 52">Ver más</a>
+					</div>
+				</div>
+			</div>
+			<!-- Fin Destacado -->
+			<div class="m_property_carousel ultimos-inmuebles tamano_uno">
+				<div class="m_property_carousel_title">
+					<h2>Inmuebles Recomendados</h2>
+				</div>
+				<div class="swiper-container" data-swiper-properties="" data-swiper-spv-desktop="4" data-swiper-spv-tablet="3" data-swiper-spv-mobile="1">
+					
+					<div class="swiper-wrapper" style="width: 872px; height: 371px;">
+						<div class="swiper-slide ancho-slider swiper-slide-visible swiper-slide-active" style="width: 147px; height: 371px;">
+							<div class="m_property_thumb">
+								<a class="m_slider_thumb" target="_blank" href="https://staging.metrocuadrado.com/proyecto/central-park/831-C0001">
+									<img alt="" src="https://metrocuadrado.blob.core.windows.net/inmueblespru/831-C0001-01/831-C0001-01_1_x.jpg" class="m_slider_thumb_image" />
+								</a>
+								<div class="m_property_thumb_content">
+									<a class="m_property_thumb_content_title" target="_blank" href="https://staging.metrocuadrado.com/proyecto/central-park/831-C0001">
+										<h3>Apartamento en Venta PARCELACIONES PANCE Cali</h3>
+									</a>
+									<dl class="m_property_thumb_content_price">
+										<dt>Valor Venta</dt>
+										<dd>$764.636.000</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide ancho-slider swiper-slide-visible" style="width: 147px; height: 371px;">
+							<div class="m_property_thumb">
+								<a class="m_slider_thumb" target="_blank" href="https://staging.metrocuadrado.com/inmueble/apartamento-en-arriendo-crespo-cartagena-de-indias/MC2313752">
+									<img alt="" src="https://metrocuadrado.blob.core.windows.net/inmueblespru/MC2313752/MC2313752_4_x.jpg" class="m_slider_thumb_image" />
+								</a>
+								<div class="m_property_thumb_content">
+									<a class="m_property_thumb_content_title" target="_blank" href="https://staging.metrocuadrado.com/inmueble/apartamento-en-arriendo-crespo-cartagena-de-indias/MC2313752">
+										<h3>Apartamento en Arriendo Crespo Cartagena de Indias</h3>
+									</a>
+									<dl class="m_property_thumb_content_price">
+										<dt>Valor Arriendo</dt>
+										<dd>$2.450.000</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pagination"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch swiper-visible-switch"></span></div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				var destacado = $('.panelRelacionados .m_home_featured_project');
+				if (destacado.length &gt; 0) {
+					$("#destacadosPanel").removeClass("sin-proyecto-destacado");
+				} else {
+					$("#destacadosPanel").addClass("sin-proyecto-destacado");
+				}
+			});
+			var tinmuembles = $(".m_property_carousel.ultimos-inmuebles .swiper-wrapper").children().size();
+	        console.log(tinmuembles);
+	        if(tinmuembles==2){
+	          $(".wrapper.featured_project_active .m_property_carousel").addClass('tamano_uno');
+	          $(".wrapper.featured_project_active .m_property_carousel .swiper-slide").addClass("ancho-slider");
+	          $(".m_home_featured_project.active.dos_destacados").addClass('tamaño_dos_destacados');
+	          $(".destacado_home").addClass('destacados_dos');
+	        }else if(tinmuembles==3){
+	          $(".wrapper.featured_project_active .m_property_carousel").addClass('tamano_dos');
+	        }else{
+	          $(".wrapper.featured_project_active .m_property_carousel").addClass('tamano_tres');
+	          $(".wrapper.featured_project_active .m_property_carousel .swiper-slide").addClass("ancho-slider-tres");
+	        };
+		</script>
+	</div>
+		<div class="wrapper">
+		<div class="l_tips_list"> 
+		    <h2>Herramientas Metrocuadrado</h2>
+		    <div class="tools_container">
+		    
+		    <div class="tool">
+		        <a href="/calculadora-poliza-seguro-arrendamiento/">
+		          <div class="calculadora"></div>
+		          <div>
+		            <h3>Calculadora de seguro de arriendo</h3>
+		            <p>Calcula cuánto debes pagar, por asegurar tu inmueble en arriendo</p>
+		          </div>
+		        </a>
+		      </div>
+		      
+		      <div class="tool">
+		        <a href="/publicar-inmuebles/consignment/firststep">
+		           <div class="casa"></div>
+		          <div>
+		            <h3>¿Quieres vender <br />tu inmueble?</h3>
+		            <p>Una inmobiliaria puede ayudar</p>
+		          </div>
+		        </a>
+		      </div>
+		    
+		      <div class="tool">
+		        <a href="/calculadora-credito-hipotecario-vivienda/">
+		          <div class="calculadora_credito"></div>
+		          <div>
+		            <h3>Calculadora <br />de crédito</h3>
+		            <p>¿Quieres saber cuánto te prestan para comprar tu casa?</p>
+		          </div>
+		        </a>
+		      </div>
+
+		      <div class="tool">
+				  <a href="https://www.metrocuadrado.com/noticias-staging/herramientas/precios-m2">
+					  <div class="precios"></div>
+					  <div>
+						  <h3>Precios <br />de M2</h3>
+						  <p>Acá te mostramos los precios de vivienda más populares</p>
+					  </div>
+				  </a>
+		      </div>
+		      <div class="tool">
+		        <a href="/publicar-inmuebles/solicitud-inmuebles/">
+		          <div class="building"></div>
+		          <div>
+		            <h3>¿Buscas <br />algo diferente?</h3> 
+		            <p>Nosotros te ayudamos a buscar tu inmueble</p>
+		          </div>
+		        </a>
+		      </div>
+		    </div>
+		</div>
+	</div>
+		<div class="wrapper wrapper_space">
+			<div class="m_property_carousel featured_projects">
+		<script type="text/javascript">
+			var imagen_noDisponible = '/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif';
+		</script>
+		<div class="m_property_carousel_title">
+			<h2>Proyectos destacados</h2>
+		</div>
+		<div class="swiper-container" data-swiper-properties="" data-swiper-spv-desktop="4" data-swiper-spv-tablet="3" data-swiper-spv-mobile="1">
+			<div class="swiper-wrapper" style="width: 1590px; height: 449px;">
+				<div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 300px; height: 449px;">
+					<div class="m_property_thumb">
+						<a class="m_slider_thumb" rel="nofollow" href="https://staging.metrocuadrado.com/proyecto/fique/1669-C0011?icid=home_bus_prodesta_MORANDI_Fique" onclick="sendOmnitureEventProyectosDestacadosPago('Casas en Venta en El paraiso, Chía')" target="_blank"> <img onerror="if(this.getAttribute('data-intento')==1) {this.setAttribute('data-intento', 2); this.src=this.getAttribute('data-src2');} else this.src=imagen_noDisponible;" alt="" data-intento="2" data-src2="https://e.metrocuadrado.com.s3.amazonaws.com/inmuebles/1669-C0011-01/1669-C0011-01_1.jpg" src="/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif" class="m_slider_thumb_image" />
+						</a>
+						<div class="m_property_thumb_content">
+							<a class="m_property_thumb_content_title" href="https://staging.metrocuadrado.com/proyecto/fique/1669-C0011?icid=home_bus_prodesta_MORANDI_Fique" onclick="sendOmnitureEventProyectosDestacadosPago('Casas en Venta en El paraiso, Chía')" target="_blank">
+								<h3>Casas en Venta en El paraiso, Chía</h3>
+							</a>
+							<dl class="m_property_thumb_content_price">
+								<dt>Precio de venta</dt>
+								<dd>$388.000.000</dd>
+							</dl>
+							<div class="m_property_thumb_content_details">
+								<dl>
+									<dt>Área (m<sup>2</sup>)</dt>
+									<dd>102</dd>
+								</dl>
+								<dl>
+									<dt>Habitaciones</dt>
+									<dd>3</dd>
+								</dl>
+								<dl>
+									<dt>Baños</dt>
+									<dd>4</dd>
+								</dl>
+								
+								
+								
+								
+							</div>
+						</div>
+						<div class="m_property_thumb_provider">
+							<img onerror="this.src=imagen_noDisponible;" alt="" style="width: 150px; height: 100px;" src="/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide-visible" style="width: 300px; height: 449px;">
+					<div class="m_property_thumb">
+						<a class="m_slider_thumb" rel="nofollow" href="https://staging.metrocuadrado.com/proyecto/mirador-de-san-carlos/4475-C00012?icid=home_bus_prodesta_GRAMA CONSTRUCCIONES_MIRADOR DE SAN CARLOS" onclick="sendOmnitureEventProyectosDestacadosPago('Apartamentos en Venta en Altos de pijaos, Bogotá D.C.')" target="_blank"> <img onerror="if(this.getAttribute('data-intento')==1) {this.setAttribute('data-intento', 2); this.src=this.getAttribute('data-src2');} else this.src=imagen_noDisponible;" alt="" data-intento="2" data-src2="https://e.metrocuadrado.com.s3.amazonaws.com/inmuebles/4475-C00012-02/4475-C00012-02_1.jpg" src="/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif" class="m_slider_thumb_image" />
+						</a>
+						<div class="m_property_thumb_content">
+							<a class="m_property_thumb_content_title" href="https://staging.metrocuadrado.com/proyecto/mirador-de-san-carlos/4475-C00012?icid=home_bus_prodesta_GRAMA CONSTRUCCIONES_MIRADOR DE SAN CARLOS" onclick="sendOmnitureEventProyectosDestacadosPago('Apartamentos en Venta en Altos de pijaos, Bogotá D.C.')" target="_blank">
+								<h3>Apartamentos en Venta en Altos de pijaos, Bogotá D.C.</h3>
+							</a>
+							<dl class="m_property_thumb_content_price">
+								<dt>Precio de venta</dt>
+								<dd>$139.400.000</dd>
+							</dl>
+							<div class="m_property_thumb_content_details">
+								<dl>
+									<dt>Área (m<sup>2</sup>)</dt>
+									<dd>45</dd>
+								</dl>
+								<dl>
+									<dt>Habitaciones</dt>
+									<dd>3</dd>
+								</dl>
+								<dl>
+									<dt>Baños</dt>
+									<dd>2</dd>
+								</dl>
+								
+								
+								
+								
+							</div>
+						</div>
+						<div class="m_property_thumb_provider">
+							<img onerror="this.src=imagen_noDisponible;" alt="" style="width: 150px; height: 100px;" src="/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide-visible" style="width: 300px; height: 449px;">
+					<div class="m_property_thumb">
+						<a class="m_slider_thumb" rel="nofollow" href="https://staging.metrocuadrado.com/proyecto/pionono-art/448-C0006?icid=home_bus_prodesta_FENIX CONSTRUCCIONES_PIONONO ART" onclick="sendOmnitureEventProyectosDestacadosPago('Apartamentos en Venta en Sopo, Sopo (Incluye Yerbabuena)')" target="_blank"> <img onerror="if(this.getAttribute('data-intento')==1) {this.setAttribute('data-intento', 2); this.src=this.getAttribute('data-src2');} else this.src=imagen_noDisponible;" alt="" data-intento="2" data-src2="https://e.metrocuadrado.com.s3.amazonaws.com/inmuebles/448-C0006-02/448-C0006-02_1.jpg" src="/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif" class="m_slider_thumb_image" />
+						</a>
+						<div class="m_property_thumb_content">
+							<a class="m_property_thumb_content_title" href="https://staging.metrocuadrado.com/proyecto/pionono-art/448-C0006?icid=home_bus_prodesta_FENIX CONSTRUCCIONES_PIONONO ART" onclick="sendOmnitureEventProyectosDestacadosPago('Apartamentos en Venta en Sopo, Sopo (Incluye Yerbabuena)')" target="_blank">
+								<h3>Apartamentos en Venta en Sopo, Sopo (Incluye Yerbabuena)</h3>
+							</a>
+							<dl class="m_property_thumb_content_price">
+								<dt>Precio de venta</dt>
+								<dd>$461.962.019</dd>
+							</dl>
+							<div class="m_property_thumb_content_details">
+								<dl>
+									<dt>Área (m<sup>2</sup>)</dt>
+									<dd>102</dd>
+								</dl>
+								<dl>
+									<dt>Habitaciones</dt>
+									<dd>3</dd>
+								</dl>
+								<dl>
+									<dt>Baños</dt>
+									<dd>2</dd>
+								</dl>
+								
+								
+								
+								
+							</div>
+						</div>
+						<div class="m_property_thumb_provider">
+							<img onerror="this.src=imagen_noDisponible;" alt="" style="width: 150px; height: 100px;" src="/estatico/metrocuadrado-header-resources/images/foto_nodisponible.gif" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pagination"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch swiper-visible-switch"></span><span class="swiper-pagination-switch swiper-visible-switch"></span></div>
+		</div>
+	</div>
+		</div>
+		<div class="footer">
+		<div class="m_real_estate_list">
+			<div class="wrapper">
+				<h2 class="title">Inmuebles en venta o arriendo en Colombia</h2>
+				<div class="col" data-m-collapse="visible">
+					<h3 class="title-col" data-m-collapse-link="">Apartamentos en venta y arriendo</h3>
+					<!-- Inicio Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<div class="boton_enlaces abrir uno"></div>
+					<div class="boton_enlaces cerrar uno"></div>
+					<!--  Fin Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<ul data-m-collapse-content="" class="m_list list_1">
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/armenia/">
+									<h4>Apartamentos en arriendo Armenia</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/barranquilla/">
+									<h4>Apartamentos en arriendo Barranquilla</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/bello/">
+									<h4>Apartamentos en arriendo Bello</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/bogota/">
+									<h4>Apartamentos en arriendo Bogotá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/bucaramanga/">
+									<h4>Apartamentos en arriendo Bucaramanga</h4>
+								</a>
+							</li>
+							<li class="view_more">
+								<a>
+									<h4>Ver más</h4>
+									
+								</a>
+							</li>
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/cajica/">
+									<h4>Apartamentos en arriendo Cajicá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/cali/">
+									<h4>Apartamentos en arriendo Cali</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/cartagena/">
+									<h4>Apartamentos en arriendo Cartagena</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/chia/">
+									<h4>Apartamentos en arriendo Chía</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/cucuta/">
+									<h4>Apartamentos en arriendo Cúcuta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/envigado/">
+									<h4>Apartamentos en arriendo Envigado</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/floridablanca/">
+									<h4>Apartamentos en arriendo Floridablanca</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/ibague/">
+									<h4>Apartamentos en arriendo Ibagué</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/itagui/">
+									<h4>Apartamentos en arriendo Itaguí</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/medellin/">
+									<h4>Apartamentos en arriendo Medellín</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/mosquera/">
+									<h4>Apartamentos en arriendo Mosquera</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/sabaneta/">
+									<h4>Apartamentos en arriendo Sabaneta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/santa-marta/">
+									<h4>Apartamentos en arriendo Santa Marta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/soacha/">
+									<h4>Apartamentos en arriendo Soacha</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/villavicencio/">
+									<h4>Apartamentos en arriendo Villavicencio</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/armenia/">
+									<h4>Apartamentos en venta Armenia</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/barranquilla/">
+									<h4>Apartamentos en venta Barranquilla</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/bello/">
+									<h4>Apartamentos en venta Bello</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/bogota/">
+									<h4>Apartamentos en venta Bogotá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/bucaramanga/">
+									<h4>Apartamentos en venta Bucaramanga</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/cajica/">
+									<h4>Apartamentos en venta Cajicá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/cali/">
+									<h4>Apartamentos en venta Cali</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/cartagena/">
+									<h4>Apartamentos en venta Cartagena</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/chia/">
+									<h4>Apartamentos en venta Chía</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/envigado/">
+									<h4>Apartamentos en venta Envigado</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/floridablanca/">
+									<h4>Apartamentos en venta Floridablanca</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/itagui/">
+									<h4>Apartamentos en venta Itaguí</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/manizales/">
+									<h4>Apartamentos en venta Manizales</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/medellin/">
+									<h4>Apartamentos en venta Medellín</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/mosquera/">
+									<h4>Apartamentos en venta Mosquera</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/pereira/">
+									<h4>Apartamentos en venta Pereira</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/sabaneta/">
+									<h4>Apartamentos en venta Sabaneta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/santa-marta/">
+									<h4>Apartamentos en venta Santa Marta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/tunja/">
+									<h4>Apartamentos en venta Tunja</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/villavicencio/">
+									<h4>Apartamentos en venta Villavicencio</h4>
+								</a>
+							</li>
+							<li class="view_less">
+								<a>
+									
+									<h4>Ver menos</h4>
+								</a>
+							</li>
+						</div>
+
+					</ul>
+				</div>
+				<div class="col" data-m-collapse="visible">
+					<h3 class="title-col" data-m-collapse-link="">Casas en venta y arriendo</h3>
+					<!-- Inicio Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<div class="boton_enlaces abrir uno"></div>
+					<div class="boton_enlaces cerrar uno"></div>
+					<!--  Fin Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<ul data-m-collapse-content="" class="m_list list_2">
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/barranquilla/">
+									<h4>Casas en arriendo Barranquilla</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/bello/">
+									<h4>Casas en arriendo Bello</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/bogota/">
+									<h4>Casas en arriendo Bogotá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/bucaramanga/">
+									<h4>Casas en arriendo Bucaramanga</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/cartagena/">
+									<h4>Casas en arriendo Cartagena</h4>
+								</a>
+							</li>
+							<li class="view_more">
+								<a>
+									<h4>Ver más</h4>
+									
+								</a>
+							</li>
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/cali/">
+									<h4>Casas en arriendo Cali</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/chia/">
+									<h4>Casas en arriendo Chía</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/cota/">
+									<h4>Casas en arriendo Cota</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/envigado/">
+									<h4>Casas en arriendo Envigado</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/funza/">
+									<h4>Casas en arriendo Funza</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/fusagasuga/">
+									<h4>Casas en arriendo Fusagasuga</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/itagui/">
+									<h4>Casas en arriendo Itaguí</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/jamundi/">
+									<h4>Casas en arriendo Jamundí</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/la-calera/">
+									<h4>Casas en arriendo La Calera</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/medellin/">
+									<h4>Casas en arriendo Medellín</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/mosquera/">
+									<h4>Casas en arriendo Mosquera</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/rionegro/">
+									<h4>Casas en arriendo Rionegro</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/sabaneta/">
+									<h4>Casas en arriendo Sabaneta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/santa-marta/">
+									<h4>Casas en arriendo Santa Marta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/villavicencio/">
+									<h4>Casas en arriendo Villavicencio</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/armenia/">
+									<h4>Casas en venta Armenia</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/barranquilla/">
+									<h4>Casas en venta Barranquilla</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/bello/">
+									<h4>Casas en venta Bello</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/bogota/">
+									<h4>Casas en venta Bogotá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/bucaramanga/">
+									<h4>Casas en venta Bucaramanga</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/cajica/">
+									<h4>Casas en venta Cajicá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/cali/">
+									<h4>Casas en venta Cali</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/cartagena/">
+									<h4>Casas en venta Cartagena</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/chia/">
+									<h4>Casas en venta Chía</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/cucuta/">
+									<h4>Casas en venta Cúcuta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/envigado/">
+									<h4>Casas en venta Envigado</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/fusagasuga/">
+									<h4>Casas en venta Fusagasuga</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/ibague/">
+									<h4>Casas en venta Ibagué</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/medellin/">
+									<h4>Casas en venta Medellín</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/neiva/">
+									<h4>Casas en venta Neiva</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/palmira/">
+									<h4>Casas en venta Palmira</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/pereira/">
+									<h4>Casas en venta Pereira</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/santa-marta/">
+									<h4>Casas en venta Santa Marta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/tunja/">
+									<h4>Casas en venta Tunja</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/villavicencio/">
+									<h4>Casas en venta Villavicencio</h4>
+								</a>
+							</li>
+							<li class="view_less">
+								<a>
+									
+									<h4>Ver menos</h4>
+								</a>
+							</li>
+						</div>
+
+					</ul>
+				</div>
+				<div class="col" data-m-collapse="visible">
+					<h3 class="title-col" data-m-collapse-link="">Proyectos de vivienda nueva en Colombia</h3>
+					<!-- Inicio Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<div class="boton_enlaces abrir uno"></div>
+					<div class="boton_enlaces cerrar uno"></div>
+					<!--  Fin Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<ul data-m-collapse-content="" class="m_list list_3">
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/">
+									<h4>Proyectos de vivienda en Colombia</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/anapoima/">
+									<h4>Proyectos de vivienda en Anapoima</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/arbelaez/">
+									<h4>Proyectos de vivienda en Arbelaez</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/armenia/">
+									<h4>Proyectos de vivienda en Armenia</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/barranquilla/">
+									<h4>Proyectos de vivienda en Barranquilla</h4>
+								</a>
+							</li>
+							<li class="view_more">
+								<a>
+									<h4>Ver más</h4>
+									
+								</a>
+							</li>
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/bogota/">
+									<h4>Proyectos de vivienda en Bogotá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/bucaramanga/">
+									<h4>Proyectos de vivienda en Bucaramanga</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/cajica/">
+									<h4>Proyectos de vivienda en Cajicá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/cali/">
+									<h4>Proyectos de vivienda en Cali</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/cartagena/">
+									<h4>Proyectos de vivienda en Cartagena</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/cartago/">
+									<h4>Proyectos de vivienda en Cartago</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/chia/">
+									<h4>Proyectos de vivienda en Chía</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/cota/">
+									<h4>Proyectos de vivienda en Cota</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/envigado/">
+									<h4>Proyectos de vivienda en Envigado</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/floridablanca/">
+									<h4>Proyectos de vivienda en Floridablanca</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/funza/">
+									<h4>Proyectos de vivienda en Funza</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/ibague/">
+									<h4>Proyectos de vivienda en Ibagué</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/jamundi/">
+									<h4>Proyectos de vivienda en Jamundí</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/la-calera/">
+									<h4>Proyectos de vivienda en La Calera</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/madrid/">
+									<h4>Proyectos de vivienda en Madrid</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/malambo/">
+									<h4>Proyectos de vivienda en Malambo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/medellin/">
+									<h4>Proyectos de vivienda en Medellín</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/melgar/">
+									<h4>Proyectos de vivienda en Melgar</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/mosquera/">
+									<h4>Proyectos de vivienda en Mosquera</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/neiva/">
+									<h4>Proyectos de vivienda en Neiva</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/pereira/">
+									<h4>Proyectos de vivienda en Pereira</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/puerto-colombia/">
+									<h4>Proyectos de vivienda en Puerto Colombia</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/ricaurte/">
+									<h4>Proyectos de vivienda en Ricaurte</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/sabaneta/">
+									<h4>Proyectos de vivienda en Sabaneta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/santa-marta/">
+									<h4>Proyectos de vivienda en Santa Marta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/soacha/">
+									<h4>Proyectos de vivienda en Soacha</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/sogamoso/">
+									<h4>Proyectos de vivienda en Sogamoso</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/soledad/">
+									<h4>Proyectos de vivienda en Soledad</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/sopo/">
+									<h4>Proyectos de vivienda en Sopó</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/tocancipa/">
+									<h4>Proyectos de vivienda en Tocancipá</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/tunja/">
+									<h4>Proyectos de vivienda en Tunja</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/valledupar/">
+									<h4>Proyectos de vivienda en Valledupar</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/villavicencio/">
+									<h4>Proyectos de vivienda en Villavicencio</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/villeta/">
+									<h4>Proyectos de vivienda en Villeta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/proyectos-vivienda-nueva/zipaquira/">
+									<h4>Proyectos de vivienda en Zipaquirá</h4>
+								</a>
+							</li>
+							<li class="view_less">
+								<a>
+									
+									<h4>Ver menos</h4>
+								</a>
+							</li>
+						</div>
+
+					</ul>
+				</div>
+				<div class="col" data-m-collapse="visible">
+					<h3 class="title-col" data-m-collapse-link="">Otros inmuebles en venta y arriendo</h3>
+					<!-- Inicio Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<div class="boton_enlaces abrir uno"></div>
+					<div class="boton_enlaces cerrar uno"></div>
+					<!--  Fin Botón desplegar enlaces (previsualización para tablet y móvil) -->
+					<ul data-m-collapse-content="" class="m_list list_4">
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/bodegas/arriendo/">
+									<h4>Bodegas en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/bodegas/venta/">
+									<h4>Bodegas en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/arriendo/">
+									<h4>Casas en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/casas/venta/">
+									<h4>Casas en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/consultorios/arriendo/">
+									<h4>Consultorios en arriendo</h4>
+								</a>
+							</li>
+							<li class="view_more">
+								<a>
+									<h4>Ver más</h4>
+									
+								</a>
+							</li>
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/consultorios/venta/">
+									<h4>Consultorios en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/edificios-de-apartamentos/arriendo/">
+									<h4>Edificios de apartamentos en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/edificios-apartamentos/venta/">
+									<h4>Edificios de apartamentos en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/edificios-de-oficinas/arriendo/">
+									<h4>Edificios de oficinas en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/edificios-de-oficinas/venta/">
+									<h4>Edificios de oficinas en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/fincas/arriendo/">
+									<h4>Fincas en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/fincas/venta/">
+									<h4>Fincas en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/inmuebles/arriendo/">
+									<h4>Inmuebles en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/inmuebles/venta/">
+									<h4>Inmuebles en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/locales/arriendo/">
+									<h4>Locales en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/locales/venta/">
+									<h4>Locales en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/lotes/arriendo/">
+									<h4>Lotes en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/lotes/venta/">
+									<h4>Lotes en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/oficinas/arriendo/">
+									<h4>Oficinas en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/oficinas/venta/">
+									<h4>Oficinas en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/arriendo/">
+									<h4>Apartamentos en arriendo</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							<li>
+								<a href="http://www.metrocuadrado.com/apartamentos/venta/">
+									<h4>Apartamentos en venta</h4>
+								</a>
+							</li>
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							
+						</div>
+						<div>
+							
+							<li class="view_less">
+								<a>
+									
+									<h4>Ver menos</h4>
+								</a>
+							</li>
+						</div>
+
+					</ul>
+				</div>
+			</div>
+			<!-- ./wrapper -->
+		</div>
+		<div id="footer">
+
+
+	<!-- ./m_real_estate_list -->
+	<div class="m_contact_social">
+		<div class="wrapper">
+			<div class="contact">
+				<div class="col">
+					<h3 class="title">
+						Oficinas<br />Metrocuadrado
+					</h3>
+					<p>
+						Avenida de calle 26 No. 68B-70<br /> Casa Editorial El Tiempo.
+						Bogotá.<br />Colombia.<br /> (571)425 1734.
+					</p>
+				</div>
+				<div class="col last">
+					<strong>Línea Nacional: </strong>
+					<p>
+						01 8000 115 252
+					</p>
+				</div>
+			</div>
+
+			<div class="col s-col social">
+				<h3 class="title">Síguenos en</h3>
+				<ul>
+					<li><a href="https://twitter.com/metrocuadrado" target="_blank"><span class="sm_tw">Tweeter</span></a></li>					
+					<li><a href="http://www.facebook.com/metrocuadradocom" target="_blank"><span class="sm_fb">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/metrocuadradooficial/?utm_source=ig_profile_share&amp;igshid=1srxatoub206l" target="_blank"><span class="sm_go">Instagram</span></a></li>
+					<li><a href="https://www.youtube.com/user/METROCUADRADOcom" target="_blank"><span class="sm_yt">You Tube</span></a></li>	
+				</ul>
+			</div>
+		</div>
+		<!-- ./wrapper -->
+	</div>
+	<!-- ./m_contact_social-->
+	<div class="m_footer_others">
+		<div class="wrapper">
+			<ul class="legal">
+				<li><a rel="nofollow" href="/metrocuadrado-header/terminoscondiciones" target="_blank">Política
+						y términos</a></li>
+				<li><a rel="nofollow" href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso de privacidad</a></li>
+				<li><a rel="nofollow" href="/metrocuadrado-header/politicaCookies" target="_blank">
+					   Política Datos de Navegación</a></li>
+				<li><a rel="nofollow" href="https://www.eltiempo.com/linea-etica" target="_blank">
+					   Línea Ética</a></li>
+				<li><a rel="nofollow" href="/metrocuadrado-header/contactenos?tipoContacto=quejasYReclamos" target="_blank">Quejas
+						y reclamos</a></li>
+				<li><a rel="nofollow" href="/metrocuadrado-header/ayuda" target="_blank">Ayuda</a></li>
+			</ul>
+			<hr />
+			<h3 class="title">Nuestros portales especializados</h3>
+			<ul class="portals_icons">
+				<li><a href="https://clasificados.eltiempo.com/" target="blank"><span class="pt_clasified">El tiempo clasificados</span></a></li>
+				<li><a href="http://www.elempleo.com/colombia/trabajo/ofertas.aspx" target="blank"><span class="pt_job">El empleo</span></a></li>
+				<li><a href="http://www.carroya.com/" target="blank"><span class="pt_motor">Carroya</span></a></li>
+				<li><a href="http://www.guiaacademica.com/" target="blank"><span class="pt_studies">guia académica</span></a></li>
+				<li><a href="https://goo.gl/KJk6hu" target="blank"><span class="pt_contrato">TratoconTrato</span></a></li>
+			</ul>
+			<hr />
+			<div class="logo_tiempo">
+				<a href="http://www.eltiempo.com/" target="blank">
+					<span> el tiempo </span></a>
+			</div>
+			<div class="info-logo-superint">
+				<p class="info">
+					Copyright © <span id="copyright-year">2019</span>
+					Metrocuadrado.com. Usar este site implica que aceptas nuestras
+					<a href="/metrocuadrado-header/terminoscondiciones" target="_blank"> Políticas y Términos</a> | 
+					<a href="/metrocuadrado-header/avisoprivacidad" target="_blank"> Aviso de Privacidad</a> | 
+					<a href="/metrocuadrado-header/politicaCookies" target="_blank"> Política datos de Navegación</a>
+					<br /> Prohibida su reproducción total o
+					parcial, así como su traducción a cualquier idioma sin autorización
+					escrita de su titular.
+				</p>
+				<a href="http://www.sic.gov.co/" target="blank"><img src="/estatico/metrocuadrado-header-resources/images/icons/png/logo_super_industria_comercio.png" alt="Logo - Superintendencia de Industria y comercio" /></a>
+			</div>
+			<div class="portals_list">
+				<div class="accordion_footer">
+					<div data-collapsable="" class="accordion_collapsable tct-collapsable--collapsed" data-collapsable-group="group_01">
+						<a class="title" href="#" data-collapsable-toggle="">Conoce nuestra red de portales</a>
+						<div data-collapsable-content="" class="tct-collapsable__content--animated tct-collapsable__content">
+							<ul class="col s-col">
+								<li><a href="http://www.portafolio.co/" target="blank">PORTAFOLIO.CO</a>
+									Noticias de Economía</li>
+								<li><a href="http://bogota.vive.in/bogota/index.html" target="blank">VIVE.IN</a> Planes en Bogotá</li>
+								<li><a href="http://www.futbolred.com/" target="blank">FUTBOLRED.COM</a>
+									Fútbol colombiano</li>
+								<li><a href="http://www.carroya.com/" target="blank">CARROYA.COM</a>
+									Venta de carros</li>
+								<li><a href="http://www.revistadonjuan.com/" target="blank">REVISTADONJUAN.COM</a>
+									Fotos de mujeres</li>
+							</ul>
+							<ul class="col s-col">
+								<li><a href="http://www.abcdelbebe.com/" target="blank">ABCDELBEBÉ.COM</a>
+									Embarazo</li>
+								<li><a href="http://www.eltiempo.com/revista-motor" target="blank">MOTOR.COM.CO</a> Carros y motos</li>
+								<li><a href="http://diarioadn.co/" target="blank">DIARIOADN.CO</a>
+									Noticias de Bogotá</li>
+								<li><a href="http://www.guiaacademica.com/" target="blank">GUIA
+										ACADEMICA.COM</a> Educación en Colombia</li>
+								<li><a href="http://alo.co/" target="blank">ALO.CO</a>
+									Consejos para mujeres</li>
+							</ul>
+							<ul class="col s-col">
+								<li><a href="http://www.elempleo.com/colombia/trabajo/ofertas.aspx" target="blank">ELEMPLEO.COM</a> Clasificados de trabajo</li>
+								<li><a href="http://www.circulodelectores.com.co/" target="blank">CÍRCULODELECTORES.COM.CO</a> Venta de
+									libros</li>
+								<li><a href="https://clasificados.eltiempo.com/" target="blank">CLASIFICADOS.ELTIEMPO.COM</a> Clasificados</li>
+								<li><a href="http://www.citytv.com.co/" target="blank">CITYTV.COM.CO</a>
+									Videos de entretenimiento</li>
+								<li><a href="http://www.eltiempo.com/" target="blank">ELTIEMPO.COM</a>
+									Portal de noticias</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ./portal_list -->
+		</div>
+		<!-- ./wrapper -->
+	</div>
+	<script src="/estatico/metrocuadrado-detail/js/jquery.cookie.js"></script>
+ 	<script src="/estatico/metrocuadrado-detail/js/clearCookiesContact.js"></script>
+ 	<script type="text/javascript">_satellite.pageBottom();</script><!-- Begin BlueKai Tag -->
+<script type="text/javascript">
+  //md5 and sha256 provided by https://github.com/jbt/js-crypto
+  var bket_md5 = function(){for(var m=[],l=0;64&gt;l;)m[l]=0|4294967296*Math.abs(Math.sin(++l));return function(c){var e,g,f,a,h=[];c=unescape(encodeURI(c));for(var b=c.length,k=[e=1732584193,g=-271733879,~e,~g],d=0;d&lt;=b;)h[d&gt;&gt;2]|=(c.charCodeAt(d)||128)&lt;&lt;8*(d++%4);h[c=16*(b+8&gt;&gt;6)+14]=8*b;for(d=0;d&lt;c;d+=16){b=k;for(a=0;64&gt;a;)b=[f=b[3],(e=b[1]|0)+((f=b[0]+[e&amp;(g=b[2])|~e&amp;f,f&amp;e|~f&amp;g,e^g^f,g^(e|~f)][b=a&gt;&gt;4]+(m[a]+(h[[a,5*a+1,3*a+5,7*a][b]%16+d]|0)))&lt;&lt;(b=[7,12,17,22,5,9,14,20,4,11,16,23,6,10,15,21][4*b+a++%4])|f&gt;&gt;&gt;32-b),e,g];for(a=4;a;)k[--a]=k[a]+b[a]}for(c="";32&gt;a;)c+=(k[a&gt;&gt;3]&gt;&gt;4*(1^a++&amp;7)&amp;15).toString(16);return c}}();
+  var bket_sha256 = function(){function e(a,b){return a&gt;&gt;&gt;b|a&lt;&lt;32-b}for(var b=1,a,m=[],n=[];18&gt;++b;)for(a=b*b;312&gt;a;a+=b)m[a]=1;b=1;for(a=0;313&gt;b;)m[++b]||(n[a]=Math.pow(b,.5)%1*4294967296|0,m[a++]=Math.pow(b,1/3)%1*4294967296|0);return function(g){for(var l=n.slice(b=0),c=unescape(encodeURI(g)),h=[],d=c.length,k=[],f,p;b&lt;d;)k[b&gt;&gt;2]|=(c.charCodeAt(b)&amp;255)&lt;&lt;8*(3-b++%4);d*=8;k[d&gt;&gt;5]|=128&lt;&lt;24-d%32;k[p=d+64&gt;&gt;5|15]=d;for(b=0;b&lt;p;b+=16){for(c=l.slice(a=0,8);64&gt;a;c[4]+=f)h[a]=16&gt;a?k[a+b]:(e(f=h[a-2],17)^e(f,19)^f&gt;&gt;&gt;10)+(h[a-7]|0)+(e(f=h[a-15],7)^e(f,18)^f&gt;&gt;&gt;3)+(h[a-16]|0),c.unshift((f=(c.pop()+(e(g=c[4],6)^e(g,11)^e(g,25))+((g&amp;c[5]^~g&amp;c[6])+m[a])|0)+(h[a++]|0))+(e(d=c[0],2)^e(d,13)^e(d,22))+(d&amp;c[1]^c[1]&amp;c[2]^c[2]&amp;d));for(a=8;a--;)l[a]=c[a]+l[a]}for(c="";63&gt;a;)c+=(l[++a&gt;&gt;3]&gt;&gt;4*(7-a%8)&amp;15).toString(16);return c}}();
+
+  function bket_hash(str) {
+    bket_hash_time(str, 24 * 365);
+  }
+
+  function bket_hash_time(str, exphours) {
+    if (str != "") {
+      str = str.toLowerCase();
+      var email = str.substring(0, str.indexOf("@"));
+      var hash = bket_md5(email);
+      hash = str + hash;
+      hash = bket_sha256(hash);
+
+      if (bket_get_cookie("bket_i") != hash) {
+        bket_set_cookie("bket_i", hash, exphours);
+        bket_delete_cookie("bket_e");
+        bket_check_hash();
+      }
+    }
+  }
+
+  function bket_check_hash() {
+    var id = bket_get_cookie("bket_i");
+    if (id != "") {
+      var exp = bket_get_cookie("bket_e");
+      if (exp == "") {
+        //Create expiration cookie valid for 6 days
+        bket_set_cookie("bket_e", Math.random() * 100, 6 * 24);
+
+        //Call bluekai tag
+        bk_addPageCtx("id", id);
+
+        bk_allow_multiple_calls = true; 
+        bk_use_multiple_iframes = true;
+
+        BKTAG.doTag(_satellite.getDataElement('BK_CeetId'), 10);
+      }
+    }
+  }
+
+  function bket_set_cookie(cname, cval, exphours) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exphours * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cval + "; " + expires + ";path=/";
+  }
+
+  function bket_get_cookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i &lt; ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1);
+      if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+  }  
+
+  function bket_delete_cookie(cname) {
+    document.cookie = cname + '=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+  }
+
+  function bket_data_collection() {
+    bk_allow_multiple_calls = true; 
+    bk_use_multiple_iframes = true;
+
+    _satellite.getDataElement('BK_OmnitureVars');
+
+    if (typeof(BKTAG) == 'object') {
+      BKTAG.doTag(_satellite.getDataElement('BK_SiteId'), 10);
+    }
+  }
+
+  window.bk_async = function() {
+    if (typeof(bket_callback) == "function") {
+      bket_callback();
+    }
+
+    bket_check_hash();
+    bket_data_collection();
+  };
+
+  (function() {
+    var scripts = document.getElementsByTagName('script')[0];
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = "https://tags.bkrtx.com/js/bk-coretag.js";
+    scripts.parentNode.insertBefore(s, scripts);
+  }());
+</script>
+<!-- End BlueKai Tag -->
+ 	<script>
+
+		function getCopyRightYear(){
+		  var today = new Date();
+		  var year = today.getFullYear();
+		  document.getElementById("copyright-year").innerHTML = year;
+		}    
+    
+      $(function() {    	  
+    	getCopyRightYear();
+    	
+      });
+    </script>
+
+
+</div>
+		<input type="hidden" id="applicationBaseUrl" value="http://staging.metrocuadrado.com:80/metrocuadrado-home" />
+	</div>
+	</div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","377932179323948");fbq("track","PageView");</script>
+<noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=377932179323948&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+
+<script type="text/javascript" id="">(function(d,a,b,f,e){d[e]=d[e]||[];d[e].push({projectId:"10000",properties:{pixelId:"10055189"}});var c=a.createElement(b);c.src=f;c.async=!0;c.onload=c.onreadystatechange=function(){var a=this.readyState,c=d[e];if(!a||"complete"==a||"loaded"==a)try{var b=YAHOO.ywa.I13N.fireBeacon;d[e]=[];d[e].push=function(a){b([a])};b(c)}catch(g){}};a=a.getElementsByTagName(b)[0];b=a.parentNode;b.insertBefore(c,a)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script><iframe src="//us.creativecdn.com/tags?id=pr_Zm8TDdsACFcLmvtdWjN5&amp;ncm=1" width="1" height="1" scrolling="no" frameborder="0" style="display: none;"></iframe>
+
+	<script type="text/javascript" async="async" defer="defer">
+		/*&lt;![CDATA[*/
+		
+		$(document).ready(
+				
+				function(){
+					//disable cache for header issue in IE
+					$.ajaxSetup({ cache: false });					
+					//var headerUrl = '/metrocuadrado-header/include?showSearchPanel=false&amp;includeScripts=false&amp;http://staging.metrocuadrado.com/metrocuadrado-home/';
+					//var footerUrl = '/estatico/metrocuadrado-footer/footer.html';
+					
+					$(document).ajaxStop(function(){
+						M2.init();
+						$(window).trigger('resize');
+					});
+					
+					initRelatedProperties();
+					
+					headerLoaded = true;
+
+					initLocationAutocomplete();
+					initStructuredSearch();	
+					initFilterValuesFromCookies();
+					initHeader();
+					
+					$("#csrfTokenInputRegister").val($("#csrfTokenInputHeader").val());
+					$("#csrfTokenInputLogin").val($("#csrfTokenInputHeader").val());
+					$("#displayUserName").val($("#displayUserNameHeader").val());
+					if (typeof validateLogin !== 'undefined') {
+					    validateLogin();
+					}
+					if (document.getElementById('enterHref') != null) {
+					    $("#enterHref").attr("href", document.getElementById('enterHref').href + location.href);
+					}
+					var link = document.getElementById('menuCloseSession');
+					if (link != null) {
+					    link.onclick = function(event) {
+							event.preventDefault();
+							var auth2 = gapi.auth2.getAuthInstance();
+							var target = event.target ? event.target : event.srcElement;
+							var logoutUrl = target.getAttribute('href');
+							if (FB.getUserID() != '') {
+							    fbLogout(logoutUrl);
+							} else if (auth2.currentUser.get().getBasicProfile() != undefined) {
+							    googleLogout(logoutUrl);
+							} else {
+							    window.location = logoutUrl;
+							}
+					    };
+					}
+					
+					//load("footer",footerUrl);
+					
+					
+				}
+		);
+
+		
+		/*]]&gt;*/
+	</script>
+
+
+
+	<!-- Inicio función cambiar buscador -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			gapi.load('auth2', function() {
+				gapi.auth2.init();
+			    });
+			
+			$(".m_home_splash_search_type.button_word_code").click(function() {
+				$('.search_word_code').css({
+					'display' : 'block'
+				});
+				$('.search_advanced').css({
+					'display' : 'none'
+				});
+			});
+			$(".m_home_splash_search_type.button_advanced").click(function() {
+				$('.search_word_code').css({
+					'display' : 'none'
+				});
+				$('.search_advanced').css({
+					'display' : 'block'
+				});
+			});
+		});
+	</script>
+	<!-- Fin función cambiar buscador -->
+
+	<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="async" defer="defer"></script>
+	<script>
+	var date = new Date(); //current date to create the cookie
+	var expires; //expire date of the cookie
+	var value; //cookie's value
+	var url =  window.location.href.substring(1);
+	var valor = url.search("utm_source=criteo")
+	
+	date.setTime(date.getTime()+(30*24*60*60*1000));
+	expires = date.toUTCString();
+	value = valor!=-1?"criteo":"other";
+	document.cookie = "__utmz=" + value + "; expires=" + expires + "; path=/";
+</script>
+
+	<script type="text/javascript">
+$( document ).ready(function() {
+		
+		&lt;!--  Tracker de Home  --&gt;
+		window.criteo_q = window.criteo_q || [];
+		var typeVar = identiDispositivo();
+		var emailVar = Cookies.get("memail"); 
+
+		window.criteo_q.push(
+		    { event: "setAccount", account: 25719 },
+		    { event: "setHashedEmail", email: (emailVar!=null) ? emailVar : "" },
+		    { event: "setSiteType", type: typeVar},
+		    { event: "viewHome" }
+		);
+
+		function identiDispositivo(){
+			
+			var dispositivo = navigator.userAgent;
+			
+			if (dispositivo.match(/Iphone/i)|| dispositivo.match(/Ipod/i)|| dispositivo.match(/Android/i)|| dispositivo.match(/J2ME/i)|| dispositivo.match(/BlackBerry/i)|| dispositivo.match(/iPhone|iPod/i)|| dispositivo.match(/Opera Mini/i)|| dispositivo.match(/IEMobile/i)|| dispositivo.match(/Mobile/i)|| dispositivo.match(/Windows Phone/i)|| dispositivo.match(/windows mobile/i)|| dispositivo.match(/windows ce/i)|| dispositivo.match(/webOS/i)|| dispositivo.match(/palm/i)|| dispositivo.match(/bada/i)|| dispositivo.match(/series60/i)|| dispositivo.match(/nokia/i)|| dispositivo.match(/symbian/i)|| dispositivo.match(/HTC/i)){
+				return "m";	
+			}
+			else if(dispositivo.match(/iPad/i)){
+				return "t";
+			}else{
+				return "d";
+			}
+		}
+	});
+</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+ 
+fbq('init', '1619515914954946');
+fbq('track', 'Lead');</script>
+	<noscript>
+		&lt;img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=1619515914954946&amp;amp;ev=PageView&amp;amp;noscript=1" /&gt;
+	</noscript>
+	<!-- End Facebook Pixel Code -->	
+	<script type="text/javascript">_satellite.pageBottom();</script><!-- Begin BlueKai Tag -->
+<script type="text/javascript">
+  //md5 and sha256 provided by https://github.com/jbt/js-crypto
+  var bket_md5 = function(){for(var m=[],l=0;64&gt;l;)m[l]=0|4294967296*Math.abs(Math.sin(++l));return function(c){var e,g,f,a,h=[];c=unescape(encodeURI(c));for(var b=c.length,k=[e=1732584193,g=-271733879,~e,~g],d=0;d&lt;=b;)h[d&gt;&gt;2]|=(c.charCodeAt(d)||128)&lt;&lt;8*(d++%4);h[c=16*(b+8&gt;&gt;6)+14]=8*b;for(d=0;d&lt;c;d+=16){b=k;for(a=0;64&gt;a;)b=[f=b[3],(e=b[1]|0)+((f=b[0]+[e&amp;(g=b[2])|~e&amp;f,f&amp;e|~f&amp;g,e^g^f,g^(e|~f)][b=a&gt;&gt;4]+(m[a]+(h[[a,5*a+1,3*a+5,7*a][b]%16+d]|0)))&lt;&lt;(b=[7,12,17,22,5,9,14,20,4,11,16,23,6,10,15,21][4*b+a++%4])|f&gt;&gt;&gt;32-b),e,g];for(a=4;a;)k[--a]=k[a]+b[a]}for(c="";32&gt;a;)c+=(k[a&gt;&gt;3]&gt;&gt;4*(1^a++&amp;7)&amp;15).toString(16);return c}}();
+  var bket_sha256 = function(){function e(a,b){return a&gt;&gt;&gt;b|a&lt;&lt;32-b}for(var b=1,a,m=[],n=[];18&gt;++b;)for(a=b*b;312&gt;a;a+=b)m[a]=1;b=1;for(a=0;313&gt;b;)m[++b]||(n[a]=Math.pow(b,.5)%1*4294967296|0,m[a++]=Math.pow(b,1/3)%1*4294967296|0);return function(g){for(var l=n.slice(b=0),c=unescape(encodeURI(g)),h=[],d=c.length,k=[],f,p;b&lt;d;)k[b&gt;&gt;2]|=(c.charCodeAt(b)&amp;255)&lt;&lt;8*(3-b++%4);d*=8;k[d&gt;&gt;5]|=128&lt;&lt;24-d%32;k[p=d+64&gt;&gt;5|15]=d;for(b=0;b&lt;p;b+=16){for(c=l.slice(a=0,8);64&gt;a;c[4]+=f)h[a]=16&gt;a?k[a+b]:(e(f=h[a-2],17)^e(f,19)^f&gt;&gt;&gt;10)+(h[a-7]|0)+(e(f=h[a-15],7)^e(f,18)^f&gt;&gt;&gt;3)+(h[a-16]|0),c.unshift((f=(c.pop()+(e(g=c[4],6)^e(g,11)^e(g,25))+((g&amp;c[5]^~g&amp;c[6])+m[a])|0)+(h[a++]|0))+(e(d=c[0],2)^e(d,13)^e(d,22))+(d&amp;c[1]^c[1]&amp;c[2]^c[2]&amp;d));for(a=8;a--;)l[a]=c[a]+l[a]}for(c="";63&gt;a;)c+=(l[++a&gt;&gt;3]&gt;&gt;4*(7-a%8)&amp;15).toString(16);return c}}();
+
+  function bket_hash(str) {
+    bket_hash_time(str, 24 * 365);
+  }
+
+  function bket_hash_time(str, exphours) {
+    if (str != "") {
+      str = str.toLowerCase();
+      var email = str.substring(0, str.indexOf("@"));
+      var hash = bket_md5(email);
+      hash = str + hash;
+      hash = bket_sha256(hash);
+
+      if (bket_get_cookie("bket_i") != hash) {
+        bket_set_cookie("bket_i", hash, exphours);
+        bket_delete_cookie("bket_e");
+        bket_check_hash();
+      }
+    }
+  }
+
+  function bket_check_hash() {
+    var id = bket_get_cookie("bket_i");
+    if (id != "") {
+      var exp = bket_get_cookie("bket_e");
+      if (exp == "") {
+        //Create expiration cookie valid for 6 days
+        bket_set_cookie("bket_e", Math.random() * 100, 6 * 24);
+
+        //Call bluekai tag
+        bk_addPageCtx("id", id);
+
+        bk_allow_multiple_calls = true; 
+        bk_use_multiple_iframes = true;
+
+        BKTAG.doTag(_satellite.getDataElement('BK_CeetId'), 10);
+      }
+    }
+  }
+
+  function bket_set_cookie(cname, cval, exphours) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exphours * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cval + "; " + expires + ";path=/";
+  }
+
+  function bket_get_cookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i &lt; ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1);
+      if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+  }  
+
+  function bket_delete_cookie(cname) {
+    document.cookie = cname + '=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+  }
+
+  function bket_data_collection() {
+    bk_allow_multiple_calls = true; 
+    bk_use_multiple_iframes = true;
+
+    _satellite.getDataElement('BK_OmnitureVars');
+
+    if (typeof(BKTAG) == 'object') {
+      BKTAG.doTag(_satellite.getDataElement('BK_SiteId'), 10);
+    }
+  }
+
+  window.bk_async = function() {
+    if (typeof(bket_callback) == "function") {
+      bket_callback();
+    }
+
+    bket_check_hash();
+    bket_data_collection();
+  };
+
+  (function() {
+    var scripts = document.getElementsByTagName('script')[0];
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = "https://tags.bkrtx.com/js/bk-coretag.js";
+    scripts.parentNode.insertBefore(s, scripts);
+  }());
+</script>
+<!-- End BlueKai Tag -->
+
+<script type="application/javascript" id="ywa-1551123056118-373657" class="ywa-10000" defer="" src="https://sp.analytics.yahoo.com/sp.pl?a=10000&amp;jsonp=YAHOO.ywa.I13N.handleJSONResponse&amp;d=Mon%2C%2025%20Feb%202019%2019%3A30%3A56%20GMT&amp;n=5&amp;b=Apartamentos%20y%20casas%20en%20venta%20o%20arriendo%20en%20Colombia%20-%20Metrocuadrado&amp;.yp=10055189&amp;f=https%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-home%2F&amp;e=https%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-results%2Fsearch%2Flist%2Fnon-ajax%2F%3F%26mnrogarajes%3D3%26mnrobanos%3D4%26mnrocuartos%3D4%26mtiempoconstruido%3Dsobre-plano%26marea%3D61-100%26mvalorarriendo%3D%26mvalorventa%3D200000001-250000000%26mciudad%3D%26mubicacion%3D%26mtiponegocio%3Dventa-nuevo-nuevo%26mtipoinmueble%3Dcasa%26mzona%3D%26msector%3D%26mbarrio%3D%26selectedLocationCategory%3D%26selectedLocationFilter%3D%26mestadoinmueble%3DNuevo%26madicionales%3D%26orderBy%3D%26sortType%3D%26companyType%3D%26companyName%3D%26midempresa%3D%26mgrupo%3D%26mgrupoid%3D%26mbasico%3D%26currentPage%3D1%26totalPropertiesCount%3D0%26totalUsedPropertiesCount%3D0%26totalNewPropertiesCount%3D0%26sfh%3D1&amp;enc=UTF-8"></script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-d831eecf6f5411af024c3acd759add17.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe name="__bkframe" id="__bkframe" title="bk" src="about:blank" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe name="__bkframe_35586_1551123056175" id="__bkframe_35586_1551123056175" title="bk" src="https://stags.bluekai.com/site/35586?ret=html&amp;phint=__bk_t%3DApartamentos%20y%20casas%20en%20venta%20o%20arriendo%20en%20Colombia%20-%20Metrocuadrado&amp;phint=__bk_k%3D&amp;phint=__bk_pr%3Dhttps%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-results%2Fsearch%2Flist%2Fnon-ajax%2F%3F%26mnrogarajes%3D3%26mnrobanos%3D4%26mnrocuartos%3D4%26mtiempoconstruido%3Dsobre-plano%26marea%3D61-100%26mvalorarriendo%3D%26mvalorventa%3D200000001-250000000%26mciudad%3D%26mubicacion%3D%26mtiponegocio%3Dventa-nuevo-nuevo%26mtipoinmueble%3Dcasa%26mzona%3D%26msector%3D%26mbarrio%3D%26selectedLocationCategory%3D%26selectedLocationFilter%3D%26mestadoinmueble%3DNuevo%26madicionales%3D%26orderBy%3D%26sortType%3D%26companyType%3D%26companyName%3D%26midempresa%3D%26mgrupo%3D%26mgrupoid%3D%26mbasico%3D%26currentPage%3D1%26totalPropertiesCount%3D0%26totalUsedPropertiesCount%3D0%26totalNewPropertiesCount%3D0%26sfh%3D1&amp;phint=__bk_l%3Dhttps%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-home%2F&amp;limit=10&amp;r=74999072" class="__bkframe_site_35586" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe name="__bkframe_35586_1551123056191" id="__bkframe_35586_1551123056191" title="bk" src="https://stags.bluekai.com/site/35586?ret=html&amp;phint=__bk_t%3DApartamentos%20y%20casas%20en%20venta%20o%20arriendo%20en%20Colombia%20-%20Metrocuadrado&amp;phint=__bk_k%3D&amp;phint=__bk_pr%3Dhttps%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-results%2Fsearch%2Flist%2Fnon-ajax%2F%3F%26mnrogarajes%3D3%26mnrobanos%3D4%26mnrocuartos%3D4%26mtiempoconstruido%3Dsobre-plano%26marea%3D61-100%26mvalorarriendo%3D%26mvalorventa%3D200000001-250000000%26mciudad%3D%26mubicacion%3D%26mtiponegocio%3Dventa-nuevo-nuevo%26mtipoinmueble%3Dcasa%26mzona%3D%26msector%3D%26mbarrio%3D%26selectedLocationCategory%3D%26selectedLocationFilter%3D%26mestadoinmueble%3DNuevo%26madicionales%3D%26orderBy%3D%26sortType%3D%26companyType%3D%26companyName%3D%26midempresa%3D%26mgrupo%3D%26mgrupoid%3D%26mbasico%3D%26currentPage%3D1%26totalPropertiesCount%3D0%26totalUsedPropertiesCount%3D0%26totalNewPropertiesCount%3D0%26sfh%3D1&amp;phint=__bk_l%3Dhttps%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-home%2F&amp;limit=10&amp;r=59758066" class="__bkframe_site_35586" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" src="https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fstaging.metrocuadrado.com&amp;rpcToken=1385571122.80016" style="position: absolute; width: 1px; height: 1px; left: -9999px; top: -9999px; right: -9999px; bottom: -9999px; display: none;"></iframe><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-3" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div id="ads"></div><div id="criteo-tags-div" style="display: none;"></div></body></html>

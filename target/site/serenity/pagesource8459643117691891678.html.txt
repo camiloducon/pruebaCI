@@ -1,0 +1,1588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" class=" js  progressbar meter"><head>
+	
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Usando bootstrap-3.3.5 -->
+   <title>Dashboard</title>
+   <link rel="shortcut icon" href="/estatico/favicon.ico" />
+	<meta name="_csrf" content="1263d443-871e-4441-966c-5786d2787150" />
+	<meta name="_csrf_header" content="X-CSRF-TOKEN" />
+	
+    <!-- Bootstrap -->
+    <link href="/estatico/m2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/constructores/css/m2.css" rel="stylesheet" />
+    <link href="/constructores/css/backproyecto.css" rel="stylesheet" />
+    <link href="/constructores/css/jquery-ui.css" rel="stylesheet" type="text/css" />    
+	<link href="/estatico/m2/js/jquery/qtip/jquery.qtip.min.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <script async="" charset="utf-8" src="https://v2.zopim.com/?54fe17etYAj1eCFrZNOGbvtUOfoxdJFg" type="text/javascript"></script><script type="text/javascript" src="/estatico/m2/js/jquery/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->    
+    <script type="text/javascript" src="/estatico/m2/js/jquery/jqueryui/jquery-ui.js"></script>
+	<script type="text/javascript" src="/estatico/m2/js/jquery/qtip/jquery.qtip.min.js"></script>
+	<script type="text/javascript" src="/estatico/m2/js/jquery/jqueryui/jquery.ui.datepicker-es.js"></script>
+	
+    <!--<script type="text/javascript"
+	src="/constructores/js/jquery/autocomplete.js"></script> -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+	<script type="text/javascript">
+		var s_account='eltiempometrocuadradodev';
+	</script>
+    <script type="text/javascript" src="/constructores/js/omniture/s_code.js"></script>
+    
+	<script type="text/javascript" src="/constructores/js/validarForm.js"></script>
+	<script type="text/javascript" src="/constructores/js/modernizr.js"></script>
+	<script type="text/javascript" src="/estatico/m2/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();  
+		    
+		    if (Modernizr.meter) {
+	            var progressbar = $('#progressbar'),
+	              max = progressbar.attr('max'),
+	              time = (1000/max)*5,  
+	                  value = progressbar.val();
+
+	              var loading = function() {
+	                  value += 1;
+	                  addValue = progressbar.val(value);
+	                  
+	                  $('.progress-value').html(value + '%');
+
+	                  if (value == max) {
+	                      clearInterval(animate);                
+	                  }
+	              };
+
+	              var animate = setInterval(function() {
+	                  loading();
+	              }, time);
+	       }
+		});
+	</script>
+	
+
+
+
+
+<script type="text/javascript" src="/estatico/m2/js/jquery/jquery.jqplot.js"></script>
+
+<script type="text/javascript" src="/constructores/js/require.js" data-main="/constructores/js/dashboard"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="dashboard" src="/constructores/js/dashboard.js"></script>
+	
+<!-- Omniture -->
+	
+    
+    
+    
+	
+	
+<style type="text/css">
+	.graphProjectByProptype, .graphProjectByProptype{
+		height:250px; 
+		width:250px;
+	}
+	.graphMail{
+		height:180px; 
+		width:180px;
+	}
+</style>
+
+<script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="order" src="/constructores/js/order.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="common/waitingMessages" src="/constructores/js/common/waitingMessages.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="plugins-requiere" src="/constructores/js/plugins-requiere.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="initialize" src="/constructores/js/initialize.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jquery.jqplot.js" src="/estatico/m2/js/jquery/jquery.jqplot.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="dateRangeSection/dateRangeSection" src="/constructores/js/dateRangeSection/dateRangeSection.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="otrasAcciones" src="/constructores/js/otrasAcciones.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="common/globalActions" src="/constructores/js/common/globalActions.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="graphs" src="/constructores/js/graphs.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="dashboard/projects" src="/constructores/js/dashboard/projects.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="dashboard/visits" src="/constructores/js/dashboard/visits.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="dashboard/mail" src="/constructores/js/dashboard/mail.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="dashboard/accountInfo" src="/constructores/js/dashboard/accountInfo.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="dashboard/alerts" src="/constructores/js/dashboard/alerts.js"></script><script type="text/javascript" charset="UTF-8" data-requirecontext="_" data-requiremodule="jquery/autocomplete" src="/constructores/js/jquery/autocomplete.js"></script><style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">.zopim { display: none !important }</style><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.pieRenderer.min.js" src="/estatico/m2/js/jquery/jplot/jqplot.pieRenderer.min.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.donutRenderer.min.js" src="/estatico/m2/js/jquery/jplot/jqplot.donutRenderer.min.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.barRenderer.min.js" src="/estatico/m2/js/jquery/jplot/jqplot.barRenderer.min.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.dateAxisRenderer.min.js" src="/estatico/m2/js/jquery/jplot/jqplot.dateAxisRenderer.min.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.categoryAxisRenderer.js" src="/estatico/m2/js/jquery/jplot/jqplot.categoryAxisRenderer.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.canvasTextRenderer.js" src="/estatico/m2/js/jquery/jplot/jqplot.canvasTextRenderer.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.logAxisRenderer.js" src="/estatico/m2/js/jquery/jplot/jqplot.logAxisRenderer.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.canvasAxisTickRenderer.min.js" src="/estatico/m2/js/jquery/jplot/jqplot.canvasAxisTickRenderer.min.js"></script><script type="text/javascript" charset="UTF-8" async="" data-requirecontext="_" data-requiremodule="/estatico/m2/js/jquery/jplot/jqplot.pointLabels.js" src="/estatico/m2/js/jquery/jplot/jqplot.pointLabels.js"></script></head>
+<body><div class="zopim" __jx__id="___$_21 ___$_21" data-test-id="ChatWidgetButton" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000002; width: 180px; height: 30px; right: 10px; bottom: 0px; display: none;"><iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" data-test-id="ChatWidgetButton-iframe"></iframe></div><div class="zopim" __jx__id="___$_4 ___$_4" data-test-id="ChatWidgetWindow" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; display: block; width: 240px; height: 200px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 2px;"><iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" data-test-id="ChatWidgetWindow-iframe"></iframe></div>
+	
+
+
+
+
+
+<div id="top-bar">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="menu">
+					<li>
+						<p>ÚLTIMO INGRESO</p>
+					</li>
+					<li>
+					 
+					<a href="javascript:void(0)"><strong>25</strong>
+						<p>02</p>
+							<b>2019</b>
+							<b>02:24:34 PM</b>
+					</a></li>
+					<li class="visible-sm-inline-block"><a href="#" class="btn btn-action"><span class="m2-icon m2-icon-user-circle"></span> Ingresar</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>	
+	
+<header>
+
+ 
+
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?54fe17etYAj1eCFrZNOGbvtUOfoxdJFg";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar">
+			<div class="navbar-wrapper">
+
+				<div id="main-nav" class="navbar">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="/constructores/admin/dashboard/index.do"><img class="img-responsive" src="/constructores/img/logo.png" /></a>
+					</div>
+					
+
+
+
+	<ul class="nav navbar-nav primary-nav">
+		
+			
+			
+				
+			
+			
+			
+			
+			
+				
+				
+					
+
+				
+			
+
+			
+				
+
+				
+					
+					
+						
+					
+
+					
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+					
+					
+						
+					
+
+					
+						
+							
+
+						
+						
+							
+								
+									
+									
+								
+							
+							
+						
+
+					
+				
+				
+
+			
+			
+			
+				<li id="menuHeader_0" style="" class="menuHeader dropdown open"><a href="javascript:void(0)" class="dropdown-toggle contieneSubmenu" data-toggle="dropdown" data-hover="dropdown" aria-expanded="true">Proyectos<b class="caret"></b></a><ul class="dropdown-menu"><li class="divider"></li><li><a class="cl_seeproject" href="/constructores/admin/project/index.do">Ver Proyectos</a></li></ul></li>
+			
+
+		
+			
+			
+				
+			
+			
+			
+			
+			
+				
+				
+					
+
+				
+			
+
+			
+				
+
+				
+					
+					
+						
+					
+
+					
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+					
+					
+						
+					
+
+					
+						
+							
+
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+				
+
+			
+			
+			
+
+		
+			
+			
+				
+			
+			
+			
+			
+			
+				
+				
+					
+
+				
+			
+
+			
+				
+
+				
+					
+					
+						
+					
+
+					
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+					
+					
+						
+					
+
+					
+						
+							
+
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+				
+
+			
+			
+			
+
+		
+			
+			
+			
+			
+			
+			
+				
+					
+						
+							
+								
+								
+							
+						
+						
+					
+				
+				
+			
+
+			
+			
+			
+				<li id="menuHeader_3" style="" class="menuHeader "><a href="/constructores/admin/mailnoticeproject/index.do"> <strong>Contactos </strong></a></li>
+			
+
+		
+			
+			
+				
+			
+			
+			
+			
+			
+				
+				
+					
+
+				
+			
+
+			
+				
+
+				
+					
+					
+						
+					
+
+					
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+					
+					
+						
+					
+
+					
+						
+							
+
+						
+						
+							
+								
+							
+							
+						
+
+					
+				
+					
+					
+						
+					
+
+					
+						
+							
+
+						
+						
+							
+								
+									
+									
+								
+							
+							
+						
+
+					
+				
+					
+					
+						
+					
+
+					
+						
+							
+
+						
+						
+							
+								
+									
+									
+								
+							
+							
+						
+
+					
+				
+				
+
+			
+			
+			
+				<li id="menuHeader_4" style="" class="menuHeader dropdown"><a href="javascript:void(0)" class="dropdown-toggle contieneSubmenu" data-toggle="dropdown" data-hover="dropdown">Productos<b class="caret"></b></a><ul class="dropdown-menu"><li class="divider"></li><li class="divider"></li><li><a class="cl_featuredbag" href="/constructores/admin/project/featured/bag/index.do">Bolsa de destacados</a></li><li class="divider"></li><li><a class="cl_builderproducts" href="/constructores/admin/builder/membershipbuilder/index.do">Productos adquiridos</a></li></ul></li>
+			
+
+		
+			
+			
+			
+			
+			
+			
+				
+					
+						
+							
+						
+						
+					
+				
+				
+			
+
+			
+			
+			
+
+		
+		<li class="dropdown ingresar">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="m2-icon m2-icon-user-circle"></span>
+				<p>
+					PRUEBA ADMINISTRADOR DE
+					SUCURSAL
+					
+					<span class="caret"></span>
+				</p> 
+					
+						
+						
+							<b>Administrador</b>
+						
+					
+				
+			</a>
+			<ul class="dropdown-menu">
+				<li><a href="/constructores/admin/user/editaccount.do">Mi Cuenta</a></li>
+				<li><a class="logout_cas" href="/constructores/j_spring_cas_security_logout">Cerrar
+						sesión</a></li>
+				
+			</ul>
+		</li>
+	</ul>
+
+
+
+
+				</div>
+
+			</div>
+		</nav>
+
+	</nav>
+</header>
+	
+	 <!--<div style="display:none;">
+    	<iframe id="loadMultimediaIframe" src="/constructores/admin/index.do" width="0" height="0"></iframe>
+    </div>-->
+	<div class="clear"></div>
+	<div class="containerBody page-container">
+		
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<ol class="breadcrumb">
+				<li><a href="/constructores/admin/dashboard/index.do">Inicio</a></li>
+				<li class="active">Escritorio</li>
+			</ol>
+		</div>
+	</div>
+</div>
+
+<div class="barradetitulo">
+	<div class="container ">
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="logoconstruye" id="companyName" data-url="/constructores/admin/logo/index">
+					
+
+	<div class="logoconstruye">
+		
+			<img src="/files/logos/company/4773/company4773.png?1551122678081" width="160" height="60" alt="" />
+		
+		<p>Jaramillo Soto Constructora</p>
+	</div>
+
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<h2>Resumen de mis proyectos</h2>
+			</div>
+			<div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container contentDashboard" style="">
+	<div class="row">
+		<div class="col-xs-3">
+			<div id="dashboardAlerts" data-url="/constructores/admin/dashboard/alerts">
+	
+	
+	
+	
+	
+</div>
+			<div class="panel dashboard">
+				
+
+<div class="panel-heading">
+
+	<h4>Acciones</h4>
+</div>
+<div class="panel-body">
+	<div class="form-actions">
+	    
+		
+		 
+			<button onclick="location.href = '/constructores/admin/project/index.do'" type="button" class="btn btn-success">
+				Ver proyectos <span class="m2-icon m2-icon-right"></span>
+			</button>
+		
+		
+		 
+			<form id="searchForm" action="/constructores/admin/project/index.do">
+				<div class="form-control-wrapper">
+					<label>Buscar Proyecto:</label>
+						<input id="projectName" name="filterName" class="form-control" placeholder="Proyecto" type="text" />
+				</div>
+				<button id="buscarProyecto" data-url="/constructores/admin/project/index.do">Buscar</button>
+			</form>
+		
+	</div>
+</div>
+			
+			</div>
+			<div class="panel dashboard">
+				<div id="dashboardAccountInfo" data-url="/constructores/admin/dashboard/accountinfo">
+
+<div class="panel-heading">
+
+	<h4>Información de la cuenta</h4>
+</div>
+<div class="panel-body">
+
+	<div class="membresiaitems">
+		<p>
+			Membresía:<span class="label label-success">validación funcional 111218</span>
+		</p>
+		<ul>
+			<li>Desde:
+				<p>2019-01-15</p>
+			</li>
+			<li>Hasta:
+				<p>2019-04-30</p>
+			</li>
+		</ul>
+		
+			<p>
+				Número de créditos: <span class="label label-info">2/2</span>
+			</p>
+				
+
+		
+			<p>
+				Número al aire: <span class="label label-info">0/2</span>
+			</p>
+			
+		
+		
+
+		<div class="progreso">
+			<p>
+				Sus publicaciones están al <b>91%</b>
+			</p>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 91%">
+					<span class="sr-only">91% Complete</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="divider"></div>
+
+
+	<p>Productos adicionales:</p>
+
+
+
+	
+	
+	
+											
+		
+		
+			<div class="productoadicional ad_active_A">										
+				<h4 class="block-title">
+					Adicional crédito, proyecto adicional angelita: <span class="label label-info">5/5</span>
+				</h4>										
+				<h4 class="block-title">
+					Adicional al aire, proyecto adicional angelita: <span class="label label-info">0/5</span>
+				</h4>
+				<ul>
+					<li>Desde:
+						<p>2019-01-15</p>
+					</li>
+					<li>Hasta:
+						<p>2019-03-23</p>
+					</li>
+				</ul>
+			</div>		
+			
+		
+											
+	
+
+
+	
+	
+		
+		<div class="productoadicional ad_active_A">
+			<h4 class="block-title">
+				Destacados 10: <span class="label label-info">0/10</span>
+			</h4>
+			<ul>
+				<li>Desde:
+					<p>2019-01-03</p>
+				</li>
+				<li>Hasta:
+					<p>2019-03-16</p>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	
+	
+	
+	
+
+	
+		
+		
+			<button onclick="location.href = '/constructores/admin/user/editaccount.do'" type="button" class="btn btn-primary backendbtn" data-toggle="modal" data-target="#modal">Ir a mi cuenta</button>
+		
+	
+
+
+
+</div>
+</div>
+			</div>
+		</div>
+		<div class="col-xs-9">
+
+			
+
+
+<div id="calendarfiltro">
+	
+	<p>
+		<button type="button" id="seleccionFechaImagen" class="btn btn-default" aria-label="Left Align">
+			Elegir periodo: <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+		</button>
+		
+		
+		
+		Del <strong>
+			<span class="calendarStartDay">25</span>
+				de 
+			<span class="calendarStartMonth">Enero</span>
+				
+			
+			
+				<span class="calendarStartYearText"></span> 
+				<span class="calendarStartYear"></span>
+			
+			
+			</strong> al <strong>
+			<span class="calendarEndDay">25</span>
+			<span class="calendarEndMonth">Febrero</span>
+				de
+			<span class="calendarEndYear">2019</span>
+			</strong></p>
+	<div id="fechaDialogo" title="Por favor seleccione el rango de fechas deseado" style="display:none">
+		<div class="contenedorCalendarios">
+			<div id="selectorDeRangoDeFechaDesde" class="hasDatepicker"><div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="&lt;Ant"><span class="ui-icon ui-icon-circle-triangle-w">&lt;Ant</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Sig&gt;"><span class="ui-icon ui-icon-circle-triangle-e">Sig&gt;</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">Enero</span> <span class="ui-datepicker-year">2019</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th scope="col" class="ui-datepicker-week-end"><span title="Domingo">Do</span></th><th scope="col"><span title="Lunes">Lu</span></th><th scope="col"><span title="Martes">Ma</span></th><th scope="col"><span title="Miércoles">Mi</span></th><th scope="col"><span title="Jueves">Ju</span></th><th scope="col"><span title="Viernes">Vi</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Sábado">Sá</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">2</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">3</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">4</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">5</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">9</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">10</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">11</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">12</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">14</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">16</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">17</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">18</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">19</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">23</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">24</a></td><td class=" diaEnRango ui-datepicker-current-day" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default ui-state-active" href="#">25</a></td><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">26</a></td></tr><tr><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">27</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">28</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">29</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">30</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="0" data-year="2019"><a class="ui-state-default" href="#">31</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td></tr></tbody></table></div></div>
+			<div id="selectorDeRangoDeFechaHasta" class="hasDatepicker"><div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="&lt;Ant"><span class="ui-icon ui-icon-circle-triangle-w">&lt;Ant</span></a><a class="ui-datepicker-next ui-corner-all ui-state-disabled" title="Sig&gt;"><span class="ui-icon ui-icon-circle-triangle-e">Sig&gt;</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">Febrero</span> <span class="ui-datepicker-year">2019</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th scope="col" class="ui-datepicker-week-end"><span title="Domingo">Do</span></th><th scope="col"><span title="Lunes">Lu</span></th><th scope="col"><span title="Martes">Ma</span></th><th scope="col"><span title="Miércoles">Mi</span></th><th scope="col"><span title="Jueves">Ju</span></th><th scope="col"><span title="Viernes">Vi</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Sábado">Sá</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">1</a></td><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">2</a></td></tr><tr><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">3</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">4</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">5</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">6</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">7</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">8</a></td><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">9</a></td></tr><tr><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">10</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">11</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">12</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">13</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">14</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">15</a></td><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">16</a></td></tr><tr><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">17</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">18</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">19</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">20</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">21</a></td><td class=" diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">22</a></td><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">23</a></td></tr><tr><td class=" ui-datepicker-week-end diaEnRango" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default" href="#">24</a></td><td class=" ui-datepicker-days-cell-over diaEnRango ui-datepicker-current-day ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="1" data-year="2019"><a class="ui-state-default ui-state-highlight ui-state-active ui-state-hover" href="#">25</a></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">26</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">27</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">28</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"> </td></tr></tbody></table></div></div>
+		</div>
+		<div class="contenedorInputsCalendarios clear">
+			<label>Desde el día </label>
+			
+			<input type="text" id="fechaDesde" value="25/01/2019" />
+			<label>Hasta el día </label>
+			
+			<input type="text" id="fechaHasta" value="25/02/2019" />
+	
+			<input type="submit" id="botonSeleccionFechas" data-url="/constructores/admin/dashboard/index.do" class="btn_search_nd" value="Aceptar" />
+		</div>
+	</div>
+	<div class="fechaFormateada" style="display: none;">
+		<span>Del</span> <span class="bold fechaInicialDatePiceker"></span>
+		<span class="bold"> al </span> <span class="bold fechaFinalDatePiceker"></span> <a href="#"></a>
+	
+	</div>
+	<p></p>
+</div>
+
+			<div class="paneles_general">
+				
+				<div id="contenidoProyectos" class="m2-collapsible panel-group" data-url="/constructores/admin/dashboard/project">
+
+<div class="panel">
+	<div class="panel-heading" role="tab" id="collapsibleSampleHeading" data-toggle="collapse" data-target="#collapsible1">
+		<div class="collapsible-heading-action">
+			<span class="m2-icon"></span>
+		</div>
+		<h3 class="panel-title">Estadísticas de mis proyectos</h3>
+	</div>
+	<div id="collapsible1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapsibleSampleHeading">
+		<div class="panel-body">
+
+
+			<div class="row" id="datosproyecto_dashboard">
+				<div class="arrow-right"></div>
+				<div class="col-xs-4 dashboardproyectos">
+
+					
+				
+					
+
+						<div class="numeroproyectos">
+							<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">
+								<b>1</b>
+								<p>Proyectos</p>
+							</a>
+						</div>
+
+
+						<div class="itemproducto">
+							<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019&amp;publicationState=P">
+								<h4 class="block-title">Proyectos publicados:</h4>
+								<span class="label label-info">0/1</span>
+							</a>
+						</div>
+
+						<div class="itemproducto">
+							<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019&amp;publicationState=U">
+								<h4 class="block-title">Proyectos despublicados:</h4>
+								<span class="label label-info">1/1</span>
+							</a>
+						</div>
+
+						<div class="clear"></div>
+
+						
+							<div class="numeroproyectos barraproyectofoto">
+								<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019&amp;withPhotos=S">
+									<p>1 Proyectos con fotos</p>
+									<div class="progress">
+										
+											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%
+											</div>
+										
+									</div>
+								</a>
+							</div>
+						
+						<div class="divider"></div> 
+						<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">
+							<strong>Ver todos los proyectos</strong>
+						</a>
+					
+				</div>
+
+				<div class="col-xs-8 dashboardproyectosa-b">
+
+					<!-- Nav tabs -->
+					<ul id="dashboardtab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#ciudades" aria-controls="ciudades" class="contentCity contentTab" role="tab" data-toggle="tab">Por zonas</a></li>
+						<li role="presentation"><a href="#inmutipo" class="contentType contentTab" aria-controls="inmutipo" role="tab" data-toggle="tab">Por Inmueble tipo</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="ciudades">
+							<h3>Proyectos por zonas</h3>
+							<div class="grafico_ciudades" id="graphcities">
+								
+									
+										
+										
+																
+									
+
+
+
+
+
+<div id="graphProjectByCities" class="graph graph_SACY graphMultiple graphProjectByCities jqplot-target" style="position: relative; background-color: rgba(0, 0, 0, 0);"><canvas width="250" height="250" class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><div class="jqplot-title" style="height: 0px; width: 0px;"></div><canvas width="250" height="250" class="jqplot-grid-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><canvas width="230" height="217" class="jqplot-series-shadowCanvas" style="position: absolute; left: 10px; top: 10px;"></canvas><canvas width="230" height="217" class="jqplot-series-canvas" style="position: absolute; left: 10px; top: 10px;"></canvas><canvas width="230" height="217" class="jqplot-donutRenderer-highlight-canvas" style="position: absolute; left: 10px; top: 10px;"></canvas><span class="jqplot-donut-series jqplot-data-label" style="position: absolute; left: 28px; top: 109px;">100%</span><canvas width="230" height="217" class="jqplot-event-canvas" style="position: absolute; left: 10px; top: 10px;"></canvas></div>
+
+
+
+<div class="conventions_pie_SACY">
+	<ul>
+		
+			
+				
+								
+					
+				
+				
+				
+					
+				
+				<li data-value="1">
+					<!-- Si el nombre es muy largo lo cortamos para no descuadrar los estilos css -->
+					
+					
+					<div style="background: #ED6B00; width: 10px; height: 10px;" class="color_paq_1"></div> 
+
+							
+						Oriente (1)
+					
+					
+				</li>
+			
+		
+	</ul>
+</div>
+<div class="content_sta_dates_nd">
+	<h3>
+	
+		
+			
+				
+			
+		<a href="#" class="lnkTotal">Proyectos por zonas </a>
+		<span class="totalCirculo">
+			(1)
+		</span>
+	</h3>
+</div>
+<input type="hidden" id="coloresGrafico" value="#ED6B00, #FB842E,#FCA44D, #FFBD7B,#FDD5AB, #ED6B00, #FB842E,#FCA44D, #FFBD7B,#FDD5AB" />
+									
+									
+																
+							</div>
+
+						</div>
+						<div role="tabpanel" class="tab-pane " id="inmutipo">
+							<h3>Proyectos por inmuebles tipo</h3>
+							<div class="grafico_ciudades" id="graphproptype">
+								
+									
+										
+											
+																		
+										
+
+
+
+
+
+<div id="graphProjectByProptype" class="graph graph_SACY graphMultiple graphProjectByProptype"></div>
+
+
+
+<div class="conventions_pie_SACY">
+	<ul>
+		
+			
+				
+								
+					
+				
+				
+				
+					
+				
+				<li data-value="1">
+					<!-- Si el nombre es muy largo lo cortamos para no descuadrar los estilos css -->
+					
+					
+					<div style="background: #ED6B00; width: 10px; height: 10px;" class="color_paq_1"></div> 
+
+							
+						Oficina (1)
+					
+					
+				</li>
+			
+		
+	</ul>
+</div>
+<div class="content_sta_dates_nd">
+	<h3>
+	
+		
+			
+				
+			
+		<a href="#" class="lnkTotal">Proyectos por inmueble tipo </a>
+		<span class="totalCirculo">
+			(1)
+		</span>
+	</h3>
+</div>
+<input type="hidden" id="coloresGrafico" value="#ED6B00, #FB842E,#FCA44D, #FFBD7B,#FDD5AB, #ED6B00, #FB842E,#FCA44D, #FFBD7B,#FDD5AB" />									
+									
+									
+																
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+				<div class="row panelesal50">
+					<div class=" col-xs-6" id="dashboardVisits" data-url="/constructores/admin/dashboard/visits">
+
+<div class="paneles_general">
+	<div class="m2-collapsible panel-group">
+		<div class="panel">
+			<div class="panel-heading" role="tab" id="collapsibleSampleHeading" data-toggle="collapse" data-target="#collapsible3">
+				<div class="collapsible-heading-action">
+					<span class="m2-icon"></span>
+				</div>
+				<h3 class="panel-title">Páginas vistas</h3>
+			</div>
+			<div id="collapsible3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapsibleSampleHeading">
+				<div class="panel-body">
+
+
+					<div class="cono-dashboard ">
+						<div class="cono-big">
+							<p>0</p>
+						</div>
+
+						<div class="cono-medium">
+							<p>0</p>
+						</div>
+
+						<div class="cono-small" style="display:none">
+							<p>0</p>
+						</div>
+					</div>
+
+					<div class="cono-dashboardtext ">
+						<div class="cono-bigtext">
+							<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">Visitas en resultado</a>
+						</div>
+
+						<div class="cono-mediumtext">
+							<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">Visitas en detalle</a>
+						</div>
+
+						<div class="cono-smalltext" style="display:none">
+							<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">Clics en ver teléfono</a>
+						</div>
+
+					</div>
+					<div class="clear"></div>
+
+					<div class="visitas_dashboard">
+						<div class="numeroproyectos barraproyectofoto">
+							<p>0 visitas en proyectos con fotos</p>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
+							</div>
+						</div>
+						<a href="/constructores/admin/project/index.do?startDate=25-01-2019&amp;endDate=25-02-2019"><strong>Ver estadísticas páginas vistas</strong></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+					<div class=" col-xs-6" id="dashboardMail" data-url="/constructores/admin/dashboard/mail">
+
+<div class="paneles_general">
+	<div class="m2-collapsible panel-group">
+		<div class="panel">
+			<div class="panel-heading" role="tab" id="collapsibleSampleHeading" data-toggle="collapse" data-target="#collapsible2">
+				<div class="collapsible-heading-action">
+					<span class="m2-icon"></span>
+				</div>
+				<h3 class="panel-title">Correos</h3>
+			</div>
+			<div id="collapsible2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapsibleSampleHeading">
+				<div class="panel-body">
+					<div class="grafico_correos" id="graphmail">
+						
+							
+														
+						
+
+
+
+
+ 
+<a href="/constructores/admin/mailnoticeproject/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">
+
+	<div id="graphMail" class="graph graph_SACY graphMultiple graphMailClass jqplot-target" style="position: relative; background-color: rgba(0, 0, 0, 0);"><canvas width="250" height="250" class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><div class="jqplot-title" style="height: 0px; width: 0px;"></div><canvas width="250" height="250" class="jqplot-grid-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><canvas width="230" height="217" class="jqplot-series-shadowCanvas" style="position: absolute; left: 10px; top: 10px;"></canvas><canvas width="230" height="217" class="jqplot-series-canvas" style="position: absolute; left: 10px; top: 10px;"></canvas><canvas width="230" height="217" class="jqplot-donutRenderer-highlight-canvas" style="position: absolute; left: 10px; top: 10px;"></canvas><span class="jqplot-donut-series jqplot-data-label" style="position: absolute; left: 28px; top: 109px;">100%</span><canvas width="230" height="217" class="jqplot-event-canvas" style="position: absolute; left: 10px; top: 10px;"></canvas></div>
+ 
+</a>
+
+
+
+<div class="conventions_pie_SACY">
+	<ul>
+		
+			
+				
+								
+					
+				
+				
+				
+					
+				
+				<li data-value="6">
+					<!-- Si el nombre es muy largo lo cortamos para no descuadrar los estilos css -->
+					
+					
+					<div style="background: #ED6B00; width: 10px; height: 10px;" class="color_paq_1"></div> 
+
+					
+						
+						 	
+						<a href="/constructores/admin/mailnoticeproject/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">
+						
+							Correos recibidos (6)
+						 
+						</a>
+						
+					
+				</li>
+			
+		
+			
+				
+								
+					
+				
+				
+				
+					
+				
+				<li data-value="0">
+					<!-- Si el nombre es muy largo lo cortamos para no descuadrar los estilos css -->
+					
+					
+					<div style="background:  #FB842E; width: 10px; height: 10px;" class="color_paq_2"></div> 
+
+					
+						
+						 	
+						<a href="/constructores/admin/mailnoticeproject/index.do?answered=N&amp;startDate=25-01-2019&amp;endDate=25-02-2019">
+						
+							Correos sin Responder (0)
+						 
+						</a>
+						
+					
+				</li>
+			
+		
+	</ul>
+</div>
+<div class="promedioRespuestaMail">
+	
+		
+			
+			
+				23 días
+			
+		
+	
+	 
+	<a href="/constructores/admin/mailnoticeproject/index.do?startDate=25-01-2019&amp;endDate=25-02-2019">
+	
+		Tiempo promedio en responder
+	 
+	</a>
+	
+</div>
+<div class="content_sta_dates_nd">
+	<h3>
+	
+		
+			
+				
+			
+		<a href="#" class="lnkTotal"> </a>
+		<span class="totalCirculo">
+			(6)
+		</span>
+	</h3>
+	
+</div>
+<input type="hidden" id="coloresGrafico" value="#ED6B00, #FB842E,#FCA44D, #FFBD7B,#FDD5AB, #ED6B00, #FB842E,#FCA44D, #FFBD7B,#FDD5AB" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/estatico/metrocuadrado-header-resources/js/omniture/s_code.js"></script>
+	<script type="text/javascript">
+		s.pageName="metrocuadrado : Backend: dashboard";
+		s.channel="metrocuadrado : Backend";
+		var s_code=s.t();
+		if(s_code)
+			document.write(s_code);
+	</script>
+
+	</div>
+	
+
+
+
+
+
+
+<div class="contact-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2">
+				<img class="img-responsive" src="/constructores/img/logo-gray.png" />
+			</div>
+			<div class="col-xs-10">
+				<div class="row">
+					<div class="col-xs-5">
+						<h2>Oficinas Metrocuadrado</h2>
+					</div>
+					<div class="col-xs-3">
+						<h2>Línea Nacional</h2>
+					</div>
+					<div class="col-xs-2">
+						<h2>Síguenos en</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-5">
+						<p>
+							Avenida de calle 26 No. 68B - 70<br /> Casa Editorial El
+							Tiempo, Bogotá, Colombia.<br /> (571) 425 1734
+						</p>
+					</div>
+					<div class="col-xs-3">
+						<p>
+							01 8000 115 252
+						</p>
+					</div>
+					<div class="col-xs-4 redessociales">
+						<ul>
+							<li><a href="https://twitter.com/metrocuadrado" target="_blank"><span class="sm_tw">Twitter</span></a></li>					
+							<li><a href="http://www.facebook.com/metrocuadradocom" target="_blank"><span class="sm_fb">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/metrocuadradooficial/?utm_source=ig_profile_share&amp;igshid=1srxatoub206l" target="_blank"><span class="sm_go">Instagram</span></a></li>
+							<li><a href="https://www.youtube.com/user/METROCUADRADOcom" target="_blank"><span class="sm_yt">YouTube</span></a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="menu">
+					<li><a href="/metrocuadrado-header/terminoscondiciones" target="_blank">Políticas y términos</a></li>
+						<li><a href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso de privacidad</a></li>
+						<li><a href="/metrocuadrado-header/politicaCookies" target="_blank">Política Datos de Navegación</a></li>
+						<li><a href="https://www.eltiempo.com/linea-etica" target="_blank">Línea Ética</a></li>
+						<li><a href="/metrocuadrado-header/contactenos?tipoContacto=quejasYReclamos" target="_blank">Quejas y reclamos</a></li>
+						<li><a href="/metrocuadrado-header/ayuda" target="_blank">Ayuda</a></li>
+				</ul>
+				<!-- / .menu -->
+			</div>
+		</div>
+
+
+		<div class="legal text-center">
+			<img src="/constructores/img/logo-orange.png" />
+			<p>
+					
+				
+			
+				Copyright © 2019 Metrocuadrado.com. Usar este site implica que
+					aceptas nuestras <a href="/metrocuadrado-header/terminoscondiciones" target="_blank">Políticas
+						y Términos</a> | <a href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso
+						de Privacidad</a> |
+						<a href="/metrocuadrado-header/politicaCookies" target="_blank">Política datos de Navegación</a>
+				</p>
+				<p>Prohibida su reproducción total o parcial, así
+					como su traducción a cualquier idioma sin
+					autorización escrita de su titular.
+				</p>
+		</div>
+		<!-- / .legal -->
+
+	</div>
+	<!-- / .container -->
+</footer>
+	
+	<input type="hidden" id="basepath" value="/constructores" />
+	<input type="hidden" id="urlMultimedia" value="/constructores/" />
+	
+	
+	
+
+
+<div class="modal logInUserLB in contenedorModal " id="mostrarEstaSeguro" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button data-dismiss="modal" class="btn btn-link btnCloseModal" type="button">Cancelar</button>
+					<button class="btn btn-primary  btnAcept btnConfirmar" data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="showMessage" class="modal fade m2-gallery-modal in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary btnAcept btnCloseModal" data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="ReasignacionRolModal" class="modal fade m2-gallery-modal in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body"><div class="contenidoMensaje"></div></div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary btnAction"></button>
+					<button data-dismiss="modal" class="btn btn-link btnCloseModal" type="button">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div aria-labelledby="modalLabel" role="dialog" id="ConfirmacionExitosa" class="modal fade in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body publicacion-exitosa">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 publicacion-exitosa-body">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="ConfirmacionFallida" class="modal fade in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body publicacion-fallida">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 publicacion-exitosa-body">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal logInUserLB in contenedorModal " id="downloadPopup" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje">						
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary descargarSeleccionExcel" data-dismiss="modal" type="button">Seleccionados</button>
+					<button class="btn btn-primary descargarTodosExcel" data-dismiss="modal" type="button">Todos</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+
+	<div class="modal logInUserLB in contenedorModal messageMembership" id="downloadPopup" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display:none">
+		<div role="document" class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+						<span class="m2-icon m2-icon-cross"></span>
+					</button>
+					<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<div class="contenidoMensaje">
+													
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="modal fade contenedorModal" id="mensajeConfirmacionExitosa" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body publicacion-exitosa">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 mensaje"></div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnCloseModal">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade m2-gallery-modal contenedorModal" id="confirmacionAccion" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body mensajeConfirmacionExitosa"></div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnConfirmar"></button>
+					<button type="button" class="btn btn-link btnCloseModal" data-dismiss="modal">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade contenedorModal" id="mensajeConfirmacionError" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body publicacion-fallida">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-cross confirmacion"></span>
+				</div>
+				<div class="col-xs-10 mensaje"></div>
+			</div>
+			<div class="boton-lightbox fallida">
+				<div class="modal-footer publicacion-fallida boton-lightbox">
+					<div class="form-actions">
+						<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnCloseModal">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+	<div style="display:none;" id="contentIframeAjax">
+         <iframe id="saveAjaxIframe" name="saveAjax" src=""></iframe>
+    </div>
+  	<div class="contenedor-cargador" style="display:none;">
+   		<div class="cargador">
+      		<img src="/constructores/img/M2_loader.gif" alt="Cargando..." />
+      		<p><strong class="pathTitleLoader">:</strong> <span class="titleLoader"></span></p>	        
+      	</div>
+    </div>
+    <div class="formHidden">
+    	<form method="post" action="" id="formRedirect">
+     		<input type="hidden" name="_csrf" value="1263d443-871e-4441-966c-5786d2787150" />
+    	</form>
+    </div>
+	<!--Inicio Cargador Barra-->
+   <div class="cargador-barra" style="display:none">
+      <h3>Cargando imágenes:<span class="progress-value">100%</span></h3>
+       
+		
+		
+			<progress id="progressbar" value="100" max="100" class="barra_progreso"></progress>
+		
+		
+       <div class="progreso-texto">Cargando imagen <span class="imagenActual">0</span> de <span class="imagenesSeleccionadas">0</span></div>
+    </div>
+    <!--Fin Cargador Barra-->
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><div id="updateProgress" class="updateProgress" style="position: absolute; top: 306.5px; left: 674.5px; display: none;"></div><div id="updateProgress" class="updateProgress"></div><div id="updateProgress" class="updateProgress"></div><div id="updateProgress" class="updateProgress"></div><div id="updateProgress" class="updateProgress"></div></body></html>

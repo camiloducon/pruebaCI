@@ -10,7 +10,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(
 		features="src/test/resources/features/insuranceCalculator.feature",
 		glue = "",
-        snippets = SnippetType.CAMELCASE
+        snippets = SnippetType.CAMELCASE,
+        tags = {"@successful"}
 		)
 public class InsuranceCalculator {
 

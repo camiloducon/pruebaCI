@@ -1,8 +1,6 @@
 package com.metrocuadrado.pages;
 
-import static org.junit.Assert.assertEquals;
 import java.io.IOException;
-
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -275,7 +273,13 @@ public class CreatePublicationPage extends PageObject {
 		}
 		cmbCaracteristicaParqueadero.selectByValue(caracteristicaparqueadero);
 		btnAgregarFoto.click();
-		Runtime.getRuntime().exec("C:\\Users\\camduc\\Documents\\Carguefotos.exe");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Runtime.getRuntime().exec("C:\\Users\\camduc\\eclipse-workspace\\Metrocuadrado\\Carguefotos.exe");
 		String texto = lblConfirmarCargaFoto.getText();
 		Assert.assertEquals("Imagen principal", texto);
 		txtVideoInmueble.sendKeys(videoinmueble);

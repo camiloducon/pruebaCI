@@ -1,0 +1,2121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" class=" js  progressbar meter"><head>
+	
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Usando bootstrap-3.3.5 -->
+   <title>Acceso denegado</title>
+	<link rel="shortcut icon" href="/estatico/favicon.ico" />
+	<meta name="_csrf" content="9ffb036b-2d38-4a45-aee0-71d1b22dcfb8" />
+	<meta name="_csrf_header" content="X-CSRF-TOKEN" />
+	
+    <!-- Bootstrap -->
+    <link href="/estatico/m2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/inmobiliarias/css/m2.css" rel="stylesheet" />
+    <link href="/inmobiliarias/css/backmultiusuario.css" rel="stylesheet" />
+    <link href="/inmobiliarias/css/jquery-ui.css" rel="stylesheet" type="text/css" />    
+	<link href="/estatico/m2/js/jquery/qtip/jquery.qtip.min.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <script async="" charset="utf-8" src="https://v2.zopim.com/?54fe17etYAj1eCFrZNOGbvtUOfoxdJFg" type="text/javascript"></script><script type="text/javascript" src="/estatico/m2/js/jquery/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->    
+    <script type="text/javascript" src="/estatico/m2/js/jquery/jqueryui/jquery-ui.js"></script>
+	<script type="text/javascript" src="/estatico/m2/js/jquery/qtip/jquery.qtip.min.js"></script>
+	<script type="text/javascript" src="/estatico/m2/js/jquery/jqueryui/jquery.ui.datepicker-es.js"></script>
+
+    <!--<script type="text/javascript"
+	src="/inmobiliarias/js/jquery/autocomplete.js"></script> -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    
+    
+	<script type="text/javascript">
+		var s_account='eltiempometrocuadradodev';
+	</script>
+    <script type="text/javascript" src="/inmobiliarias/js/omniture/s_code.js"></script>
+    
+	<script type="text/javascript" src="/inmobiliarias/js/validarForm.js"></script>
+	<script type="text/javascript" src="/inmobiliarias/js/modernizr.js"></script>
+	<script type="text/javascript" src="/estatico/m2/js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();   
+		    
+		    if (Modernizr.meter) {
+	            var progressbar = $('#progressbar'),
+	              max = progressbar.attr('max'),
+	              time = (1000/max)*5,  
+	                  value = progressbar.val();
+
+	              var loading = function() {
+	                  value += 1;
+	                  addValue = progressbar.val(value);
+	                  
+	                  $('.progress-value').html(value + '%');
+
+	                  if (value == max) {
+	                      clearInterval(animate);                
+	                  }
+	              };
+
+	              var animate = setInterval(function() {
+	                  loading();
+	              }, time);
+	       }		    
+		    
+		    $("ul.dropdown-menu").each(function() {
+		    	var lastLi = $(this).find("li").last();
+		    	lastLi.is(".divider") &amp;&amp; lastLi.remove();
+		    });
+		});
+	</script>
+	<script type="text/javascript" src="/inmobiliarias/js/ceet.bootstrap.dialog.js"></script>
+	
+
+
+
+
+<style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">.zopim { display: none !important }</style></head>
+<body><div class="zopim" __jx__id="___$_21 ___$_21" data-test-id="ChatWidgetButton" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000002; width: 180px; height: 30px; right: 10px; bottom: 0px; display: none;"><iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" data-test-id="ChatWidgetButton-iframe"></iframe></div><div class="zopim" __jx__id="___$_4 ___$_4" data-test-id="ChatWidgetWindow" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; display: block; width: 240px; height: 200px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 2px;"><iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="about:blank" data-test-id="ChatWidgetWindow-iframe"></iframe></div>
+	
+
+
+
+
+
+<div id="top-bar">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="menu">
+					<li>
+						<p>ÚLTIMO INGRESO</p>
+					</li>
+					<li>
+					 
+					<a href="javascript:void(0)"><strong>25</strong>
+						<p>02</p>
+							<b>2019</b>
+							<b>10:20:32 AM</b>
+					</a></li>
+					<li class="visible-sm-inline-block"><a href="#" class="btn btn-action"><span class="m2-icon m2-icon-user-circle"></span> Ingresar</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>	
+	
+<header>
+
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?54fe17etYAj1eCFrZNOGbvtUOfoxdJFg";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar">
+			<div class="navbar-wrapper">
+
+				<div id="main-nav" class="navbar">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="/inmobiliarias/admin/dashboard/index.do"><img class="img-responsive" src="/inmobiliarias/img/logo.png" /></a>
+					</div>
+					
+
+
+
+	<ul class="nav navbar-nav primary-nav">
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+			
+			
+			
+				
+					
+					
+						
+							
+						
+						
+					
+					
+					
+				
+	
+			
+				
+				
+			
+		
+		<li class="dropdown ingresar"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="m2-icon m2-icon-user-circle"></span>
+				<p>
+					appa
+					inmobiliaras
+					
+					<span class="caret"></span>
+				</p> 
+					
+						
+						
+							<b>Administrador inmobiliaria</b>
+						
+					
+				
+			</a>
+			<ul class="dropdown-menu">
+				<li><a href="/inmobiliarias/admin/user/editaccount/index.do">Mi Cuenta</a></li>
+				<li><a class="logout_cas" href="/inmobiliarias/j_spring_cas_security_logout">Cerrar
+						sesión</a></li>				
+			</ul></li>
+	</ul>
+
+
+
+
+				</div>
+
+			</div>
+		</nav>
+
+	</nav>
+</header>
+	
+<!-- 	 <div style="display:none;"> -->
+
+<!--     </div> -->
+	<div class="clear"></div>
+	<div class="containerBody page-container">
+		
+
+
+
+	
+<header>
+
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?54fe17etYAj1eCFrZNOGbvtUOfoxdJFg";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar">
+			<div class="navbar-wrapper">
+
+				<div id="main-nav" class="navbar">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="/inmobiliarias/admin/dashboard/index.do"><img class="img-responsive" src="/inmobiliarias/img/logo.png" /></a>
+					</div>
+					
+
+
+
+	<ul class="nav navbar-nav primary-nav">
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				
+					
+					
+					
+						
+					
+				
+	
+			
+					
+					
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+							
+							
+								
+							
+							
+					
+						
+							<!-- Si es Solicitudes o Consignaciones debe estar activado en la membresia Solicitudes y consignaciones -->
+							
+							
+							
+							
+															
+								
+									
+										
+									
+									
+															
+							
+						
+						
+						
+					
+				
+				
+				
+			
+		
+			
+			
+			
+			
+			
+				
+					
+					
+						
+							
+						
+						
+					
+					
+					
+				
+	
+			
+				
+				
+			
+		
+		<li class="dropdown ingresar"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="m2-icon m2-icon-user-circle"></span>
+				<p>
+					appa
+					inmobiliaras
+					
+					<span class="caret"></span>
+				</p> 
+					
+						
+						
+							<b>Administrador inmobiliaria</b>
+						
+					
+				
+			</a>
+			<ul class="dropdown-menu">
+				<li><a href="/inmobiliarias/admin/user/editaccount/index.do">Mi Cuenta</a></li>
+				<li><a class="logout_cas" href="/inmobiliarias/j_spring_cas_security_logout">Cerrar
+						sesión</a></li>				
+			</ul></li>
+	</ul>
+
+
+
+
+				</div>
+
+			</div>
+		</nav>
+
+	</nav>
+</header>
+
+	<div class="clear"></div>
+	<div class="containerBody page-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<ol class="breadcrumb">
+						
+						<li class="active">Acceso denegado</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="col-xs-12 error_denegado">
+				<p>Su cuenta se encuentra Inactiva. Pongase en contacto con su Asesor Comercial.</p>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+<div class="contact-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2">
+				<img class="img-responsive" src="/inmobiliarias/img/logo-gray.png" />
+			</div>
+			<div class="col-xs-10">
+				<div class="row">
+					<div class="col-xs-5">
+						<h2>Oficinas Metrocuadrado</h2>
+					</div>
+					<div class="col-xs-3">
+						<h2>Línea Nacional</h2>
+					</div>
+					<div class="col-xs-2">
+						<h2>Síguenos en</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-5">
+						<p>
+							Avenida de calle 26 No. 68B - 70<br /> Casa Editorial El
+							Tiempo, Bogotá, Colombia.<br /> (571) 425 1734
+						</p>
+					</div>
+					<div class="col-xs-3">
+						<p>
+							01 8000 115 252
+						</p>
+					</div>
+					<div class="col-xs-4 redessociales">
+						<ul>
+							<li><a href="https://twitter.com/metrocuadrado" target="_blank"><span class="sm_tw">Twitter</span></a></li>					
+							<li><a href="http://www.facebook.com/metrocuadradocom" target="_blank"><span class="sm_fb">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/metrocuadradooficial/?utm_source=ig_profile_share&amp;igshid=1srxatoub206l" target="_blank"><span class="sm_go">Instagram</span></a></li>
+							<li><a href="https://www.youtube.com/user/METROCUADRADOcom" target="_blank"><span class="sm_yt">YouTube</span></a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="menu">
+					<li><a href="/metrocuadrado-header/terminoscondiciones" target="_blank">Políticas y términos</a></li>
+						<li><a href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso de privacidad</a></li>
+						<li><a href="/metrocuadrado-header/politicaCookies" target="_blank">Política Datos de Navegación</a></li>
+						<li><a href="https://www.eltiempo.com/linea-etica" target="_blank">Línea Ética</a></li>
+						<li><a href="/metrocuadrado-header/contactenos?tipoContacto=quejasYReclamos" target="_blank">Quejas y reclamos</a></li>
+						<li><a href="/metrocuadrado-header/ayuda" target="_blank">Ayuda</a></li>
+				</ul>
+				<!-- / .menu -->
+			</div>
+		</div>
+
+
+		<div class="legal text-center">
+			<img src="/inmobiliarias/img/logo-orange.png" />
+			<p>
+				Copyright © <span id="copyright-year">2019</span> Metrocuadrado.com. Usar este site implica que
+				aceptas nuestras <a href="/metrocuadrado-header/terminoscondiciones" target="_blank">Políticas
+					y Términos</a> | <a href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso
+					de Privacidad</a> |
+					<a href="/metrocuadrado-header/politicaCookies" target="_blank">Política datos de Navegación</a>
+			</p>
+			<p>Prohibida su reproducción total o parcial, así
+				como su traducción a cualquier idioma sin
+				autorización escrita de su titular.
+			</p>
+		</div>
+		<!-- / .legal -->
+
+	</div>
+	<script>
+
+		function getCopyRightYear(){
+		  var today = new Date();
+		  var year = today.getFullYear();
+		  document.getElementById("copyright-year").innerHTML = year;
+		}    
+    
+      $(function() {    	  
+    	getCopyRightYear();
+    	
+      });
+    </script>
+	<!-- / .container -->
+</footer>
+
+	<input type="hidden" id="basepath" value="/inmobiliarias" />
+	
+
+
+<div class="modal logInUserLB in contenedorModal " id="mostrarEstaSeguro" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button data-dismiss="modal" class="btn btn-link btnCloseModal" type="button">Cancelar</button>
+					<button class="btn btn-primary  btnAcept btnConfirmar" data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="showMessage" class="modal fade m2-gallery-modal in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary btnAcept btnCloseModal" data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="ReasignacionRolModal" class="modal fade m2-gallery-modal in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body"><div class="contenidoMensaje"></div></div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary btnAction"></button>
+					<button data-dismiss="modal" class="btn btn-link btnCloseModal" type="button">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div aria-labelledby="modalLabel" role="dialog" id="ConfirmacionExitosa" class="modal fade in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body publicacion-exitosa">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 publicacion-exitosa-body">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="ConfirmacionFallida" class="modal fade in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body publicacion-fallida">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 publicacion-exitosa-body">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal logInUserLB in contenedorModal " id="downloadPopup" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje">						
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary descargarSeleccionExcel" data-dismiss="modal" type="button">Seleccionados</button>
+					<button class="btn btn-primary descargarTodosExcel" data-dismiss="modal" type="button">Todos</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+
+	<div class="modal logInUserLB in contenedorModal messageMembership" id="downloadPopup" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display:none">
+		<div role="document" class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+						<span class="m2-icon m2-icon-cross"></span>
+					</button>
+					<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<div class="contenidoMensaje">
+													
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="modal fade contenedorModal" id="mensajeConfirmacionExitosa" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body publicacion-exitosa">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 mensaje"></div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnCloseModal">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade m2-gallery-modal contenedorModal" id="confirmacionAccion" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body mensajeConfirmacionExitosa"></div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnConfirmar"></button>
+					<button type="button" class="btn btn-link btnCloseModal" data-dismiss="modal">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade contenedorModal" id="mensajeConfirmacionError" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body publicacion-fallida">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-cross confirmacion"></span>
+				</div>
+				<div class="col-xs-10 mensaje"></div>
+			</div>
+			<div class="boton-lightbox fallida">
+				<div class="modal-footer publicacion-fallida boton-lightbox">
+					<div class="form-actions">
+						<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnCloseModal">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div style="display: none;" id="contentIframeAjax">
+		<iframe id="saveAjaxIframe" name="saveAjax" src=""></iframe>
+	</div>
+	<div class="contenedor-cargador" style="display: none;">
+		<img src="/inmobiliarias/img/M2_loader.gif" alt="Cargando..." />
+		<h4>
+			<strong class="pathTitleLoader">:</strong> <span class="titleLoader"></span>
+		</h4>
+	</div>
+	<div class="formHidden">
+		<form method="post" action="" id="formRedirect"></form>
+	</div>
+
+	</div>
+	
+
+
+
+
+
+
+<div class="contact-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2">
+				<img class="img-responsive" src="/inmobiliarias/img/logo-gray.png" />
+			</div>
+			<div class="col-xs-10">
+				<div class="row">
+					<div class="col-xs-5">
+						<h2>Oficinas Metrocuadrado</h2>
+					</div>
+					<div class="col-xs-3">
+						<h2>Línea Nacional</h2>
+					</div>
+					<div class="col-xs-2">
+						<h2>Síguenos en</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-5">
+						<p>
+							Avenida de calle 26 No. 68B - 70<br /> Casa Editorial El
+							Tiempo, Bogotá, Colombia.<br /> (571) 425 1734
+						</p>
+					</div>
+					<div class="col-xs-3">
+						<p>
+							01 8000 115 252
+						</p>
+					</div>
+					<div class="col-xs-4 redessociales">
+						<ul>
+							<li><a href="https://twitter.com/metrocuadrado" target="_blank"><span class="sm_tw">Twitter</span></a></li>					
+							<li><a href="http://www.facebook.com/metrocuadradocom" target="_blank"><span class="sm_fb">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/metrocuadradooficial/?utm_source=ig_profile_share&amp;igshid=1srxatoub206l" target="_blank"><span class="sm_go">Instagram</span></a></li>
+							<li><a href="https://www.youtube.com/user/METROCUADRADOcom" target="_blank"><span class="sm_yt">YouTube</span></a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="menu">
+					<li><a href="/metrocuadrado-header/terminoscondiciones" target="_blank">Políticas y términos</a></li>
+						<li><a href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso de privacidad</a></li>
+						<li><a href="/metrocuadrado-header/politicaCookies" target="_blank">Política Datos de Navegación</a></li>
+						<li><a href="https://www.eltiempo.com/linea-etica" target="_blank">Línea Ética</a></li>
+						<li><a href="/metrocuadrado-header/contactenos?tipoContacto=quejasYReclamos" target="_blank">Quejas y reclamos</a></li>
+						<li><a href="/metrocuadrado-header/ayuda" target="_blank">Ayuda</a></li>
+				</ul>
+				<!-- / .menu -->
+			</div>
+		</div>
+
+
+		<div class="legal text-center">
+			<img src="/inmobiliarias/img/logo-orange.png" />
+			<p>
+				Copyright © <span id="copyright-year"></span> Metrocuadrado.com. Usar este site implica que
+				aceptas nuestras <a href="/metrocuadrado-header/terminoscondiciones" target="_blank">Políticas
+					y Términos</a> | <a href="/metrocuadrado-header/avisoprivacidad" target="_blank">Aviso
+					de Privacidad</a> |
+					<a href="/metrocuadrado-header/politicaCookies" target="_blank">Política datos de Navegación</a>
+			</p>
+			<p>Prohibida su reproducción total o parcial, así
+				como su traducción a cualquier idioma sin
+				autorización escrita de su titular.
+			</p>
+		</div>
+		<!-- / .legal -->
+
+	</div>
+	<script>
+
+		function getCopyRightYear(){
+		  var today = new Date();
+		  var year = today.getFullYear();
+		  document.getElementById("copyright-year").innerHTML = year;
+		}    
+    
+      $(function() {    	  
+    	getCopyRightYear();
+    	
+      });
+    </script>
+	<!-- / .container -->
+</footer>
+	
+	<input type="hidden" id="basepath" value="/inmobiliarias" />
+	<input type="hidden" id="urlMultimedia" value="/inmobiliarias/" />
+	
+	
+	
+
+
+<div class="modal logInUserLB in contenedorModal " id="mostrarEstaSeguro" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button data-dismiss="modal" class="btn btn-link btnCloseModal" type="button">Cancelar</button>
+					<button class="btn btn-primary  btnAcept btnConfirmar" data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="showMessage" class="modal fade m2-gallery-modal in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary btnAcept btnCloseModal" data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="ReasignacionRolModal" class="modal fade m2-gallery-modal in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body"><div class="contenidoMensaje"></div></div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary btnAction"></button>
+					<button data-dismiss="modal" class="btn btn-link btnCloseModal" type="button">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div aria-labelledby="modalLabel" role="dialog" id="ConfirmacionExitosa" class="modal fade in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body publicacion-exitosa">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 publicacion-exitosa-body">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div aria-labelledby="modalLabel" role="dialog" id="ConfirmacionFallida" class="modal fade in contenedorModal" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body publicacion-fallida">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 publicacion-exitosa-body">
+					<div class="contenidoMensaje"></div>
+				</div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal logInUserLB in contenedorModal " id="downloadPopup" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display: none;">
+	<div role="document" class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="contenidoMensaje">						
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button class="btn btn-primary descargarSeleccionExcel" data-dismiss="modal" type="button">Seleccionados</button>
+					<button class="btn btn-primary descargarTodosExcel" data-dismiss="modal" type="button">Todos</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+
+	<div class="modal logInUserLB in contenedorModal messageMembership" id="downloadPopup" tabindex="-1" role="dialog" aria-labelledby="largeModalHead" aria-hidden="true" style="display:none">
+		<div role="document" class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button aria-label="Close" data-dismiss="modal" class="close" type="button">
+						<span class="m2-icon m2-icon-cross"></span>
+					</button>
+					<h3 id="modalLabel" class="modal-title titlemodal"></h3>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<div class="contenidoMensaje">
+													
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer boton-lightbox">
+					<div class="form-actions">
+						<button class="btn btn-primary " data-dismiss="modal" type="button">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="modal fade contenedorModal" id="mensajeConfirmacionExitosa" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body publicacion-exitosa">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-check confirmacion"></span>
+				</div>
+				<div class="col-xs-10 mensaje"></div>
+			</div>
+			<div class="boton-lightbox exitosa">
+				<div class="modal-footer publicacion-exitosa boton-lightbox">
+					<div class="form-actions">
+						<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnCloseModal">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade m2-gallery-modal contenedorModal" id="confirmacionAccion" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body mensajeConfirmacionExitosa"></div>
+			<div class="modal-footer boton-lightbox">
+				<div class="form-actions">
+					<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnConfirmar"></button>
+					<button type="button" class="btn btn-link btnCloseModal" data-dismiss="modal">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade contenedorModal" id="mensajeConfirmacionError" role="dialog" aria-labelledby="modalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="m2-icon m2-icon-cross"></span>
+				</button>
+				<h3 class="modal-title" id="modalLabel"></h3>
+			</div>
+			<div class="modal-body publicacion-fallida">
+				<div class="col-xs-2">
+					<span class="m2-icon m2-icon-cross confirmacion"></span>
+				</div>
+				<div class="col-xs-10 mensaje"></div>
+			</div>
+			<div class="boton-lightbox fallida">
+				<div class="modal-footer publicacion-fallida boton-lightbox">
+					<div class="form-actions">
+						<button type="button" data-toggle="modal" data-dismiss="modal" class="btn btn-primary btnCloseModal">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+	<div style="display:none;" id="contentIframeAjax">
+         <iframe id="saveAjaxIframe" name="saveAjax" src=""></iframe>
+    </div>
+   <div class="contenedor-cargador" style="display:none;">
+   		<div class="cargador">
+      		<img src="/inmobiliarias/img/M2_loader.gif" alt="Cargando..." />
+      		<p><strong class="pathTitleLoader">:</strong> <span class="titleLoader"></span></p>	        
+      	</div>
+    </div>
+    <div class="formHidden">
+    	<form method="post" action="" id="formRedirect">
+     		<input type="hidden" name="_csrf" value="9ffb036b-2d38-4a45-aee0-71d1b22dcfb8" />
+    	</form>
+    </div>
+    
+   <div class="cargador-barra" style="display:none">
+      <h3>Cargando imágenes:<span class="progress-value">100%</span></h3>
+       
+		
+		
+			<progress id="progressbar" value="100" max="100" class="barra_progreso"></progress>
+		
+		
+       <div class="progreso-texto">Cargando imagen <span class="imagenActual">0</span> de <span class="imagenesSeleccionadas">0</span></div>
+    </div>
+    <!--Fin Cargador Barra-->
+
+
+</body></html>

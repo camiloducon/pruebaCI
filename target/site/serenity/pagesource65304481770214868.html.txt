@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]--><head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!-- Usando bootstrap-3.3.5 -->
+<title>Metrocuadrado</title>
+<link rel="shortcut icon" href="/estatico/favicon.ico" />
+<!-- Bootstrap -->
+<link href="/cas/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/cas/css/m2.css" rel="stylesheet" />
+<link href="/cas/css/login.css" rel="stylesheet" />
+<link href="/cas/css/login_estilos.css" rel="stylesheet" type="text/css" />
+
+<!-- Google FONTS -->
+<link href="//fonts.googleapis.com/css?family=Oswald:400,700,300|Raleway:400,500,600,700,300,100" rel="stylesheet" type="text/css" />
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="/cas/js/jquery/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="/cas/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/cas/js/cookies.js"></script>
+	<script type="text/javascript" src="/cas/js/common/login.js"></script>
+	<script type="text/javascript" src="/cas/js/jquery/jqueryPostMessage.js"></script>
+	<script type="text/javascript" src="/cas/js/validarForm.js"></script>
+	
+	
+							
+	<script type="text/javascript" th:inline="javascript">
+        var s_account="eltiempometrocuadradoprod";
+        console.log("s_account: "+ s_account);       	
+	</script>
+	<script type="text/javascript" src="/cas/js/common/s_code.js"></script>
+
+	<script type="text/javascript" src="/cas/js/loginRegister.js"></script>
+	<script type="text/javascript">
+		jQuery().ready(function() {
+			var urlLogin = $("#urlLogin").val();
+			$.cookie('currentPageLogin', urlLogin, {
+				expires : 1,
+				path : '/'
+			});
+			$.cookie('currentPageLoginSocial', urlLogin, {
+				expires : 1,
+				path : '/'
+			});
+		});
+		&lt;!-- Hotjar Tracking Code for http://www.metrocuadrado.com/ --&gt;
+	    (function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:966913,hjsv:6};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script><script async="" src="https://static.hotjar.com/c/hotjar-966913.js?sv=6"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script async="" src="https://script.hotjar.com/modules-37bdbedda3f1d7cdd4c44fe9267e3b74.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+<body>
+
+	<script language="javascript" type="text/javascript">
+		s.pageName = "metrocuadrado: publicar: login";
+		s.channel = "metrocuadrado: publicar";
+		s.events = "event83";
+		s.eVar14 = "log out";
+        var s_code=s.t();
+        if(s_code){
+            document.write(s_code);
+        }
+	</script>
+	<script type="text/javascript" src="/cas/js/omnitureLoginRegister.js"></script>
+    <div class="mfp-container mfp-s-ready mfp-inline-holder m2_login" id="loginDiv"><div class="mfp-content"><div class="">
+        <div class="m_login">
+  <div class="m_login_bg"></div>
+
+  <div class="m_login_content">
+    <div class="enlace_volver">
+      <a href="javascript:window.history.back();">« Volver</a>
+       
+       
+    </div>
+    <a href="#"><div class="logo_m2"></div></a>
+
+    <form id="fm1" action="/cas/login?service=https%3A%2F%2Fstaging.metrocuadrado.com%2Fmetrocuadrado-personal-account%2Flogin%2Fcas" method="post">
+    	<div class="errorReq errorReqHeader"> 
+    		
+			<div class="clear"></div>
+		</div>
+      <p style="text-transform: uppercase; font-size: 16px; text-align: center;">Iniciar Sesión</p>
+			<div class=" form-group has-feedback input_box" data-message="Ingrese Usuario">
+        		<label for="login_user valign required ">Usuario</label>
+        		
+					
+					
+						
+						<input id="j_username" name="username" class="required form-control" tabindex="1" placeholder="Usuario" accesskey="screen.welcome.label.netid.accesskey" type="text" value="" size="25" autocomplete="off" />
+					
+				
+				<div class="errorReq errorRequired" id="usernameError"></div>
+      		</div>
+      
+
+      
+      <div class="input_box form-group has-feedback" data-message="Ingrese Contraseña">
+        <label for="login_pass valign required ">Contraseña</label>
+        
+        <input id="j_password" name="password" class="required form-control" tabindex="2" placeholder="Contraseña" accesskey="p" type="password" value="" size="25" autocomplete="off" />
+       <div class="errorReq errorRequired" id="passwordError"></div>
+      </div>
+      
+
+
+		<div class="col_link olvido-c">
+        	<a id="olvidoPassword">¿Olvidaste tu contraseña?</a>
+			<input type="hidden" id="urlRememberPassword" value="/cas/rememberpassword" />
+      	</div>
+      
+      
+
+		<input type="hidden" name="lt" value="LT-57-6CrUQiD1DoEdCf6MhkBdiHcfz7nvOV-www.metrocuadrado.com" />
+		<input type="hidden" name="execution" value="e1s1" />
+		<input type="hidden" name="_eventId" value="submit" />	
+
+      <input type="submit" class="m_btn big" name="submit" accesskey="l" value="Ingresa" tabindex="4" id="submit" onclick="onClickLoginOmniture()" />
+      
+
+
+      <div class="m_login_links">
+
+        <div class="col_link">
+		<a class="pointer" id="registerNewUser">¿NUEVO USUARIO?  REGÍSTRATE</a>
+		
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+    </div></div>
+
+    
+  </div>  
+
+<!-- Registro nuevo usuario -->
+
+    <div class="mfp-container mfp-s-ready mfp-inline-holder m2_login m2_registro" id="registerDiv" "="" style="display: none;">
+    	<div class="mfp-content">
+    		<div class="">
+        		<div class="m_login">
+  					<div class="m_login_bg"></div>
+  					<div class="m_login_content">
+    					<div class="contenedor_header">
+      						<a href="#"><div class="logo_m2"></div></a>
+      						<div class="separador"></div>
+    					</div>
+    					<div class="contenedor_formulario">
+      						<div class="m_login_content_error" style="display: none;">
+        						<p>Se ha producido un error en el servidor.</p>
+        						<div class="cerrar_mensaje">x</div>
+      						</div>
+
+								<div id="responseMsg" class="info"></div>
+
+      						<p class="enunciado">Regístrate con una cuenta de correo</p>
+					      	<form id="newUserRegisterForm" action="/cas/registro" method="post">
+					      		<input type="hidden" id="serviceLogin" val="" value="https://staging.metrocuadrado.com/metrocuadrado-personal-account/login/cas" />
+						        <div class="form-group input_box" data-message="Ingrese Correo">
+						          <label for="login_user">Ingresa tu correo electrónico y te enviaremos un email para que puedas crear tu contraseña</label>
+						          <input type="email" id="newUserEmail" placeholder="correo@mail.com" class="form-control required contentMail" aria-required="true" />
+						          <div class="errorReq" id="requiredNewUserEmail"></div>
+						        </div>
+					
+					        	<div class="checkbox_registro form-group" data-message="Acepte terminos y condiciones">
+									<input type="checkbox" name="checkbox" class="checkReq" aria-required="true" />
+									<label>He leido y acepto los <a target="blank" href="/metrocuadrado-header/terminoscondiciones">Terminos y Condiciones</a>
+									   y la <a target="blank" href="/metrocuadrado-header/avisoprivacidad">Politica de Privacidad</a>
+									</label>
+									<div class="errorReq" id="requiredNewUserTerms"></div>
+								</div>
+					        	<input type="button" value="Crear Cuenta" class="m_btn big" id="btnCreateAccount" />
+					
+						        <div class="m_login_links">
+						          <div class="col_link">
+						            <a class="pointer" id="alreadyRegistered">YA ESTOY REGISTRADO</a>
+						          </div>
+						        </div>
+					      </form>
+					    </div>
+					    <div class="contenedor_enunciado">
+					      <div class="separador"></div>
+					      <div class="m_login_content_title">
+					        <div class="beneficios">
+					          <p>A través de Metrocuadrado puedes:</p>
+					          <ul>
+					            <li>Marcar inmuebles como favoritos</li>
+					            <li>Guardar tus búsquedas</li>
+					            <li>Administrar tus inmuebles publicados</li>
+					          </ul>
+					        </div>
+					      </div>
+					    </div>
+					 </div>
+				</div>
+    		</div>
+    	</div>
+  	</div>
+
+
+	<!-- Contenido del lightbox para cambio de contraseña-->
+	 <div class="modal fade m2-gallery-modal" id="ChangePasswordModal" role="dialog" aria-labelledby="modalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span class="m2-icon m2-icon-cross"></span>
+					</button>
+					<h3 class="modal-title" id="modalLabel">¿Olvidó su contraseña?</h3>
+				</div>
+				<div class="modal-body">Se ha enviado a su dirección de correo
+					electrónico la autorización para realizar el cambio de contraseña</div>
+				<div class="modal-footer">
+					<div class="form-actions">
+						<button type="button" class="btn btn-primary btnCloseModal changePassword">Aceptar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	 <div class="modal fade m2-gallery-modal" id="emailSentConfirmationModal" role="dialog" aria-labelledby="modalLabel">
+		<div class="modal-dialog" role="document">
+<!-- 			<div class="modal-content"> -->
+<!-- 				<div class="modal-header"> -->
+<!-- 					<button type="button" class="close" data-dismiss="modal" -->
+<!-- 						aria-label="Close"> -->
+<!-- 						<span class="m2-icon m2-icon-cross"></span> -->
+<!-- 					</button> -->
+<!-- 					<h3 class="modal-title" id="modalLabel">Su usuario ha sido creado con &eacute;xito</h3> -->
+<!-- 				</div> -->
+<!-- 				<div class="modal-body"> -->
+<!-- 					Se han enviado al correo electr&oacute;nico las instrucciones para realizar el cambio de contrase&ntilde;a -->
+<!-- 				</div> -->
+<!-- 				<div class="modal-footer"> -->
+<!-- 					<div class="form-actions"> -->
+<!-- 						<button type="button" id="acceptEmailSentBtn" class="btn btn-primary btnCloseModal sendEmail" data-dismiss="modal">Aceptar</button> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+		</div>
+	</div>
+	
+
+
+<div id="ads"></div><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-d831eecf6f5411af024c3acd759add17.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>

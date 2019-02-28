@@ -142,7 +142,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-12-2018 16:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-02-2019 15:21</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -157,7 +157,7 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                5 test scenarios 
+                                0 test scenarios 
                                  |
                                     <a href="results.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                     title="Download CSV"></i></a>
@@ -184,54 +184,6 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-4">
-                                                            <div style="width:300px;"
-                                                                 class="chart-container automated-and-manual-results">
-                                                                <div class="ct-chart ct-square"></div>
-                                                            </div>
-                                                            <script>
-
-                                                                var labels = ['80%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '20%', ' ', ' ', ' '];
-                                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                                var series = [{meta: 'Passing tests (automated)', value: 4}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                                // as you saw in the previous example
-                                                                var options = {
-                                                                    width: 350,
-                                                                    height: 300
-                                                                };
-
-
-                                                                new Chartist.Pie('.ct-chart', {
-                                                                    series: series,
-                                                                    labels: labels
-                                                                }, {
-                                                                    plugins: [Chartist.plugins.tooltip()],
-                                                                    donut: true,
-                                                                    donutWidth: 60,
-                                                                    donutSolid: true,
-                                                                    startAngle: 270,
-                                                                    showLabel: true
-                                                                }, options);
-
-
-                                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                                    new Chartist.Pie('.ct-chart', {
-                                                                        series: series,
-                                                                        labels: labels
-                                                                    }, {
-                                                                        plugins: [Chartist.plugins.tooltip()],
-                                                                        donut: true,
-                                                                        donutWidth: 60,
-                                                                        donutSolid: true,
-                                                                        startAngle: 270,
-                                                                        showLabel: true
-                                                                    }, options);
-                                                                });
-
-
-                                                            </script>
                                                     </div>
                                                     <div class="col-sm-8">
 
@@ -248,12 +200,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                                <td class="automated-stats">4</td>
-                                                                <td class="automated-stats">80%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -290,12 +241,12 @@
                                                                 <td class="automated-stats">0</td>
                                                                 <td class="automated-stats"> </td>
                                                             <tr>
-                                                                    <td class="aggregate-result-count indented-error-category">
-                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
-                                                                    </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">20%</td>
+                                                                <td class="aggregate-result-count indented-error-category">
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
+                                                                </td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -306,7 +257,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">5</td>
+                                                                <td class="automated-stats">0</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -328,11 +279,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td> 3m 40s</td>
-                                                                <td> 2m 55s</td>
-                                                                <td>35s</td>
-                                                                <td>57s</td>
-                                                                <td>44s</td>
+                                                                <td>0ms</td>
+                                                                <td>0ms</td>
+                                                                <td>0ms</td>
+                                                                <td>0ms</td>
+                                                                <td>0ms</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -358,89 +309,71 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>
-                                                                                <a href="925cb232f7f3a2ac6bfdb7ea0943c5e9364b269f2a18158326953bebbe70d633.html">credit calculator</a>
+                                                                                credit calculator
                                                                         </td>
-                                                                        <td>2</td>
-                                                                        <td>100%</td>
-                                                                        <td>
-                                                                                <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                                        </td>
-                                                                        <td>
-                                                                            <div class="progress">
-                                                                                    <div class="progress-bar"
-                                                                                         role="progressbar"
-                                                                                         style="width: 100%; background-color: #30cb23"
-                                                                                         aria-valuenow="2"
-                                                                                         title="100% success"
-                                                                                         aria-valuemin="0"
-                                                                                         aria-valuemax="100">
-                                                                                    </div>
-                                                                            </div>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-                                                                                <a href="38712048f5cadef998075053d2e97fb6a78d0870e2fe3d52469c25a33a072504.html">insurance calculator</a>
-                                                                        </td>
-                                                                        <td>1</td>
-                                                                        <td>100%</td>
-                                                                        <td>
-                                                                                <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                                        </td>
-                                                                        <td>
-                                                                            <div class="progress">
-                                                                                    <div class="progress-bar"
-                                                                                         role="progressbar"
-                                                                                         style="width: 100%; background-color: #30cb23"
-                                                                                         aria-valuenow="1"
-                                                                                         title="100% success"
-                                                                                         aria-valuemin="0"
-                                                                                         aria-valuemax="100">
-                                                                                    </div>
-                                                                            </div>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-                                                                                <a href="e167367c433fa0f6186e9255c21ff7302c8d349185869215809932ec125bc744.html">Publish Property</a>
-                                                                        </td>
-                                                                        <td>1</td>
-                                                                        <td>100%</td>
-                                                                        <td>
-                                                                                <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                                        </td>
-                                                                        <td>
-                                                                            <div class="progress">
-                                                                                    <div class="progress-bar"
-                                                                                         role="progressbar"
-                                                                                         style="width: 100%; background-color: #30cb23"
-                                                                                         aria-valuenow="1"
-                                                                                         title="100% success"
-                                                                                         aria-valuemin="0"
-                                                                                         aria-valuemax="100">
-                                                                                    </div>
-                                                                            </div>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>
-                                                                                <a href="2e0c7c0148b25411a8c233c9afdf287982c65f6c46860fb4ebe211bafefa97b9.html">Search Property</a>
-                                                                        </td>
-                                                                        <td>1</td>
+                                                                        <td>0</td>
                                                                         <td>0%</td>
                                                                         <td>
-                                                                                <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i>
+                                                                                <i class="fa fa-stop-circle-o pending-icon"></i>
                                                                         </td>
                                                                         <td>
                                                                             <div class="progress">
-                                                                                    <div class="progress-bar"
-                                                                                         role="progressbar"
-                                                                                         style="width: 100%; background-color: darkorange"
-                                                                                         aria-valuenow="1"
-                                                                                         title="100% error"
-                                                                                         aria-valuemin="0"
-                                                                                         aria-valuemax="100">
-                                                                                    </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                insurance calculator
+                                                                        </td>
+                                                                        <td>0</td>
+                                                                        <td>0%</td>
+                                                                        <td>
+                                                                                <i class="fa fa-stop-circle-o pending-icon"></i>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="progress">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Publish Property
+                                                                        </td>
+                                                                        <td>0</td>
+                                                                        <td>0%</td>
+                                                                        <td>
+                                                                                <i class="fa fa-stop-circle-o pending-icon"></i>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="progress">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Tools Property
+                                                                        </td>
+                                                                        <td>0</td>
+                                                                        <td>0%</td>
+                                                                        <td>
+                                                                                <i class="fa fa-stop-circle-o pending-icon"></i>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="progress">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Find Property
+                                                                        </td>
+                                                                        <td>0</td>
+                                                                        <td>0%</td>
+                                                                        <td>
+                                                                                <i class="fa fa-stop-circle-o pending-icon"></i>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="progress">
                                                                             </div>
                                                                         </td>
                                                                     </tr>
@@ -449,43 +382,6 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="row">
-                                                    <div class="col-sm-6">
-                                                        <h3>Test Failure Overview</h3>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-6">
-                                                        <h4>Most Frequent Failures</h4>
-                                                        <table class="table">
-                                                            <tbody>
-                                                            <tr>
-                                                                <td class="error-color top-list-title">
-                                                                    <a href="2c9a9c3542f635796f44652e3b0e203e8eb95bfdaa72c562e0dfe390b26a8ac0.html"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> Web driver exception</a>
-                                                                </td>
-                                                                <td><span
-                                                                        class="badge failure-badge">1</span>
-                                                                </td>
-                                                            </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                    <div class="col-sm-6">
-                                                        <h4>Most Unstable Features</h4>
-                                                        <table class="table">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="failure-color top-list-title"><a
-                                                                            href="2e0c7c0148b25411a8c233c9afdf287982c65f6c46860fb4ebe211bafefa97b9.html">Search Property</a>
-                                                                    </td>
-                                                                    <td><span
-                                                                            class="badge failure-badge">100%</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
 
                                             </div>
                                         </div>
@@ -495,85 +391,7 @@
                                                     <div class="col-sm-12">
                                                         <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                            <table class="scenario-result-table table" id="scenario-results">
-                                                <thead>
-                                                <tr>
-                                                    <th>feature</th>
-                                                    <th class="test-name-column">Scenario</th>
-                                                    <th>Steps</th>
-                                                    <th>Start Time</th>
-                                                    <th>Duration</th>
-                                                    <th>Result</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="7aef766160ea6f114e5a26da8f16256ae2ff7fc46e2aa8cec8aa494a8da903b0.html">credit calculator</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="b2cab3424ebf551e910679727edc71fe4c49cf9741b7a22d6096e6dfe7502ffb.html">successful credit calculator</a>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td>16:04:52</td>
-                                                    <td>00:47</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="7aef766160ea6f114e5a26da8f16256ae2ff7fc46e2aa8cec8aa494a8da903b0.html">credit calculator</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="e2e50b9e8d639051a1acfd991673ec5cdfe9fb7cc76ebcb407459244756e4041.html">successful quota value calculator</a>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td>16:05:39</td>
-                                                    <td>00:38</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="e6816e0ae9579cf091171e42007c963c8273a1359b787a61d644dc00a6256e09.html">insurance calculator</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="8b2edfb9406697641976e4a7fd8e9bf184db01203273e33cb654bbc735a4b4c5.html">successful insurance calculator</a>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td>16:06:29</td>
-                                                    <td>00:35</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="d32c7d75767fd95b29b1a42c1fc01f083e14dfe4bddfc377f24bbcdca31079cd.html">Publish Property</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="bcf5529cf5950c73c2a700a33814071879e1bc9cc0191f0f71e15855b0b5b334.html">Sell property</a>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td>16:07:04</td>
-                                                    <td>00:42</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
-                                                </tr>
-                                                <tr class="scenario-result ERROR">
-                                                    <td>
-                                                            <a href="3d9e22f7082d662cdd4c2206147c1f8d0967c51749b6a34b9d52930dbac29959.html">Search Property</a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="ad0a12b65fac1140d95d5ab08169e112cffc544b594130f115fdd6ce8ead97b2.html">search property</a>
-                                                    </td>
-                                                    <td>3</td>
-                                                    <td>16:07:47</td>
-                                                    <td>00:57</td>
-                                                    <td><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
-                                                            style="display:none">ERROR</span></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
+                                            No automated tests were executed
 
                                                     </div>
                                                 </div>

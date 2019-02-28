@@ -37,30 +37,30 @@ public class CreditCalculatorStepDefinitions {
 
 	@Then("^I get a result of credit calculation$")
 	public void iGetAResultOfCreditCalculation() throws Exception {
-		creditCalculatorSteps.contactarBancos();
+		//creditCalculatorSteps.contactarBancos();
 	}
 
 	@Then("^send the user's data to the bank$")
 	public void sendTheUserSDataToTheBank(DataTable arg1) throws Exception {
-		List<Map<String, String>> datos = arg1.asMaps(String.class, String.class);
-		creditCalculatorSteps.enviarDatosBanco(datos.get(0).get("nombreUsuario"), datos.get(0).get("cedulaUsuario"),
-				datos.get(0).get("correoElectronicoUsuario"), datos.get(0).get("telefonoUsuario"),
-				datos.get(0).get("ciudadUsuario"));
+		//List<Map<String, String>> datos = arg1.asMaps(String.class, String.class);
+		//creditCalculatorSteps.enviarDatosBanco(datos.get(0).get("nombreUsuario"), datos.get(0).get("cedulaUsuario"),
+				//datos.get(0).get("correoElectronicoUsuario"), datos.get(0).get("telefonoUsuario"),
+				//datos.get(0).get("ciudadUsuario"));
 
 	}
 	@Then("^send the user data to the bank$")
 	public void sendTheUserDataToTheBank(DataTable arg1) throws Exception {
-		List<Map<String, String>> datos = arg1.asMaps(String.class, String.class);
-		creditCalculatorSteps.enviarDatosBanco(datos.get(0).get("nombreUsuario"), datos.get(0).get("cedulaUsuario"),
-				datos.get(0).get("correoElectronicoUsuario"), datos.get(0).get("telefonoUsuario"),
-				datos.get(0).get("ciudadUsuario"));
+	//	List<Map<String, String>> datos = arg1.asMaps(String.class, String.class);
+		//creditCalculatorSteps.enviarDatosBanco(datos.get(0).get("nombreUsuario"), datos.get(0).get("cedulaUsuario"),
+			//	datos.get(0).get("correoElectronicoUsuario"), datos.get(0).get("telefonoUsuario"),
+			//	datos.get(0).get("ciudadUsuario"));
 
 	}
 
 
 	@Then("^I get a calculation result of the quotas$")
 	public void iGetACalculationResultOfTheQuotas() throws Exception {
-		creditCalculatorSteps.contactarBancosCuotasCredito();
+		//creditCalculatorSteps.contactarBancosCuotasCredito();
 
 	}
 

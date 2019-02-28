@@ -4,6 +4,7 @@ Feature: credit calculator
   I want to do the credit calculation
   to verify the viability
 
+  @successful
   Scenario: successful credit calculator
     Given that you entered in the application credit calculator
     When I fill in the information requested by the application
@@ -12,8 +13,9 @@ Feature: credit calculator
     Then I get a result of credit calculation
     And send the user's data to the bank
       | nombreUsuario | cedulaUsuario | correoElectronicoUsuario | telefonoUsuario | ciudadUsuario |
-      | juan          |    1032441728 | juan@juan.com            |       312654911 | bogota        |
+      | juan pablo    |    2098017262 | juan@gmail.com           |       312654911 | bogota        |
 
+  @successful
   Scenario: successful quota value calculator
     Given that you entered in the application credit calculator
     When I fill in the information requested by the calculation request
@@ -22,4 +24,4 @@ Feature: credit calculator
     Then I get a calculation result of the quotas
     And send the user data to the bank
       | nombreUsuario | cedulaUsuario | correoElectronicoUsuario | telefonoUsuario | ciudadUsuario |
-      | juan          |    1032441728 | juan@juan.com            |       312654911 | bogota        |
+      | pedro ibanez  |  247483820202 | pedro@ibanez.com         |      3111113333 | bogota        |

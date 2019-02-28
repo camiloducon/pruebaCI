@@ -1,0 +1,38 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="utf-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Metrocuadrado.com</title>
+       
+    <link href="css/m2_pagina_transicion_styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google FONTS -->
+    <link href="//fonts.googleapis.com/css?family=Oswald:400,700,300|Raleway:400,500,600,700,300,100" rel="stylesheet" type="text/css" />
+
+    
+  </head>
+  
+  <body>
+    <div class="contenedor">
+      <img src="images/logo_metrocuadrado@2x.png" /><br />
+      <div class="enunciado">
+        <p>En este momento no estamos disponibles</p>
+        <p>Estamos realizando actualizaciones para brindarle una mejor experiencia</p>
+      </div>
+      <div class="enlace_sitio_movil">
+        <a href="http://m.metrocuadrado.com/">Realice su búsqueda a través de nuestro sitio móvil</a>
+      </div>
+      <div class="redes_sociales">
+        <p>Visite nuestras redes sociales:</p>
+        <ul>
+          <li><a href="https://twitter.com/metrocuadrado"><img src="images/sm_tw.png" /></a></li>
+          <li><a href="https://www.pinterest.com/mtcuadra/"><img src="images/sm_pt.png" /></a></li>
+          <li><a href="http://www.facebook.com/metrocuadradocom"><img src="images/sm_fb.png" /></a></li>
+          <li><a href="https://plus.google.com/u/0/112174026277288480186"><img src="images/sm_go.png" /></a></li>
+          <li><a href="https://www.youtube.com/user/METROCUADRADOcom"><img src="images/sm_yt.png" /></a></li>
+        </ul>
+      </div>
+    </div>
+  
+</body></html>

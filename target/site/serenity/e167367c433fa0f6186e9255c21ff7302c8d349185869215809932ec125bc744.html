@@ -104,7 +104,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Publish Property","type":"feature","href":"e167367c433fa0f6186e9255c21ff7302c8d349185869215809932ec125bc744.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Publish Property","type":"feature","href":"e167367c433fa0f6186e9255c21ff7302c8d349185869215809932ec125bc744.html","nodes":[],"selectable":false,"tags":["",""]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -170,7 +170,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-12-2018 16:07</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -228,66 +228,11 @@ to sell my property
 
                                             <div id="toc">
                                                 <table class="table" id="toc-table">
-                                                        <tr>
-                                                            <td style="width:99%;" class="toc-title"><a href="#8162bba6be7402c5a16af7b00171726448ca553aada9bcd1240900fdf7406e7a">Sell property</a>
-
-
-                                                            </td>
-                                                            <td style="width:1%;"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                               
-                                                            </td>
-                                                        </tr>
                                                 </table>
 
                                             </div>
 
                                             <h3>Scenario details</h3>
-
-
-                                                <div class="scenario-docs card" id="8162bba6be7402c5a16af7b00171726448ca553aada9bcd1240900fdf7406e7a">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                        <div>
-                                                            <span class="scenario-heading">
-                                                                Sell property
-                                                            </span>
-                                                            <span class="scenario-result-icon">
-                                                                
-
-                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                            </span>
-                                                        </div>
-                                                        <div class="scenario-report-badges">
-                                                                <span class="scenario-report-badge" style="float:right;"><a href='bcf5529cf5950c73c2a700a33814071879e1bc9cc0191f0f71e15855b0b5b334.html' class='badge more-details'>Details</a></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="scenario-docs card-body">
-                                                            <p>Given I want sell my property</p>
-                                                            <p>When I select a plan</p>
-                                                            <p><p>And I made the login in the application</p>
-<table>
-<thead>
-<tr><th>usuario</th><th>contrasena</th></tr>
-</thead>
-<tbody>
-<tr><td>stg14mar@yopmail.com</td><td>Colombia1*</td></tr>
-</tbody>
-</table>
-</p>
-                                                            <p><p>Then I can fill out the necessary information to publish my property</p>
-<table>
-<thead>
-<tr><th>tipooferta</th><th>tipoinmueble</th><th>valorventa</th><th>valorarriendo</th><th>valoradministracion</th><th>ubicacioninmueble</th><th>ubicacionexacta</th><th>direccioninmueble</th><th>barrioinmueble</th><th>barrioinmuebleexacto</th><th>estrato</th><th>areaprivada</th><th>areaconstruida</th><th>numeropisos</th><th>tiempoconstruido</th><th>habitaciones</th><th>ba�os</th><th>parqueaderos</th></tr>
-</thead>
-<tbody>
-<tr><td>Vender</td><td>Finca</td><td>123000000</td><td>300000</td><td>1700000</td><td>bogot</td><td>Bogot� D.C. (Cundinamarca)</td><td>calle85 n 15-10</td><td>chico</td><td>SAN CRISTOBAL NORTE - Country</td><td>3</td><td>70</td><td>100</td><td>3</td><td>10</td><td>2</td><td>2</td><td>2</td></tr>
-</tbody>
-</table>
-</p>
-                                                        <div class="examples">
-                                                        </div>
-
-                                                    </div>
-                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -296,41 +241,7 @@ to sell my property
                             <div id="results" class="tab-pane fade">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-4">
-
-                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                <div class="ct-chart ct-square"></div>
-                                            </div>
-                                            <script>
-
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
-                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                // as you saw in the previous example
-                                                var options = {
-                                                    width: 350,
-                                                    height: 300
-                                                };
-
-                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                    new Chartist.Pie('.ct-chart', {
-                                                        series: series,
-                                                        labels: labels,
-                                                    }, {
-                                                        donut: true,
-                                                        donutWidth: 60,
-                                                        donutSolid: true,
-                                                        startAngle: 270,
-                                                        showLabel: true
-                                                    }, options);
-                                                });
-
-                                            </script>
-                                        </div>
-                                        <div class="col-sm-8">
+                                        <div class="col-sm-12">
 
                                         <table class="table">
                                             <thead>
@@ -343,12 +254,11 @@ to sell my property
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="238ed94e85ff0c989ca98a9b248b4d11454bdbfd0640820bb26e58cc443e5cab.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -401,7 +311,7 @@ to sell my property
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">0</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -423,11 +333,11 @@ to sell my property
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>42s</td>
-                                                        <td>42ms</td>
-                                                        <td>42s</td>
-                                                        <td>42s</td>
-                                                        <td>42s</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -439,31 +349,7 @@ to sell my property
                                             <div class="col-sm-12">
                                                 <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                            <table class="scenario-result-table table" id="scenario-results">
-                                                <thead>
-                                                <tr>
-                                                    <th class="test-name-column">Scenario</th>
-                                                    <th>Steps</th>
-                                                    <th>Start Time</th>
-                                                    <th>Duration</th>
-                                                    <th>Result</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="bcf5529cf5950c73c2a700a33814071879e1bc9cc0191f0f71e15855b0b5b334.html">Sell property</a>
-                                                    </td>
-                                                    <td>4</td>
-                                                    <td>16:07:04</td>
-                                                    <td>00:42</td>
-                                                    <td>
-                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                                style="display:none">SUCCESS</span>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
+                                            No automated tests were executed
 
                                             </div>
                                         </div>

@@ -7,7 +7,10 @@ import cucumber.api.SnippetType;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/publishProperty.feature", glue = "", snippets = SnippetType.CAMELCASE)
+@CucumberOptions(features = "src/test/resources/features/publishProperty.feature", 
+					glue = "", 
+						snippets = SnippetType.CAMELCASE,
+						tags = {"@inmobiliaria"})
 
 public class PublishProperty {
 
