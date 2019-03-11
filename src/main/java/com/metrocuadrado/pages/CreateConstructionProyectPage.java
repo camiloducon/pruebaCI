@@ -3,17 +3,17 @@ package com.metrocuadrado.pages;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import com.metrocuadrado.utils.Datos;
 import com.metrocuadrado.utils.Helpers;
 
-import dates.Datos;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -371,9 +371,13 @@ public class CreateConstructionProyectPage extends PageObject {
 			actions.moveToElement(txtBarrioCatastral);
 			actions.click();
 			actions.build().perform();
-			helpers.esperaSelenium(5);
 			txtNombreBarrioProyecto.sendKeys(fila[12]);
-			txtEstratoProyecto.sendKeys(fila[13]);
+			helpers.esperaSelenium(3);
+			WebElement cmbBarrio = find(By.xpath("//ul[contains(@id,'ui-id')]"));
+			List<WebElement> listBarrio = cmbBarrio.findElements(By.tagName("li"));
+			listBarrio.get(0).click();
+			helpers.esperaSelenium(3);
+			//txtEstratoProyecto.sendKeys(fila[13]);
 			btnMapaConstructor.click();
 			helpers.carguesAutoIT("C:\\Users\\camduc\\eclipse-workspace\\Metrocuadrado\\CargueLogo.exe");
 			helpers.esperaSelenium(3);
@@ -401,9 +405,18 @@ public class CreateConstructionProyectPage extends PageObject {
 			actions2.moveToElement(find(By.name(txtBarrioCatastralSala)));
 			actions2.click();
 			actions2.build().perform();
-			helpers.esperaSelenium(5);
+			helpers.esperaSelenium(3);
 			txtNombreComunBarrioSala.sendKeys(fila[21]);
-			txtEstratoSala.sendKeys(fila[22]);
+			//helpers.esperaSelenium(3);
+			//List<WebElement> cmbBarrio2 =  getDriver().findElements(By.xpath("//ul[contains(@id,'ui-id')]"));
+			//System.out.println(cmbBarrio2.size());
+			//WebElement iuli = cmbBarrio2.get(1);
+			//List<WebElement> listBarrios = iuli.findElements(By.tagName("li"));
+			//System.out.println(listBarrios);
+			//helpers.esperaSelenium(2);
+			//listBarrios.get(0).click();
+			
+			
 			txtNumeroCelularSala.sendKeys(fila[23]);
 			// if (fila[24].equals("Si")) {
 			// chkViaWhatsappSala.click();

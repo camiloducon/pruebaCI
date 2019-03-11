@@ -11,7 +11,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		features="src/test/resources/features/findProperty.feature",
 		glue = "",
         snippets = SnippetType.CAMELCASE,
-        tags = {"@successful"}
+        tags = {"@findProperty"}
 		)
 public class FindProperty {
 

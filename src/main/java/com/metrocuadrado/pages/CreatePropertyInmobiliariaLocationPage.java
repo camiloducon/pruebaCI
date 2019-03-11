@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import com.metrocuadrado.utils.Datos;
 import com.metrocuadrado.utils.Helpers;
 
-import dates.Datos;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 
@@ -52,21 +51,14 @@ public class CreatePropertyInmobiliariaLocationPage extends PageObject {
 			actions2.click();
 			actions2.build().perform();
 			txtNombreComunBarrio.sendKeys(fila[21]);
-			helpers.esperaSelenium(5);
+			helpers.esperaSelenium(3);
 			WebElement cmbBarrio = find(By.xpath("//ul[contains(@id,'ui-id')]"));
 			List<WebElement> listBarrio = cmbBarrio.findElements(By.tagName("li"));
-			for (WebElement liBarrio: listBarrio) {
-				if(liBarrio.getText().equals(txtNombreComunBarrio)) {
-					liBarrio.click();
-					break;
-				}
-			}
-			//*[@id="ui-id-2883"]
-			helpers.esperaSelenium(5);
-			btnCargarFotosProyecto.click();
+			listBarrio.get(0).click();
+			helpers.esperaSelenium(3);
 			btnCargarFotosProyecto.click();
 			helpers.esperaSelenium(2);
-			helpers.carguesAutoIT("C:\\Users\\camduc\\eclipse-workspace\\Metrocuadrado\\cargue3archivosmejorado.exe");
+			helpers.carguesAutoIT("C:\\Users\\camduc\\eclipse-workspace\\Metrocuadrado\\cargue3ArchivosUbicacion.exe");
 			helpers.esperaSelenium(2);
 			helpers.carguesAutoIT("C:\\Users\\camduc\\eclipse-workspace\\Metrocuadrado\\cargue3archivos.exe");
 			helpers.esperaSelenium(3);
@@ -74,6 +66,5 @@ public class CreatePropertyInmobiliariaLocationPage extends PageObject {
 			txtVideo.sendKeys(fila[22]);
 			txtDescribaSuInmueble.sendKeys(fila[23]);
 		}
-
 	}
 }

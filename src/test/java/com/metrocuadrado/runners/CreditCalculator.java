@@ -11,7 +11,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		features="src/test/resources/features/creditCalculator.feature",
 		glue = "",
         snippets = SnippetType.CAMELCASE,
-        tags = {"@successful"}
+        tags = {"@tools"}
 		)
 public class CreditCalculator {
 

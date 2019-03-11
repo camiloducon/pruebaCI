@@ -3,13 +3,12 @@ package com.metrocuadrado.pages;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import com.metrocuadrado.utils.Datos;
 import com.metrocuadrado.utils.Helpers;
 
-import dates.Datos;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -87,6 +86,7 @@ public class PropertyRequestPage extends PageObject {
 
 			default:
 				break;
+				
 			}
 			btnBusco.click();
 			WebElement listElements = this.getDriver()

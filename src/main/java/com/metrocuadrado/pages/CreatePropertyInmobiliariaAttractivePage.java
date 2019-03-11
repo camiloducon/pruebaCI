@@ -2,11 +2,13 @@ package com.metrocuadrado.pages;
 
 import java.util.ArrayList;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import com.metrocuadrado.utils.Datos;
 import com.metrocuadrado.utils.Helpers;
 
-import dates.Datos;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -61,6 +63,13 @@ public class CreatePropertyInmobiliariaAttractivePage extends PageObject {
 	WebElement btnGuardarPublicacionInmobiliaria;
 	@FindBy(xpath = "//*[@id=\"mostrarEstaSeguro\"]/div/div/div[3]/div/button[2]")
 	WebElement btnAceptarPublicacion;
+	@FindBy(id = "btnPublish")
+	WebElement btnPublicarInmuebleInmobiliaria;
+	@FindBy(xpath = "//*[@id=\"mostrarEstaSeguro\"]/div/div/div[3]/div/button[2]")
+	WebElement btnAceptarPublicacion2;
+	@FindBy(xpath = "//*[@id=\"mostrarEstaSeguro\"]/div/div/div[3]/div/button[2]")
+	WebElement btnAceptarPublicacion3;
+
 
 	public void principalesAtractivosInmobiliaria() {
 		excel = new Datos("C:\\Users\\camduc\\eclipse-workspace\\Metrocuadrado\\Datos.xlsx");
@@ -91,8 +100,17 @@ public class CreatePropertyInmobiliariaAttractivePage extends PageObject {
 			txtNotasImportantes.sendKeys(fila[57]);
 			helpers.esperaSelenium(2);
 			btnGuardarPublicacionInmobiliaria.click();
+			waitFor(ExpectedConditions.invisibilityOfElementLocated(By.xpath("/html/body/div[18]/div/p/span")));
+			helpers.esperaSelenium(2);
 			btnAceptarPublicacion.click();
-			helpers.esperaSelenium(15);
+			waitFor(ExpectedConditions.invisibilityOfElementLocated(By.xpath("/html/body/div[18]/div/p/span")));
+			helpers.esperaSelenium(2);
+			btnPublicarInmuebleInmobiliaria.click();
+			waitFor(ExpectedConditions.invisibilityOfElementLocated(By.xpath("/html/body/div[18]/div/p/span")));
+			btnAceptarPublicacion2.click();
+			waitFor(ExpectedConditions.invisibilityOfElementLocated(By.xpath("/html/body/div[18]/div/p/span")));
+			btnAceptarPublicacion3.click();
+			waitFor(ExpectedConditions.invisibilityOfElementLocated(By.xpath("/html/body/div[18]/div/p/span")));
 		}
 	}
 }

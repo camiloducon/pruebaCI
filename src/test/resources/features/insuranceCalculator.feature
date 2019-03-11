@@ -4,7 +4,7 @@ Feature: insurance calculator
   I want to do the insurance calculation
   to validate the cost of insurance
 
-  @successful
+  @insurance
   Scenario: successful insurance calculator
     Given that you entered in the application insurance calculator
     When I enter the required data

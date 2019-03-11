@@ -281,7 +281,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble1)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble1)).click();
 				}
@@ -292,7 +291,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble2)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble2)).click();
 				}
@@ -303,7 +301,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble3)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble3)).click();
 				}
@@ -314,7 +311,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble4)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble4)).click();
 				}
@@ -325,7 +321,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble5)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble5)).click();
 				}
@@ -339,7 +334,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble1)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble1)).click();
 				}
@@ -350,7 +344,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble2)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble2)).click();
 				}
@@ -361,7 +354,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble3)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble3)).click();
 				}
@@ -372,7 +364,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble4)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble4)).click();
 				}
@@ -383,7 +374,6 @@ public class FindPage extends PageObject {
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble5)).click();
 				} catch (Exception e) {
-					System.out.println("mensaje de catch en seleccion de baños");
 					new WebDriverWait(getDriver(), 10)
 							.until(ExpectedConditions.elementToBeClickable(btnNumeroBanosInmueble5)).click();
 				}

@@ -4,7 +4,7 @@ Feature: credit calculator
   I want to do the credit calculation
   to verify the viability
 
-  @successful
+  @creditCalculator @tools
   Scenario: successful credit calculator
     Given that you entered in the application credit calculator
     When I fill in the information requested by the application
@@ -15,7 +15,7 @@ Feature: credit calculator
       | nombreUsuario      | cedulaUsuario | correoElectronicoUsuario | telefonoUsuario | ciudadUsuario |
       | juan pablo segovia |    1098017262 | juansegovia@gmail.com    |      3126549110 | bogota        |
 
-  @successful
+  @quotaCalculator @tools
   Scenario: successful quota value calculator
     Given that you entered in the application credit calculator
     When I fill in the information requested by the calculation request

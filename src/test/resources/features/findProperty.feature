@@ -4,7 +4,7 @@ Feature: Find Property
   I want to perform a find in the application
   to search with the different options
 
-  @successful
+  @findProperty
   Scenario: search property
     Given I want to rent a property
       | tipobusqueda | tipoinmueble | ciudadbarrio |

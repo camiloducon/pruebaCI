@@ -11,7 +11,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		features="src/test/resources/features/insuranceCalculator.feature",
 		glue = "",
         snippets = SnippetType.CAMELCASE,
-        tags = {"@successful"}
+        tags = {"@insurance"}
 		)
 public class InsuranceCalculator {
 
