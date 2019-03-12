@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tools Property" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-11T21:55:29" hostname="camduc" time="94.323">
+  <properties/>
+  <testcase name="Property request" classname="Tools Property" time="42.26"/>
+  <testcase name="Property record" classname="Tools Property" time="52.042"/>
+  <system-out><![CDATA[[[[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li], [[[[RemoteWebDriver: chrome on XP (0b1cca85b5a3741c56117c2c78c825ed)] -> xpath: //*[@id="user-search-request-form"]/fieldset/div[4]/div[2]/div/div]] -> tag name: li]]
+true
+]]></system-out>
+  <system-err><![CDATA[mar 11, 2019 4:55:29 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mar 11, 2019 4:55:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Property request
+----------------------------------------------------------------------------
+mar 11, 2019 4:56:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+mar 11, 2019 4:56:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Property record
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

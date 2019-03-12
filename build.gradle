@@ -58,10 +58,10 @@ tasks.withType(Test) {
     systemProperty 'webdriver.driver', System.getProperty('webdriver.driver', 'chrome')
     systemProperty 'tags', System.getProperty('tags', '')
 }
-compileJava.options.encoding = 'cp1252'
+compileJava.options.encoding = 'iso-8859-1'
 
 tasks.withType(JavaCompile) {
-    options.encoding = 'cp1252'
+    options.encoding = 'iso-8859-1'
 }
 
 gradle.startParameter.continueOnFailure = true
